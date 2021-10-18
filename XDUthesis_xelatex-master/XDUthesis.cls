@@ -442,17 +442,18 @@ in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue
         \XDU@font@zihao{3}\setlength{\baselineskip}{30pt}%
         By \\%
         \XDU@evalue@author@name\\%
-        \hspace*{1.66cm}\begin{minipage}[t][2cm]{6cm}
+        \hspace*{3cm}\begin{minipage}[t][2cm]{7cm}
             %\centering
             \XDU@elabel@cover@advisor\XDU@evalue@schoolAdvisor@name\\
             \XDU@elabel@cover@advisor\XDU@evalue@industrialAdvisor@name\\
         \end{minipage}
         \hfill
-        \begin{minipage}[t][2cm]{7.3cm}
+        \begin{minipage}[t][2cm]{4cm}
             %\centering
             {Title:}\XDU@evalue@schoolAdvisor@title\\%
             {Title:}\XDU@evalue@industrialAdvisor@title\\%
         \end{minipage}
+        \hspace*{6.3cm}
         \XDU@evalue@thesis@submit@date\\%
     \end{minipage}
 
