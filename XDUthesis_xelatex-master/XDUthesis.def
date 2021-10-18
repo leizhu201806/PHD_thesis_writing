@@ -20,7 +20,7 @@
 \def\XDU@label@cover@submit@date{提交日期}
 
 \def\XDU@label@cover@schoolAdvisor{学校导师姓名、职称}
-\def\XDU@label@cover@industrialAdvisor{合作导师姓名、职称}
+\def\XDU@label@cover@industrialAdvisor{国外导师姓名、职称}
 \def\XDU@label@cover@field{领{\quad\quad}域}
 \def\XDU@elabel@cover@thesis@ProMasterTitle{Title of the Thesis for Professional Master's Degree of XIDIAN UNIVERSITY}
 
