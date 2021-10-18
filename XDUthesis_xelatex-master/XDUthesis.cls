@@ -112,7 +112,7 @@
    \endgroup}
  \renewcommand*\l@figure{\@dottedtocline{1}{0em}{4em}}
  \let\l@table\l@figure \makeatother}
- 
+
 
 
 %%%%%%%%%%%%%%%%%%%%
@@ -173,14 +173,14 @@
 % 设置文档正文字体为宋体
 %\setCJKmainfont[BoldFont=SimHei]{SimSun}
 %\setCJKmonofont{SimSun}     % 设置缺省中文字体
-%\setCJKfamilyfont{song}[AutoFakeBold=1]{SimSun}                             %宋体 song  
-\setCJKfamilyfont{song}[AutoFakeBold=true]{SimSun}                             %宋体 song  
+%\setCJKfamilyfont{song}[AutoFakeBold=1]{SimSun}                             %宋体 song
+\setCJKfamilyfont{song}[AutoFakeBold=true]{SimSun}                             %宋体 song
 \newcommand{\song}{\CJKfamily{song}}
-%\setCJKfamilyfont{hei}{SimHei}                              %黑体  hei 
-%\setCJKfamilyfont{hei}[AutoFakeBold=1]{SimHei}                              %黑体  hei  
-\setCJKfamilyfont{hei}[AutoFakeBold=true]{SimHei}                              %黑体  hei  
+%\setCJKfamilyfont{hei}{SimHei}                              %黑体  hei
+%\setCJKfamilyfont{hei}[AutoFakeBold=1]{SimHei}                              %黑体  hei
+\setCJKfamilyfont{hei}[AutoFakeBold=true]{SimHei}                              %黑体  hei
 \newcommand{\hei}{\CJKfamily{hei}}
-  
+
 %% family
 \DeclareRobustCommand*{\XDU@font@st}{\song}
 \DeclareRobustCommand*{\XDU@font@ht}{\hei}
@@ -232,7 +232,7 @@
 %\makeheadrule}}
 \renewcommand{\headrule}{%
     {\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
-    %\vskip 1pt% 
+    %\vskip 1pt%
     \hrule\@height\headrulewidth\@width\headwidth
     \hrule\@height\headrulewidth\@width\headwidth
     \vskip-1\headrulewidth
@@ -257,18 +257,18 @@
 \setcounter{secnumdepth}{4}
 
 %% chapter
-\ctexset { chapter = { 
-                        name={\XDU@chapter@prenumber,\XDU@chapter@afternumber }, 
-                        number={\chinese {chapter}}, 
-                        format={\centering \XDU@font@ht \XDU@font@zihao {3}}, 
-                        nameformat={}, 
+\ctexset { chapter = {
+                        name={\XDU@chapter@prenumber,\XDU@chapter@afternumber },
+                        number={\chinese {chapter}},
+                        format={\centering \XDU@font@ht \XDU@font@zihao {3}},
+                        nameformat={},
                         numberformat={},
                         aftername={\quad },
-                        titleformat={}, 
-                        beforeskip={6pt}, 
+                        titleformat={},
+                        beforeskip={6pt},
                         afterskip={18pt},
-                        indent={0pt} 
-                    } 
+                        indent={0pt}
+                    }
 }
 
 %% chapter without number
@@ -276,46 +276,46 @@
 
 %% section
 \ctexset { section = {
-                      name={,}, 
-                      number={\thesection }, 
-                      format={\raggedright \XDU@bold \XDU@font@st \XDU@font@zihao {-3}}, 
+                      name={,},
+                      number={\thesection },
+                      format={\raggedright \XDU@bold \XDU@font@st \XDU@font@zihao {-3}},
                       nameformat={},
-                      numberformat={}, 
-                      aftername={\quad }, 
-                      titleformat={}, 
-                      beforeskip={18pt plus 0pt minus 0pt}, 
-                      afterskip={12pt}, 
-                      indent={0pt} 
-                     } 
+                      numberformat={},
+                      aftername={\quad },
+                      titleformat={},
+                      beforeskip={18pt plus 0pt minus 0pt},
+                      afterskip={12pt},
+                      indent={0pt}
+                     }
 }
 
 %% subsection
 \ctexset { subsection = {
-                         name={,}, 
+                         name={,},
                          number={\thesubsection},
                          format={\raggedright \XDU@bold \XDU@font@st \XDU@font@zihao {4}},
-                         nameformat={}, 
-                         numberformat={}, 
-                         aftername={\quad }, 
+                         nameformat={},
+                         numberformat={},
+                         aftername={\quad },
                          titleformat={},
-                         beforeskip={12pt plus 0pt minus 0pt}, 
-                         afterskip={6pt}, 
-                         indent={2em} 
-                        } 
+                         beforeskip={12pt plus 0pt minus 0pt},
+                         afterskip={6pt},
+                         indent={2em}
+                        }
 }
 
 %% subsubsection
-\ctexset { subsubsection = { 
-                            name={,}, 
+\ctexset { subsubsection = {
+                            name={,},
                             number={\thesubsubsection},
-                            format={\raggedright \XDU@font@st \XDU@font@zihao {-4}}, 
+                            format={\raggedright \XDU@font@st \XDU@font@zihao {-4}},
                             nameformat={},
-                            numberformat={}, 
-                            aftername={\quad }, 
-                            titleformat={}, 
-                            beforeskip={6pt plus 0pt minus 0pt}, 
-                            afterskip={0pt}, indent={4em} 
-                           } 
+                            numberformat={},
+                            aftername={\quad },
+                            titleformat={},
+                            beforeskip={6pt plus 0pt minus 0pt},
+                            afterskip={0pt}, indent={4em}
+                           }
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -325,7 +325,7 @@
 \ctexset { figurename={\XDU@font@zihao {5}\XDU@label@figure@cap } }
 
 %% table name
-\ctexset { tablename={\XDU@font@zihao {5}\XDU@label@table@cap } } 
+\ctexset { tablename={\XDU@font@zihao {5}\XDU@label@table@cap } }
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}} %转行
 
 \renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
@@ -338,7 +338,7 @@
    \setlength{\parindent}{0pt}\thispagestyle{empty}% \thispagestyle:changes the style for the current page only
     %\setlength{\topskip}{0pt}\setlength{\parskip}{0pt}\renewcommand{\baselinestretch}{1}\setlength{\baselineskip}{0pt}
     %\rule{\textwidth}{1pt}
-    \vspace*{14.7cm}\\
+    \vspace*{4.7cm}\\
     \begin{minipage}[t][3.2cm]{\textwidth}
         \centering
         \normalfont\XDU@font@st\XDU@font@zihao{2}\setlength{\baselineskip}{30pt}%
@@ -393,7 +393,7 @@
     }
 
     \vspace{2.5cm}%
-    \hspace{4.5cm}\parbox{8.5cm}{
+    \hspace{4.5cm}\parbox{12.5cm}{
         \XDU@font@st\XDU@font@zihao{4}\setlength{\baselineskip}{32pt}%
         {\XDU@bold\XDU@label@cover@author{：}}\XDU@value@author@name\\%
         {\XDU@bold\XDU@label@cover@field{：}}\XDU@value@field\\%
@@ -447,7 +447,7 @@ in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue
             \XDU@elabel@cover@advisor\XDU@evalue@schoolAdvisor@name\\
             \XDU@elabel@cover@advisor\XDU@evalue@industrialAdvisor@name\\
         \end{minipage}
-        \hfill    
+        \hfill
         \begin{minipage}[t][2cm]{7.3cm}
             %\centering
             {Title:}\XDU@evalue@schoolAdvisor@title\\%
@@ -553,7 +553,7 @@ in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue
     \setlength{\belowcaptionskip}{0pt}
     %%\renewcommand{\captionlabeldelim}{\ ~}%去冒号
     \DeclareCaptionLabelSeparator{twospace}{\ ~}
-    \captionsetup{labelsep=twospace} 
+    \captionsetup{labelsep=twospace}
     \renewcommand{\captionfont}{\XDU@font@st\XDU@font@zihao{5}}
 
 %% list of figures
@@ -563,7 +563,7 @@ in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue
     \listoffigures}
 
 %% list of tables
-\ctexset { listtablename={\XDU@label@listoftables } } 
+\ctexset { listtablename={\XDU@label@listoftables } }
 \DeclareRobustCommand{\XDU@listoftables}
   {\XDU@toc@add{\XDU@toc@listoftables}%
     \listoftables}

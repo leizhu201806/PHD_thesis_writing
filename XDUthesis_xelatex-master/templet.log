@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.5.23)  18 OCT 2021 20:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.5.23)  18 OCT 2021 22:47
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1251,12 +1251,16 @@ LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 21.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (42.67911pt too wide) in paragraph at lines 21--21
+[] $[]$ 
+ []
 
- [3
+[3
+
+] [4
+
 
 ]
-[4]
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []\TU/TimesNewRoman(0)/m/n/16.06 Supervisor: Shao Xi-
  []
@@ -1272,8 +1276,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
  []
 
 [1
-
-
 
 
 ] [2
@@ -1669,4 +1671,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  102i,24n,106p,1200b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (54 pages, 527008 bytes).
+Output written on templet.xdv (54 pages, 526668 bytes).
