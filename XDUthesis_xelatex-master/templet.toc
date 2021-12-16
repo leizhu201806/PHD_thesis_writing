@@ -1,9 +1,9 @@
-\contentsline {chapter}{摘要}{i}{section*.1}%
-\contentsline {chapter}{ABSTRACT}{iii}{section*.3}%
-\contentsline {chapter}{插图索引}{v}{section*.5}%
-\contentsline {chapter}{表格索引}{vii}{section*.7}%
-\contentsline {chapter}{符号对照表}{ix}{section*.9}%
-\contentsline {chapter}{缩略语对照表}{xi}{section*.11}%
+\contentsline {chapter}{摘要}{I}{section*.1}%
+\contentsline {chapter}{ABSTRACT}{III}{section*.3}%
+\contentsline {chapter}{插图索引}{V}{section*.5}%
+\contentsline {chapter}{表格索引}{VII}{section*.7}%
+\contentsline {chapter}{符号对照表}{IX}{section*.9}%
+\contentsline {chapter}{缩略语对照表}{XI}{section*.11}%
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}基于波前整形的散射成像技术}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}光学相位共轭}{2}{subsection.1.1.1}%

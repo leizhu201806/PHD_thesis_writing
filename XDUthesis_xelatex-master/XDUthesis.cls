@@ -663,8 +663,7 @@ in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue
    \XDU@make@titleenglish%
    \XDU@make@statementandcopyright%
    \frontmatter\pagenumbering{Roman}%
-   \setlength{\baselineskip}{20pt}
-   }
+   \setlength{\baselineskip}{20pt}}
 
 %% premain matter
 \DeclareRobustCommand{\XDUpremainmatter}
