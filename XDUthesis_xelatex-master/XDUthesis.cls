@@ -223,22 +223,13 @@
   {\XDU@label@university\XDU@value@degreemark\XDU@value@thesis}
 
 %% the double line under header
-\renewcommand{\headrulewidth}{0.5pt}
-%\newcommand{\makeheadrule}{%
-%\makebox[0pt][l]{\rule[15pt]{\headwidth}{0.5pt}}%
-%\rule[14pt]{\headwidth}{0.5pt}}
-%\renewcommand{\headrule}{%
-%{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
-%\makeheadrule}}
+
+\newcommand{\makeheadrule}{%
+\makebox[0pt][l]{\rule[9pt]{\headwidth}{0.5pt}}%
+\rule[8pt]{\headwidth}{0.5pt}}
 \renewcommand{\headrule}{%
-    {\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
-    %\vskip 1pt%
-    \hrule\@height\headrulewidth\@width\headwidth
-    \hrule\@height\headrulewidth\@width\headwidth
-    \vskip-1\headrulewidth
-    %\vskip-1pt
-    }
-}
+{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\makeheadrule}}
 
 %% set header
 \fancypagestyle{plain}{
@@ -333,38 +324,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%    chinese  cover
 %% ql first
-%\RequirePackage{emptypage}
-\DeclareRobustCommand{\XDU@make@cover}{
-   \setlength{\parindent}{0pt}\thispagestyle{empty}% \thispagestyle:changes the style for the current page only
-    %\setlength{\topskip}{0pt}\setlength{\parskip}{0pt}\renewcommand{\baselinestretch}{1}\setlength{\baselineskip}{0pt}
-    %\rule{\textwidth}{1pt}
-    \vspace*{4.7cm}\\
-    \begin{minipage}[t][3.2cm]{\textwidth}
-        \centering
-        \normalfont\XDU@font@st\XDU@font@zihao{2}\setlength{\baselineskip}{30pt}%
-        \XDU@bold\XDU@value@thesis@title\\%
-    \end{minipage}
-    \vspace*{0.9cm}
-    \hspace*{3.5cm}\begin{minipage}[t][3.2cm]{9cm}
-        \XDU@font@zihao{4}\setlength{\baselineskip}{30pt}%
-        \newlength{\linelength}
-        \setlength{\linelength}{9cm-4.5em}
-        \XDU@bold\XDU@font@ht{\XDU@label@cover@author}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@author@name}\\%
-        \setlength{\linelength}{9cm-9.5em}
-        \XDU@bold\XDU@font@ht{\XDU@label@cover@schoolAdvisor}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@schoolAdvisor@name~\XDU@value@schoolAdvisor@title}\\%
-        \setlength{\linelength}{9cm-9.5em}
-        \XDU@bold\XDU@font@ht{\XDU@label@cover@industrialAdvisor}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@industrialAdvisor@name~\XDU@value@industrialAdvisor@title}\\%
-        \setlength{\linelength}{9cm-6.5em}
-        \XDU@bold\XDU@font@ht{申请学位类别}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@degree}%
-    %}
-    \end{minipage}
-    \clearpage\thispagestyle{empty}\setlength{\parindent}{2\ccwd}\cleardoublepage
-}
-
-
+\DeclareRobustCommand{\XDU@make@cover}
+{{\CTEXnoindent\thispagestyle{empty}%
+    \normalfont\XDU@font@st\XDU@font@zihao{2}\setlength{\baselineskip}{30pt}%
+    \makebox[\textwidth]{\rule{0pt}{12cm}}
+    \rule[-3.2cm]{0pt}{3.2cm}\parbox[t]{\textwidth}{%
+    \begin{center}%
+        {\XDU@bold\XDU@value@thesis@title}%
+    \end{center}%
+    }
+    \makebox[\textwidth]{\rule{0pt}{3.5cm}}
+    \rule[-3.2cm+15pt]{0pt}{3.2cm}\hspace{3cm}\parbox[t]{9cm}{%
+    \XDU@font@zihao{4}\setlength{\baselineskip}{30pt}%
+    \newlength{\linelength}
+    \setlength{\linelength}{9cm-4.5em}
+    \XDU@bold\XDU@font@ht{��������~}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@author@name}\\%
+    \setlength{\linelength}{9cm-9.5em}
+    \XDU@bold\XDU@font@ht{ָ����ʦ������ְ��~}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@advisor@name~\XDU@value@advisor@title}\\%
+    \setlength{\linelength}{9cm-6.5em}
+    \XDU@bold\XDU@font@ht{����ѧλ����~}\XDU@font@st\XDU@underline[\linelength]{\XDU@value@degree}%
+    }
+\clearpage\thispagestyle{empty}\CTEXindent\cleardoublepage}}
 
 \DeclareRobustCommand{\XDU@make@title}
-  {{\cleardoublepage\setlength{\parindent}{0pt}\thispagestyle{empty}%
+  {{\cleardoublepage\CTEXnoindent\thispagestyle{empty}%
 
     \normalfont\XDU@font@st\renewcommand{\baselinestretch}{1.2}\zihao{5}%
     \rule{0pt}{1.35cm}\parbox[b]{4.5cm}{
@@ -393,75 +376,89 @@
     }
 
     \vspace{2.5cm}%
-    \hspace{4.5cm}\parbox{12.5cm}{
+    \hspace{4.5cm}\parbox{10.5cm}{
         \XDU@font@st\XDU@font@zihao{4}\setlength{\baselineskip}{32pt}%
-        {\XDU@bold\XDU@label@cover@author{：}}\XDU@value@author@name\\%
-        {\XDU@bold\XDU@label@cover@field{：}}\XDU@value@field\\%
-        {\XDU@bold\XDU@label@cover@degree{：}}\XDU@value@degree\\%
-        {\XDU@bold\XDU@label@cover@schoolAdvisor{：}}\XDU@value@schoolAdvisor@name~\XDU@value@schoolAdvisor@title\\%
-        {\XDU@bold\XDU@label@cover@industrialAdvisor{：}}\XDU@value@industrialAdvisor@name~\XDU@value@industrialAdvisor@title\\%
-        {\XDU@bold\XDU@label@cover@school{：}}\XDU@value@school\\%
-        {\XDU@bold\XDU@label@cover@submit@date{：}}\XDU@value@thesis@submit@date%
+        {\XDU@bold\XDU@label@cover@author}\XDU@value@author@name\\%
+        {\XDU@bold\XDU@label@cover@major}\XDU@value@author@major\\%
+        {\XDU@bold\XDU@label@cover@submajor}\XDU@value@author@submajor\\%
+        {\XDU@bold\XDU@label@cover@degree}\XDU@value@degree\\%
+        {\XDU@bold\XDU@label@cover@advisor}\XDU@value@advisor@name~\XDU@value@advisor@title\\%
+        {\XDU@bold\XDU@label@cover@school}\XDU@value@school\\%
+        {\XDU@bold\XDU@label@cover@submit@date}\XDU@value@thesis@submit@date%
     }
    \clearpage\thispagestyle{empty}%
    \renewcommand{\baselinestretch}{1}%
-   \setlength{\parindent}{2\ccwd}\cleardoublepage}}
+   \CTEXindent\cleardoublepage}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%    english  cover
 
-\DeclareRobustCommand{\XDU@make@titleenglish}{
-\begin{titlepage}
-    \cleardoublepage\setlength{\parindent}{0pt}\thispagestyle{empty}%
+\DeclareRobustCommand{\XDU@make@titleenglish}
+  {{\cleardoublepage\CTEXnoindent\thispagestyle{empty}%
     \normalfont\XDU@font@st%
-    %\vspace*{0.3cm}%
-    %\setlength{\parskip}{1pt}\setlength{\topskip}{1pt}\setlength{\baselineskip}{1pt}\setlength{\lineskip}{1pt}
-%    \hrule
-    %\rule[0cm]{\textwidth}{1pt}
-    %\rule[0cm]{0.8\textwidth}{1pt}
-    %\makebox[\textwidth]{\rule{0pt}{0.3cm}}
-    \rule[-2.6cm]{0pt}{3.5cm}\begin{minipage}[t][3.5cm][t]{\textwidth}
-        \centering
-        \XDU@font@zihao{2}\setlength{\baselineskip}{30pt}%
-        {\XDU@bold\XDU@evalue@thesis@title}\\%
-    \end{minipage}
-    \vspace*{2.5cm}\\%
-    \begin{minipage}[t][5.5cm]{\textwidth}
-        \centering
-        \XDU@font@zihao{3}\setlength{\baselineskip}{30pt}%
-        A\space\XDU@evalue@papertype\space submitted to\\\XDU@elabel@university\\%
-in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue@degree%
-\\ in\space\XDU@evalue@author@major%
 
-    \end{minipage}
-    %\vspace*{6.5cm}\\%
-    \vspace*{6.3cm}\\%
-    \begin{minipage}[t][5.3cm][t]{\textwidth}
-        \centering
-        \XDU@font@zihao{3}\setlength{\baselineskip}{30pt}%
-        By \\%
-        \XDU@evalue@author@name\\%
-        \hspace*{3cm}\begin{minipage}[t][2cm]{7cm}
-            %\centering
-            \XDU@elabel@cover@advisor\XDU@evalue@schoolAdvisor@name\\
-            \XDU@elabel@cover@advisor\XDU@evalue@industrialAdvisor@name\\
-        \end{minipage}
-        \hfill
-        \begin{minipage}[t][2cm]{4cm}
-            %\centering
-            {Title:}\XDU@evalue@schoolAdvisor@title\\%
-            {Title:}\XDU@evalue@industrialAdvisor@title\\%
-        \end{minipage}
-        \hspace*{6.3cm}
-        \XDU@evalue@thesis@submit@date\\%
-    \end{minipage}
-
+    \rule[-3.5cm]{0pt}{3.5cm}\parbox[t]{\textwidth}{%
+    \XDU@font@zihao{2}\setlength{\baselineskip}{30pt}%
+    \begin{center}%
+        {\XDU@bold\XDU@evalue@thesis@title}%
+    \end{center}%
+    }
+    \rule{0pt}{2.5cm}%
+    \rule[-5.5cm]{0pt}{5.5cm}\parbox[t]{\textwidth}{%
+    \XDU@font@zihao{3}\setlength{\baselineskip}{30pt}%
+    \begin{center}%
+A\space\XDU@evalue@papertype\space submitted to\par\XDU@elabel@university\par%
+in partial fulfillment of the requirements \par for the degree of\space\XDU@evalue@degree%
+\par in\space\XDU@evalue@author@submajor%
+    \end{center}%
+    }
+    \rule{0pt}{7.2cm}%
+    \rule[-4.5cm]{0pt}{4.5cm}\parbox[t]{\textwidth}{%
+    \XDU@font@zihao{3}\setlength{\baselineskip}{30pt}%
+    \begin{center}%
+By \par%
+\XDU@evalue@author@name\par%
+\XDU@elabel@cover@advisor\XDU@evalue@advisor@name~~{Title:}\XDU@evalue@advisor@title\par%
+\XDU@evalue@thesis@submit@date\par%
+    \end{center}%
+    }
    \clearpage\thispagestyle{empty}%
-   \setlength{\parindent}{2\ccwd}\cleardoublepage
-\end{titlepage}
-}
+   \CTEXindent\cleardoublepage}}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    statement and copyright
+
+\DeclareRobustCommand{\XDU@make@statementandcopyright}
+  {{\cleardoublepage\CTEXnoindent\thispagestyle{empty}%
+  \normalfont\XDU@font@st%
+   \begin{center}%
+   \bfseries\XDU@font@zihao{4}%
+     \XDU@label@stat@statement%
+   \end{center}%
+   \XDU@font@zihao{-4}%
+   \hspace*{2em}\CTEXindent\XDU@value@stat@statement\CTEXnoindent%
+  \vskip 20pt%
+   \hspace*{2em}\XDU@lable@stat@auther\XDU@underline[100pt]{}\hspace*{1em}%
+    \hfill \XDU@lable@stat@date\XDU@underline[100pt]{}\hspace*{1em}
+  \vskip \stretch{6}%
+   \begin{center}%
+     \bfseries\XDU@font@zihao{4}%
+     \XDU@lable@stat@copyright%
+   \end{center}%
+   \XDU@font@zihao{-4}%
+   \hspace*{2em}\CTEXindent\XDU@value@stat@copyright\CTEXnoindent%
+  \vskip 20pt%
+   \normalfont\XDU@font@st\XDU@font@zihao{-4}%
+   \hspace*{2em}\XDU@lable@stat@auther\XDU@underline[100pt]{}\hspace*{1em}%
+    \hfill \XDU@lable@stat@advisor\XDU@underline[100pt]{}\hspace*{1em}%
+  \vskip 20pt%
+   \hspace*{2em}\XDU@lable@stat@date\XDU@underline[100pt]{}\hspace*{1em}%
+    \hfill \XDU@lable@stat@date\XDU@underline[100pt]{}\hspace*{1em}%
+  \vskip \stretch{1}%
+  \clearpage\thispagestyle{empty}%
+  \CTEXindent\cleardoublepage}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%    statement and copyright
