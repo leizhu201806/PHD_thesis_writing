@@ -1359,6 +1359,9 @@ INPUT .\chapters\general.tex
 INPUT chapters\general.tex
 INPUT .\chapters\general.tex
 INPUT chapters\general.tex
+INPUT .\figures\\Chapter1.imaging_model.pdf
+INPUT .\figures\\Chapter1.imaging_model.pdf
+INPUT figures\\Chapter1.imaging_model.pdf
 INPUT .\figures\\Figchapter1.1.pdf
 INPUT .\figures\\Figchapter1.1.pdf
 INPUT figures\\Figchapter1.1.pdf
