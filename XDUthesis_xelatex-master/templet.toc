@@ -5,9 +5,10 @@
 \contentsline {chapter}{符号对照表}{IX}{section*.9}%
 \contentsline {chapter}{缩略语对照表}{XI}{section*.11}%
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}基于波前整形的散射成像技术}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}光学相位共轭}{2}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}基于反馈优化波前整形的散射介质成像技术}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.1}研究背景和意义}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}基于波前整形的散射成像技术}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}光学相位共轭}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}基于反馈优化波前整形的散射介质成像技术}{4}{subsection.1.2.2}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}绪论}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}基于波前整形的散射成像技术}{6}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}光学相位共轭}{6}{subsection.2.1.1}%
