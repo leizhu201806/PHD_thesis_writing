@@ -1388,6 +1388,12 @@ INPUT .\chapters\substance.tex
 INPUT chapters\substance.tex
 INPUT .\chapters\substance.tex
 INPUT chapters\substance.tex
+INPUT .\figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
+INPUT .\figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
+INPUT figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
+INPUT .\figures\\C3.fig1.spectral_retrieval_model.pdf
+INPUT .\figures\\C3.fig1.spectral_retrieval_model.pdf
+INPUT figures\\C3.fig1.spectral_retrieval_model.pdf
 INPUT .\chapters\edit.tex
 INPUT .\chapters\edit.tex
 INPUT .\chapters\edit.tex
