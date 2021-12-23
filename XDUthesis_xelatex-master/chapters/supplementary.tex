@@ -10,7 +10,7 @@
 假设一个数据集$D = {(x_i,y_i),i = 1,\dots,N}$，其中$(x_i,y_i)$是第$i$个标记示例，$x_i$是$M$维输入向量，$y_i\in\{+1,-1\}$是相关联的二进制标签，$N$是数据大小。形如$f(x)= w\cdot\Phi(x)+ b$的SVM分类器通过最大化边缘训练，等效为：
 ~\\
 \begin{subequations}
-\begin{align} 
+\begin{align}
     \min_{w,b,\xi} \frac{1}{2}&\|w\|^2 + C\sum_{i=1}^N\xi_i\\
     \mathrm{s.t.}\quad &\forall i\in1,\dots,N:\xi_i\ge 0,y_i(w\cdot\Phi(x)+b)\ge 1-\xi_i
 \end{align}
@@ -101,7 +101,7 @@ MOSSE分别对分子和分母进行平均：
 
 \newcommand{\mycline}[1]{\tikz{\draw[#1 , line width=3] (0,0) -- (.5,0);}}
 \begin{figure*}[htp]
-	
+
 	\centering
 	\subfloat[Basketball]{\includegraphics[width=0.31\linewidth,height=0.23\linewidth]{Figure2a1.pdf}
                        \includegraphics[width=0.31\linewidth,height=0.23\linewidth]{Figure2a2.pdf}
@@ -117,7 +117,7 @@ MOSSE分别对分子和分母进行平均：
 					  \label{fig:LR-David3}
 					  }
 
-	
+
 
 	\centering
 	\subfloat[Football]{\includegraphics[width=0.31\linewidth,height=0.23\linewidth]{Figure2c1.pdf}
@@ -134,13 +134,13 @@ MOSSE分别对分子和分母进行平均：
 					   \label{fig:LR-Jogging}
 					   }
 
-		
+
 	\centering
 	\subfloat[Liquor]{\includegraphics[width=0.31\linewidth,height=0.23\linewidth]{Figure2e1.pdf}
 			          \includegraphics[width=0.31\linewidth,height=0.23\linewidth]{Figure2e2.pdf}
 			          \includegraphics[width=0.31\linewidth,height=0.23\linewidth]{Figure2e3.pdf}
 					  \label{fig:LR-Liquor}
-					  }	
+					  }
 
    \mycline{green}CT
    \mycline{blue}CXT
@@ -167,7 +167,7 @@ MOSSE分别对分子和分母进行平均：
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
         \hline
         序列  & Frag  &  OAB  &  SBT  &  MIL  & Struck & CSK   & CFwLB   &  Ours \\ \hline
-        
+
         Coke      & 0.034 & 0.168 & 0.048  & 0.117 & \textcolor{blue}{0.942} & 0.739 & 0.918   & \textcolor{red}{0.959}  \\ \hline
         David     & 0.121 & 0.151 & 0.204  & 0.229 & \textcolor{blue}{0.236} & \textcolor{blue}{0.236} & 0.144   & \textcolor{red}{0.396} \\ \hline
         Dog       & 0.173 & 0.157 & 0.079  & 0.197 & 0.157 & 0.144 & \textcolor{blue}{0.858}   & \textcolor{red}{0.992}  \\ \hline
@@ -190,4 +190,3 @@ MOSSE分别对分子和分母进行平均：
 Li等\cite{xiao2001}人采用三维时域张量子空间学习进行视觉跟踪。文献\cite{xiao2001}中，通过基于加权张量子空间(Weighted Tensor Subspace, WTS)的增量学习算法来适应跟踪期间的外观变化。
 
 通常的做法是稀疏取样，即每帧只随机选取若干样本\cite{Zhang2012Real,kalal2012tracking,babenko2011robust,saffari2009line,hare2016struck}。
-

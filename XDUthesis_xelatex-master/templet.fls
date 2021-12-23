@@ -1391,9 +1391,12 @@ INPUT chapters\substance.tex
 INPUT .\figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
 INPUT .\figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
 INPUT figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
-INPUT .\figures\\C3.fig1.spectral_retrieval_model.pdf
-INPUT .\figures\\C3.fig1.spectral_retrieval_model.pdf
-INPUT figures\\C3.fig1.spectral_retrieval_model.pdf
+INPUT .\figures\\C3.fig1.spectral_retrieval_model1.pdf
+INPUT .\figures\\C3.fig1.spectral_retrieval_model1.pdf
+INPUT figures\\C3.fig1.spectral_retrieval_model1.pdf
+INPUT .\figures\\C3.fig3.spectral_correlation_speckle.pdf
+INPUT .\figures\\C3.fig3.spectral_correlation_speckle.pdf
+INPUT figures\\C3.fig3.spectral_correlation_speckle.pdf
 INPUT .\chapters\edit.tex
 INPUT .\chapters\edit.tex
 INPUT .\chapters\edit.tex
