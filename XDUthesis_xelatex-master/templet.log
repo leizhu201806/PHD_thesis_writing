@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  23 DEC 2021 17:21
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  23 DEC 2021 17:32
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2096,4 +2096,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,24n,111p,1200b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (56 pages, 548124 bytes).
+Output written on templet.xdv (56 pages, 548324 bytes).
