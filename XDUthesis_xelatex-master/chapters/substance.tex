@@ -37,38 +37,34 @@
 散斑图像中的强度分布取决于照明的角度、观察角度和入射光的波长等因素。在本小节中，我们只对入射光的波长变化进行讨论。首先，我们需要引入散斑的光谱多样性概念。如图\ref{fig:3.2}所示的系统中，照明光源与散射介质之间的距离为$d$，散射介质与相机之间的距离为$S_{0}$,
 当特定波长以固定的角度照明散射介质时，散射光被位于介质后表面距离为$S_{0}$相机接收。在此，我们认为此类散射介质的散射效应随着波长的改变而变化。我们在惠更斯-菲尼尔近似条件下，
 相机所接收的散斑图像可以表示为：
-~\\
 \begin{equation}
     E(r_{c},\lambda) = A\iint E(r_{o},\lambda)e^{\frac{ik}{2d}(r_{s}-r_{o})^{2}}Pup.(r_{s},\lambda)T(r_{s},\lambda)e^{\frac{ik}{2S_{o}}(r_{c}-r_{s})^{2}}\mathrm{d}{r_{o}}\mathrm{d}{r_{s}}
 \label{eq:wavelength_diversity},
 \end{equation}
-~\\
+
 其中，$k =2\pi/\lambda$，$r_{c}$、$r_{o}$和$r_{s}$分别表示相机平面，光入射面和散射介质平面的坐标，$Pup.(r_{s},\lambda)$为散射介质的孔径函数，$T(r_{s},\lambda)$为介质的散射作用。
 
 我们固定公式(\ref{eq:wavelength_diversity})中的除波长以外测参数，分析波长改变对散斑分布的影响。首先，我们假设散射介质对于不同波长光引起的相位变化相同。在此假设下，波长的改变，会引起散斑图案的
 空间缩放。其次，对于散射介质来说，其散射效应取决于波长。换而言之，对于不同波长入射光由散射介质引起的相位畸变不同，这样会导致所接受散斑图案分布发生变化，而非简单的缩放。但是对于实际应用中，往往两种
 效应同时存在，或者往往更复杂，此种效应被称为散斑的波长多样性。同时我们也进行了相应的仿真，分析波长改变引起的散斑之间的相关系数的改变，仿真结果如图\ref{fig:3.3}所示。如何有效地利用散斑的波长多样性，将对散斑的波长信息利用有着重要的意义。
-~\\
+
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.8]{C3.fig1.spectral_retrieval_model1.pdf}
 	\caption{散斑的波长多样性}
 	\label{fig:3.2}
 \end{figure}
-~\\
 
 如果我们对散射介质的光谱指纹进行标定，并将不同的光谱指纹存储在矩阵中，此矩阵称为光谱传输矩阵。在此情况下，在获得未知光源照射散射介质所获得的散斑后，是否能够光谱传输矩阵和此散斑对未知光源的光谱信息进行重建？
 答案是可以。如图\ref{fig:3.1}b所示，将不同的光谱指纹转换行向量，并按照光谱信息存储在矩阵$\Phi$中,当获取未知光源对应的散斑时，同样将其转换为向量$I$。所以，其输入信号的光谱$S$可以表示为：$I={\Phi}S$，对矩阵进行
 左乘求逆，并求出最小二乘解：$S={\Phi}^{-1}I$。值得强调的是，该光谱重建方法不仅局限于对于以标定的单色光谱信号进行重建，同时也可应用于连续光谱信号。
-上述的光谱重建问题可以为更普遍的最小化问题：$s_{0}=\arg{\min_s \| I -{\Phi}S \|_2}$，其中$\|  \|_2$表示l2范数，$s_{0}$表示所重建的光谱信号，不同的最小化优化算法可以被采用解决此问题。
-~\\
+上述的光谱重建问题可以为更普遍的最小化问题：$s_{0}=\arg{\min_s \| I -{\Phi}S \|_2}$，其中$\|  \|_2$表示$l-2$范数，$s_{0}$表示所重建的光谱信号，不同的最小化优化算法可以被采用解决此问题。
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.5]{C3.fig3.spectral_correlation_speckle.pdf}
 	\caption{散斑的相关系数}
 	\label{fig:3.3}
 \end{figure}
-~\\
 \subsection{基于光学记忆效应的散斑相关成像模型}
 图\ref{fig:3.4}所示为基于光学记忆相应的散斑相关成像基本模型，目标与散射介质之间的距离为$d$，散射介质与相机之间的距离为$S_{0}$。目标由空间非相干光源照明提供照明，目标所发出的光经过
 散射介质后，被相机所接收。当物体位于此散射介质的OME范围之类时，由于OME范围内的点扩散函数具有空间平移不变性，相机所探测到的散斑可以表示为：
@@ -82,11 +78,57 @@
 \begin{equation}
     I = O*S
 \label{eq:speckle_autocorrelation_imgaing}
-\end{equation}其中，$*$为卷积算符，$I$表示相机散斑，$O$表示目标和$S$表示系统的PSF。
+\end{equation}其中，$*$为卷积运算，$I$表示相机散斑，$O$表示目标和$S$表示系统的PSF。
 
-我们将透过散射成像的数学模型简化的理论基础在，目标可以分解为不同的点源目标，当不同的点源目标为与散散介质的光学记忆效应范围之内时，不同点源目标所对于系统的响应函数可以近似看作不同的散斑在空间的平移。假设所有的点源目标被同时
-点亮时，相机所接收到的图像为不同点源目标所对应散斑的非相干叠加。所以，光学记忆效应范围内目标的非相干成像模型可以用卷积的形式进行表示。但是值得注意的是，大多是散射介质的光学记忆效应范围是有限的，当目标的尺寸超过光学记忆效应范围时，此时卷积模型需要加入新的限制条件。
+透过散射成像的数学模型的理论基础如下，目标可以分解为不同的点源目标，当不同的点源目标为与散散介质的光学记忆效应范围之内时，不同点源目标所对于系统的响应函数可以近似看作不同的散斑在空间的平移。假设所有的点源目标被同时
+点亮时，相机所接收到的图像为不同点源目标所对应散斑的非相干叠加。所以，光学记忆效应范围内目标的非相干成像模型可以卷积的形式进行表示：$I = O*S$。但是值得注意的是，大多是散射介质的光学记忆效应范围是有限的，当目标的尺寸超过光学记忆效应范围时，
+此时卷积模型需要加入新的限制条件。成像系统的放大率$M$取决于物距$d$和相距$S_{0}$:
+\begin{equation}
+    M = \frac{d}{S_{0}}
+\label{eq:magnification_imgaing_system}
+\end{equation}
+成像系统的分辨率$\Delta \theta $可以表示为：
+\begin{equation}
+    \Delta \theta   \propto \frac{\lambda}{nD}
+\label{eq:angleresolution_imgaing_system}
+\end{equation}
+其中，$\propto$表示正比关系，$\lambda$为照明光源的波长，$n$表示光经过散射介质后的介质折射率，$D$表示散射介质的有效孔径，孔径的大小可以通过加载光阑实现控制。
 
+上述部分中，我们具体描述了基于光学记忆效应的散射基本成像模型，如公式(\ref{eq:speckle_autocorrelation_imgaing})所示，当获得散斑图像后如何恢复图像将在接下来部分进行描述。
+意大利学者J.Bertolotti，以色列学者O.Katz等人先后基于散斑自相关的特性，提出了基于光学散斑自相关的图像重建算法。当相机获得散斑图案后，散斑的自相关可以表示为：
+\begin{equation}
+\begin{aligned}
+    I \bigstar I  = (O*S) \bigstar (O*S) \\
+		              =  (O \bigstar O)*(S \bigstar S)
+\end{aligned}
+\label{eq:autocorelation_equation}
+\end{equation}
+其中，$\bigstar$表示自相关运算。由公式(\ref{eq:autocorelation_equation})可知，散斑的自相关可以表示为目标的自相关与系统PSF自相关的卷积。当前成像系统PSF的自相关$(S \bigstar S)$可以近似
+为$\delta$函数。所以，公式(\ref{eq:autocorelation_equation})可以简化为：
+\begin{equation}
+\begin{aligned}
+    I \bigstar I  = (O \bigstar O)+C
+\end{aligned}
+\label{eq:autocorelation_equation_1}
+\end{equation}
+其中，$C$表示自相关计算中的背景常数项。通常，在自相关图像恢复中，我们需要将背景常数项进行剔除。如果对公式(\ref{eq:autocorelation_equation_1})左右两边同时进行傅里叶变换，我们会获得什么呢？
+庆幸的是，我们获得了一下公式：
+\begin{equation}
+\begin{aligned}
+    \mathcal{F}(I \bigstar I)  = \mathcal{F}(O \bigstar O)
+\end{aligned}
+\label{eq:autocorelation_equation_2}
+\end{equation}
+公式(\ref{eq:autocorelation_equation_2})继续可以简化为：
+\begin{equation}
+\begin{aligned}
+    \mid \mathcal{F}(O) \mid = \sqrt{\mathcal{F}(O \bigstar O)}\\
+		               = \sqrt{\mathcal{F}(I \bigstar I)}
+\end{aligned}
+\label{eq:autocorelation_equation_3}
+\end{equation}
+根据公式(\ref{eq:autocorelation_equation_3})可知，我们可以通过计算的方式从散斑图像中获得隐藏目标的傅里叶振幅信息，当获得目标的傅里叶振幅信息之后，仍然缺失的是目标的傅里叶相位信息。
+图像恢复问题已经被转换为依据傅里叶振幅信息恢复傅里叶相位信息的问题，如我们所期望的的，此类相位恢复问题在相位中属于常见问题。
 
 \section{声明}
 
