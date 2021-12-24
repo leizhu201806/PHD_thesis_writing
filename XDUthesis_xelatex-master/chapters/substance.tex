@@ -112,7 +112,7 @@
 \label{eq:autocorelation_equation_1}
 \end{equation}
 其中，$C$表示自相关计算中的背景常数项。通常，在自相关图像恢复中，我们需要将背景常数项进行剔除。如果对公式(\ref{eq:autocorelation_equation_1})左右两边同时进行傅里叶变换，我们会获得什么呢？
-庆幸的是，我们获得了一下公式：
+庆幸的是，我们获得了以下公式：
 \begin{equation}
 \begin{aligned}
     \mathcal{F}(I \bigstar I)  = \mathcal{F}(O \bigstar O)
@@ -128,7 +128,46 @@
 \label{eq:autocorelation_equation_3}
 \end{equation}
 根据公式(\ref{eq:autocorelation_equation_3})可知，我们可以通过计算的方式从散斑图像中获得隐藏目标的傅里叶振幅信息，当获得目标的傅里叶振幅信息之后，仍然缺失的是目标的傅里叶相位信息。
-图像恢复问题已经被转换为依据傅里叶振幅信息恢复傅里叶相位信息的问题，如我们所期望的的，此类相位恢复问题在相位中属于常见问题。
+图像恢复问题已经被转换为依据傅里叶振幅信息恢复傅里叶相位信息的问题，幸运的是此类相位恢复问题在相位中属于常见问题。相位恢复算法不是本节研究的重点，因此在本节中，我们将简要介绍在后续图像恢复中所用到
+的基本相位恢复算法，其算法流程如图\ref{fig:3.5}所示。该类型相位算法的核心思想为：步骤一，获得傅里叶振幅信息$\mid \mathcal{F}(O) \mid$，随机的给予随机的傅里叶相位初始值$\phi$，并对其进行傅里叶变换，进而将信号转换至空间域，并获得目标的初始猜测$g_t(x,y)$；
+步骤二，对信号$g_t(x,y)$进行傅里叶变换，将其变换至频域$G_t(k_x,k_y)$，将$G_t(k_x,k_y)$的傅里叶振幅部分替换为$\mid \mathcal{F}(O) \mid$，保留其傅里叶相位信息，此时的信号表示为$G^{\prime}_t(k_x,k_y) =\mid \mathcal{F}(O) \mid e^{i\phi (k_x,k_y)}$；步骤三，对信号$G^{\prime}_t(k_x,k_y)$进行再一次傅里叶变换，将其转换至空间域，
+根据目标信号的稀疏性及非负性，设置约束条件，对信号进行处理，此时获得的信号表示为：$g^{\prime}_t(x,y)$；步骤四，用$g^{\prime}_t(x,y)$替换为步骤一中的$g_t(x,y)$，并重复步骤二至步骤四，直至满足约束条件停止此相位恢复程序。
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.7]{C3.fig5.phase_retrieval_model.pdf}
+	\caption{基本相位恢复流程图}
+	\label{fig:3.5}
+\end{figure}
+在实际的应用中，不同相位恢复算法在空间域采用不同的约束条件。例如，混合输入输出（Hybrid Input-Output，HIO）算法的约束条件如公式(\ref{eq:constrain_HIO})所示，误差减小（Error
+reduction，ER）算法的约束条件如公式如公式(\ref{eq:constrain_ER})所示。
+\begin{equation}
+\begin{aligned}
+ g_{t+1}(x,y) =
+		  \begin{cases}
+		    g_{t}^{\prime}(x,y)   &   (x,y)\notin\Gamma\\
+		    g_{t}(x,y)-\beta g_{t}^{\prime}(x,y) & (x,y)\in\Gamma
+		  \end{cases}
+\end{aligned}
+\label{eq:constrain_ER}
+\end{equation}
+其中，$\beta$为算法收敛性的参数，$\Gamma$为满足约束条件的集合。
+
+\begin{equation}
+\begin{aligned}
+ g_{t+1}(x,y) =
+		  \begin{cases}
+		    g_{t}^{\prime}(x,y)   &   (x,y)\notin\Gamma\\
+		    0  & (x,y)\in\Gamma
+		  \end{cases}
+\end{aligned}
+\label{eq:constrain_HIO}
+\end{equation}
+
+\section{光谱信息恢复及散斑自相关成像方法验证}
+上述部分，我们对光谱信息恢复及散斑相关成像的基本原理继续了介绍，因此在本小节中，我们分别以上方法进行数字仿真验证及实验验证。
+\subsection{仿真验证}
+
 
 \section{声明}
 
