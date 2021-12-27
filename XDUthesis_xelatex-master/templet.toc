@@ -9,22 +9,21 @@
 \contentsline {subsection}{\numberline {1.1.1}基于光谱传输矩阵的光谱重建模型}{2}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}基于光学记忆效应的散斑相关成像模型}{4}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}光谱信息恢复及散斑自相关成像方法验证}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}仿真验证}{6}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}声明}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}摘要}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}插图索引}{7}{section.1.5}%
-\contentsline {section}{\numberline {1.6}表格索引}{7}{section.1.6}%
+\contentsline {section}{\numberline {1.3}声明}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}摘要}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}插图索引}{8}{section.1.5}%
+\contentsline {section}{\numberline {1.6}表格索引}{8}{section.1.6}%
 \contentsline {section}{\numberline {1.7}符号对照表}{8}{section.1.7}%
-\contentsline {section}{\numberline {1.8}缩略语对照表}{8}{section.1.8}%
-\contentsline {section}{\numberline {1.9}目录}{8}{section.1.9}%
-\contentsline {section}{\numberline {1.10}正文}{8}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}绪论}{8}{subsection.1.10.1}%
-\contentsline {subsection}{\numberline {1.10.2}各章节}{9}{subsection.1.10.2}%
-\contentsline {subsection}{\numberline {1.10.3}结论}{9}{subsection.1.10.3}%
-\contentsline {section}{\numberline {1.11}参考文献}{10}{section.1.11}%
-\contentsline {section}{\numberline {1.12}致谢}{11}{section.1.12}%
-\contentsline {section}{\numberline {1.13}作者简介}{11}{section.1.13}%
-\contentsline {section}{\numberline {1.14}其他}{12}{section.1.14}%
-\contentsline {chapter}{参考文献}{13}{section*.19}%
-\contentsline {chapter}{致谢}{15}{section*.21}%
-\contentsline {chapter}{作者简介}{17}{section*.23}%
+\contentsline {section}{\numberline {1.8}缩略语对照表}{9}{section.1.8}%
+\contentsline {section}{\numberline {1.9}目录}{9}{section.1.9}%
+\contentsline {section}{\numberline {1.10}正文}{9}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}绪论}{9}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}各章节}{10}{subsection.1.10.2}%
+\contentsline {subsection}{\numberline {1.10.3}结论}{10}{subsection.1.10.3}%
+\contentsline {section}{\numberline {1.11}参考文献}{11}{section.1.11}%
+\contentsline {section}{\numberline {1.12}致谢}{12}{section.1.12}%
+\contentsline {section}{\numberline {1.13}作者简介}{12}{section.1.13}%
+\contentsline {section}{\numberline {1.14}其他}{13}{section.1.14}%
+\contentsline {chapter}{参考文献}{15}{section*.21}%
+\contentsline {chapter}{致谢}{17}{section*.23}%
+\contentsline {chapter}{作者简介}{19}{section*.25}%

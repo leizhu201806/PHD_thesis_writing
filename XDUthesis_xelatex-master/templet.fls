@@ -50,7 +50,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
-INPUT extractbb "--version"
+INPUT extractbb --version
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
@@ -1359,6 +1359,9 @@ INPUT figures\\C3.fig4.imaging_model.pdf
 INPUT .\figures\\C3.fig5.phase_retrieval_model.pdf
 INPUT .\figures\\C3.fig5.phase_retrieval_model.pdf
 INPUT figures\\C3.fig5.phase_retrieval_model.pdf
+INPUT .\figures\\C3.fig6.simulation_results.pdf
+INPUT .\figures\\C3.fig6.simulation_results.pdf
+INPUT figures\\C3.fig6.simulation_results.pdf
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl
