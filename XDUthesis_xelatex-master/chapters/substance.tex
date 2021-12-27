@@ -164,7 +164,7 @@ reduction，ER）算法的约束条件如公式如公式(\ref{eq:constrain_ER})�
 \label{eq:constrain_HIO}
 \end{equation}
 
-\section{光谱信息恢复及散斑自相关成像方法验证}
+\section{光谱信息恢复及散斑自相关成像方法仿真验证}
 上述部分，我们对光谱信息恢复及散斑相关成像的基本原理继续了介绍，因此在本小节中，我们对上述的原理进行数字仿真验证及实验验证。
 B.Redding等人在文献中以对基于光谱传输矩阵的光谱重建方法进行了详细的理论分析，所以在此我们对该方法进行简单的数值分析以及仿真验证。光谱重建的仿真原理如图\ref{fig:3.2}所示，
 分别记录不同波长输入光对应的散斑$I_\lambda$，并将$I_\lambda$存储在光谱传输矩阵中。然后，输入未知光谱$s_{o}$记录其对应的散斑信号$I_{o}$，根据公式$s_{0}=\arg{\min_s \| I_{o} -{\Phi}S \|_2}$对光谱$s_{0}$进行求解。
@@ -201,7 +201,74 @@ B.Redding等人在文献中以对基于光谱传输矩阵的光谱重建方法�
 	\label{fig:3.6}
 \end{figure}
 
+我们所用到的基于光谱传输矩阵的光谱重建方法对于系统的噪声叫敏感，不同的重建优化方法在抗噪声方面有着不同表现。于是，我们通过在系统中引入不同功率的高斯噪声，并且进行了相应的重建，
+计算重建信号与原始信号之间的相关系数，进而分析不同算法的抗噪性能。目前常用的重建算法有：吉洪诺夫正则化算法(Tikhonov regularization,TR)和凸优化算法(Convex Optimization,CVX)。
+TR和CVX重建算法在不同噪声水平下的光谱重建结果如图\ref{fig:3.7}所示。从图中看可以看出，随着噪声从$50 dB$ 增加到 $35 dB$，TR和CVX两种重建算法的分别重建的光谱信号与原始信号之间相关系数接近于1，
+但是当信噪比低于 $35 dB$时，CVX重建结果的相关系数大于TR重建的相关系数。因此我们相信，CVX在光谱重建方面的抗噪性能优于TR。
 
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.45]{C3.fig7.performance_under_fifferent_noise_levels.pdf}
+	\caption{光谱重建算法的抗噪性能分析}
+	\label{fig:3.7}
+\end{figure}
+
+\section{光谱信息恢复及散斑自相关成像方法实验验证}
+实验光学装置如图\ref{fig:3.8}所示，\textcircled{1}：光源，\textcircled{2}：单色仪，\textcircled{3}：准直器，\textcircled{4}：分束器，\textcircled{5}：目标，\textcircled{6}：散射介质1，\textcircled{7}：相机1，\textcircled{8}：物镜，\textcircled{9}：单模光纤，
+\textcircled{10}：透镜，\textcircled{11}：散射介质2和\textcircled{12}：相机2。
+在实验中，我们使用厚度为$2mm$，颗粒度为$220$毛玻璃(Thorlabs，DG10-220)作为散射介质，目标为从分辨率测试靶标(1951USAF，Edmund Company)中选出的数字字符。
+实验中，我们需要对光谱臂进行预标定，目的是获取光谱臂的光谱传输矩阵。在预标定过程中，我们利用来自氙气灯(Zolix, GLORIA-X500A)的作为照明光源，并用安道尔单色仪(Andor Spectrograph, Shamrock 500i)对照明光源进行光谱过滤，产生光谱分辨率
+(Full Width Half Maximum,FWHM)为$1 nm$的可调光源。实验中使用相机是CMOS相机(AndorZyla5.5)，像素尺寸为$6.5\mu m$和像素数为420万。
+实验中，我们分别对$445 \sim 495nm$ 和 $610 \sim 660nm$两个光谱波段进行标定，预标定后的光谱传输矩阵分别如图\ref{fig:3.8}b和\ref{fig:3.8}c所示。
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.70]{C3.fig8.experimental_setup.pdf}
+	\caption{光谱成像实验装置图}
+	\label{fig:3.8}
+\end{figure}
+对于光谱标臂来说，我们利用物镜1和单模光纤对目标所发出的光进行收集，使用透镜对透过光纤后的光进行准直。这样的结构能够保证在我们的实验过程中，只需要对光谱臂进行的单次的光谱矩阵标定。
+当完成光谱预标定后，我们采用了不同的目标对我们的系统进行测试，实验结果如图\ref{fig:3.9}所示。图\ref{fig:3.9}a和\ref{fig:3.9}b为利用单色光源照明时光谱信息恢复和目标空间信息重建结果，值得强调的是，此时我们使用的照明波长为已标定的光源波长。
+我们的系统是否对未标定的连续光谱光源是否有效？们将在接下来部分进行详细分析。
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.80]{C3.fig9.experimental_setup.pdf}
+	\caption{光谱成像实验结果图}
+	\label{fig:3.9}
+\end{figure}
+
+\subsection{光谱重建分析}
+对于我们的照明光源可以分为两种：窄带光源和宽谱光源。为了验证光谱重建的有效性，首先我们利用已标定的光谱波段作为照明光源，进行光谱重建的有效性验证。光谱标定矩阵如图\ref{fig:3.8}b所示，在$445 \sim 495nm$光谱范围内，利用可调光源分别产生单色光源对目标进行照明，
+波长分别为：$459nm$、$466mn$、$473nm$和$481nm$，并对其光谱信号进行重建，重建结果如所示\ref{fig:3.10}a。从图\ref{fig:3.10}a可以看出，在于单色光源照明时，我们能够有效的重建照明的光源的光谱信息。同理，在$610 \sim 660nm$光谱范围内，进行了相同的实验，实验结果
+如图\ref{fig:3.10}b所示。
+
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.70]{C3.fig11.experimental_setup}
+	\caption{光谱重建结果}
+	\label{fig:3.10}
+\end{figure}
+此后，我们采用更多标定的单色光源进行照明，并分别对光谱信号进行重建，实验结果如图\ref{fig:3.11}所示。从图\ref{fig:3.11}可以看出，重建信号与输入信号的光谱信号具有一致性。当连续光谱光源照明时，是否能够有效地重建光谱信号？
+因为已在仿真部分进行验证，所以此处我么将直接进行实验验证。首先采用LED光源作为照明光源，其中心波长和带宽分别为：$470nm$和$14nm$，其光谱重建结果和空间信息重建结果如图\ref{fig:3.12}a所示。为了进一步验证宽谱照明的有效性，
+利用红光LED进行照明，其中心波长和带宽分别为：$625nm$和$14nm$，对应的实验结果如图\ref{fig:3.12}b所示。至此，我们分别对窄谱和连续光谱照明时的光谱重建有效性进行了仿真验证和实验验证。
+
+对比图\ref{fig:3.9}和\ref{fig:3.12}，可以明显看出窄谱光源照明时，图形重建的效果优于宽谱光照明时的图像重建效果。我们将在接下来部分进行分析。
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.70]{C3.fig10.experimental_setup}
+	\caption{光谱重建结果}
+	\label{fig:3.11}
+\end{figure}
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.70]{C3.fig12.experimental_setup}
+	\caption{宽谱照明时实验结果}
+	\label{fig:3.12}
+\end{figure}
+
+\subsection{散斑相关成像分析}
 
 
 \section{声明}
