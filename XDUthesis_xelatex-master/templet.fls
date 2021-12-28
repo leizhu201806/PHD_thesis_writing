@@ -1185,6 +1185,28 @@ INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ulem\ulem.sty
 INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ulem\ulem.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\romannum\romannum.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\stdclsdv\stdclsdv.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT .\templet.aux
@@ -1347,9 +1369,9 @@ INPUT chapters\substance.tex
 INPUT .\figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
 INPUT .\figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
 INPUT figures\\Chapter3.FIG2.spectral_retrieval_model.pdf
-INPUT .\figures\\C3.fig1.spectral_retrieval_model1.pdf
-INPUT .\figures\\C3.fig1.spectral_retrieval_model1.pdf
-INPUT figures\\C3.fig1.spectral_retrieval_model1.pdf
+INPUT .\figures\\C3.fig13.spectral_retrieval_model.pdf
+INPUT .\figures\\C3.fig13.spectral_retrieval_model.pdf
+INPUT figures\\C3.fig13.spectral_retrieval_model.pdf
 INPUT .\figures\\C3.fig3.spectral_correlation_speckle.pdf
 INPUT .\figures\\C3.fig3.spectral_correlation_speckle.pdf
 INPUT figures\\C3.fig3.spectral_correlation_speckle.pdf
@@ -1377,6 +1399,12 @@ INPUT .\figures\\C3.fig10.experimental_setup.pdf
 INPUT figures\\C3.fig10.experimental_setup.pdf
 INPUT .\figures\\C3.fig12.experimental_setup.pdf
 INPUT figures\\C3.fig12.experimental_setup.pdf
+INPUT .\figures\\C3.fig14.spectral_retrieval_model.pdf
+INPUT figures\\C3.fig14.spectral_retrieval_model.pdf
+INPUT .\figures\\C3.fig15.spectral_retrieval_model.pdf
+INPUT figures\\C3.fig15.spectral_retrieval_model.pdf
+INPUT .\figures\\C3.fig16.spectral_retrieval_model.pdf
+INPUT figures\\C3.fig16.spectral_retrieval_model.pdf
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl
