@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  28 DEC 2021 18:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  29 DEC 2021 17:50
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1674,14 +1674,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [6]
 File: figures//C3.fig6.simulation_results.pdf Graphic file (type pdf)
 <use figures//C3.fig6.simulation_results.pdf>
-LaTeX Font Info:    Trying to load font information for OMS+TimesNewRoman(0) on
- input line 210.
-LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 210.
-
-
-LaTeX Font Warning: Font shape `OMS/TimesNewRoman(0)/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 210.
-
+File: figures//C3.fig7.performance_under_fifferent_noise_levels.pdf Graphic fil
+e (type pdf)
+<use figures//C3.fig7.performance_under_fifferent_noise_levels.pdf>
+File: figures//C3.fig8.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig8.experimental_setup.pdf>
 
 Underfull \vbox (badness 7151) has occurred while \output is active []
 
@@ -1695,17 +1692,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [7]
-File: figures//C3.fig7.performance_under_fifferent_noise_levels.pdf Graphic fil
-e (type pdf)
-<use figures//C3.fig7.performance_under_fifferent_noise_levels.pdf>
-File: figures//C3.fig8.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig8.experimental_setup.pdf>
-File: figures//C3.fig9.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig9.experimental_setup.pdf>
-
-Underfull \vbox (badness 1460) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1715,6 +1701,14 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [8]
+LaTeX Font Info:    Trying to load font information for OMS+TimesNewRoman(0) on
+ input line 221.
+LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 221.
+
+
+LaTeX Font Warning: Font shape `OMS/TimesNewRoman(0)/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 221.
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1724,10 +1718,10 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [9]
+File: figures//C3.fig9.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig9.experimental_setup.pdf>
 File: figures//C3.fig11.experimental_setup.pdf Graphic file (type pdf)
 <use figures//C3.fig11.experimental_setup.pdf>
-File: figures//C3.fig10.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig10.experimental_setup.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1738,6 +1732,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [10]
+File: figures//C3.fig10.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig10.experimental_setup.pdf>
 File: figures//C3.fig12.experimental_setup.pdf Graphic file (type pdf)
 <use figures//C3.fig12.experimental_setup.pdf>
 File: figures//C3.fig14.spectral_retrieval_model.pdf Graphic file (type pdf)
@@ -1788,9 +1784,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [14]
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1801,6 +1794,12 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 [15]
 
+LaTeX Warning: Command \= invalid in math mode on input line 360.
+
+Missing character: There is no Ō in font cmmi12!
+File: figures//C3.fig17.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig17.spectral_retrieval_model.pdf>
+
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
 (fancyhdr)                \setlength{\headheight}{24.57175pt}.
@@ -1809,6 +1808,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [16]
+File: figures//C3.fig18.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig18.spectral_retrieval_model.pdf>
+File: figures//C3.fig19.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig19.spectral_retrieval_model.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1827,6 +1831,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1835,7 +1842,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[19])
+[19]
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1844,64 +1851,46 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[20] (templet.bbl
+[20]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[22]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[23])
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[24] (templet.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[21
-
-
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[22
-
-])
-\openout2 = `chapters/thanks.aux'.
-
- (chapters/thanks.tex
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[23
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[24
-
-])
-\openout2 = `chapters/resume.aux'.
-
- (chapters/resume.tex
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1926,6 +1915,60 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 [26
 
+])
+\openout2 = `chapters/thanks.aux'.
+
+ (chapters/thanks.tex
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[27
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[28
+
+])
+\openout2 = `chapters/resume.aux'.
+
+ (chapters/resume.tex
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[29
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[30
+
 ]) (templet.aux (chapters/abstract.aux) (chapters/substance.aux)
 (chapters/thanks.aux) (chapters/resume.aux))
 
@@ -1936,15 +1979,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: 7C707CDA18E0A89778C36E9A075BF806;4609.
+(rerunfilecheck)             Checksum: 2E281A59353FEB67FB03CDD4F22FFFE3;4724.
  ) 
 Here is how much of TeX's memory you used:
- 30494 strings out of 411295
- 637756 string characters out of 2836124
- 963772 words of memory out of 3000000
- 50321 multiletter control sequences out of 15000+600000
+ 30562 strings out of 411295
+ 641314 string characters out of 2836124
+ 963143 words of memory out of 3000000
+ 50386 multiletter control sequences out of 15000+600000
  414649 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (48 pages, 445704 bytes).
+Output written on templet.xdv (52 pages, 505284 bytes).
