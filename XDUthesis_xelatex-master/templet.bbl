@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\bibauthor}[1]{#1}
 \providecommand{\bibeditor}[1]{#1}
 \providecommand{\bibtranslator}[1]{#1}
@@ -23,5 +23,33 @@
 \providecommand{\bibyear}[1]{#1}
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{bertolotti_non-invasive_2012}
+\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
+  \bibtitle{Non-invasive imaging through opaque scattering
+  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
+  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
+  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
+
+\bibitem{Freund1988}
+\bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
+  propagation of optical waves through disordered media}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{1988}\@,
+  \bibvolume{61}\bibnumber{(20)}\thinspace{}\textnormal{:
+  }\bibpages{2328\thinspace{}\textnormal{--}\thinspace{}2331}\@.
+
+\bibitem{Yllmaz2019}
+\bibauthor{YıLMAZ H\@, HSU C~W\@, GOETSCHY A, et~al}\@. \bibtitle{{Angular
+  memory effect of transmission eigenchannels}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{2019}\@,
+  \bibvolume{123}\bibnumber{(20)}\thinspace{}\textnormal{:
+  }\bibpages{203901}\@.
+
+\bibitem{katz_non-invasive_2014}
+\bibauthor{KATZ O\@, HEIDMANN P\@, FINK M, et~al}\@. \bibtitle{Non-invasive
+  single-shot imaging through scattering layers and around corners via speckle
+  correlations}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
+  \bibyear{2014}\@, \bibvolume{8}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{784\thinspace{}\textnormal{--}\thinspace{}790}\@.
 
 \end{thebibliography}

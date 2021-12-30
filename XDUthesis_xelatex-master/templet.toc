@@ -18,20 +18,12 @@
 \contentsline {subsection}{\numberline {1.4.3}目标重建算法}{15}{subsection.1.4.3}%
 \contentsline {subsection}{\numberline {1.4.4}实验结果}{16}{subsection.1.4.4}%
 \contentsline {section}{\numberline {1.5}讨论}{18}{section.1.5}%
-\contentsline {section}{\numberline {1.6}摘要}{19}{section.1.6}%
-\contentsline {section}{\numberline {1.7}插图索引}{19}{section.1.7}%
-\contentsline {section}{\numberline {1.8}表格索引}{20}{section.1.8}%
-\contentsline {section}{\numberline {1.9}符号对照表}{20}{section.1.9}%
-\contentsline {section}{\numberline {1.10}缩略语对照表}{20}{section.1.10}%
-\contentsline {section}{\numberline {1.11}目录}{20}{section.1.11}%
-\contentsline {section}{\numberline {1.12}正文}{20}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}绪论}{21}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {1.12.2}各章节}{21}{subsection.1.12.2}%
-\contentsline {subsection}{\numberline {1.12.3}结论}{22}{subsection.1.12.3}%
-\contentsline {section}{\numberline {1.13}参考文献}{22}{section.1.13}%
-\contentsline {section}{\numberline {1.14}致谢}{23}{section.1.14}%
-\contentsline {section}{\numberline {1.15}作者简介}{23}{section.1.15}%
-\contentsline {section}{\numberline {1.16}其他}{24}{section.1.16}%
-\contentsline {chapter}{参考文献}{25}{section*.33}%
-\contentsline {chapter}{致谢}{27}{section*.35}%
-\contentsline {chapter}{作者简介}{29}{section*.37}%
+\contentsline {section}{\numberline {1.6}本章小结}{19}{section.1.6}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}基于三阶相关相位恢复的彩色成像方法}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}学位论文封面的编辑和打印要求}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.2}学位论文的版面设置要求}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}学位论文的打印、装订要求}{21}{section.2.3}%
+\contentsline {section}{\numberline {2.4}其他说明}{22}{section.2.4}%
+\contentsline {chapter}{参考文献}{23}{section*.33}%
+\contentsline {chapter}{致谢}{25}{section*.35}%
+\contentsline {chapter}{作者简介}{27}{section*.37}%
