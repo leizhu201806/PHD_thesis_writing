@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  30 DEC 2021 16:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  30 DEC 2021 17:21
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1851,10 +1851,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
  (chapters/edit.tex
 第二章
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1868,7 +1864,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 
-]
+])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1966,15 +1962,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: BD3CB6EBD695DC9AC8F38A7DBC7494DE;4136.
+(rerunfilecheck)             Checksum: D05EA65861232F60260BDF4FB76C34DE;4040.
  ) 
 Here is how much of TeX's memory you used:
  30540 strings out of 411295
  638776 string characters out of 2836124
- 963141 words of memory out of 3000000
+ 963045 words of memory out of 3000000
  50357 multiletter control sequences out of 15000+600000
  414649 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (50 pages, 465500 bytes).
+Output written on templet.xdv (50 pages, 477564 bytes).
