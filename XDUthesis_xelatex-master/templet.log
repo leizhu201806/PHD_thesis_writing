@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  31 DEC 2021 16:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  31 DEC 2021 16:56
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1906,12 +1906,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [23]
-chapters/edit.tex:113: Too many }'s.
-l.113 ...rthcott_algorithms_1988}，公式（\ref{eq:4.5}}
-                                                  ）可以表示为：
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
