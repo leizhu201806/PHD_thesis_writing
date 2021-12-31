@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\bibauthor}[1]{#1}
 \providecommand{\bibeditor}[1]{#1}
 \providecommand{\bibtranslator}[1]{#1}
@@ -51,5 +51,105 @@
   correlations}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
   \bibyear{2014}\@, \bibvolume{8}\bibnumber{(10)}\thinspace{}\textnormal{:
   }\bibpages{784\thinspace{}\textnormal{--}\thinspace{}790}\@.
+
+\bibitem{goodman_speckle_2007}
+\bibauthor{GOODMAN J~W}\@. \bibbooktitle{Speckle {Phenomena} in {Optics}:
+  {Theory} and {Applications}}\bibmark{[M]}\@.
+  \bibaddress{Chicago}\thinspace{}\textnormal{: }\bibpublisher{Roberts and
+  Company Publishers}\@, \bibyear{2007}\@.
+
+\bibitem{newman_imaging_2016}
+\bibauthor{NEWMAN J~A\@, LUO Q\@, WEBB K~J}\@. \bibtitle{Imaging {Hidden}
+  {Objects} with {Spatial} {Speckle} {Intensity} {Correlations} over {Object}
+  {Position}}\bibmark{[J]}\@. \bibjournal{Physical Review Letters}\@,
+  \bibyear{2016}\@, \bibvolume{116}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{073902}\@.
+
+\bibitem{godara_adaptive_2010}
+\bibauthor{GODARA P\@, DUBIS A~M\@, ROORDA A, et~al}\@. \bibtitle{Adaptive
+  optics retinal imaging: emerging clinical applications}\bibmark{[J]}\@.
+  \bibjournal{Optometry and Vision Science: Official Publication of the
+  American Academy of Optometry}\@, \bibyear{2010}\@,
+  \bibvolume{87}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{930\thinspace{}\textnormal{--}\thinspace{}941}\@.
+
+\bibitem{katz_looking_2012}
+\bibauthor{KATZ O\@, SMALL E\@, SILBERBERG Y}\@. \bibtitle{Looking around
+  corners and through thin turbid layers in real time with scattered incoherent
+  light}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@, \bibyear{2012}\@,
+  \bibvolume{6}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{549\thinspace{}\textnormal{--}\thinspace{}553}\@.
+
+\bibitem{larson_water-soluble_2003}
+\bibauthor{LARSON D~R\@, ZIPFEL W~R\@, WILLIAMS R~M, et~al}\@.
+  \bibtitle{Water-{Soluble} {Quantum} {Dots} for {Multiphoton} {Fluorescence}
+  {Imaging} in {Vivo}}\bibmark{[J]}\@. \bibjournal{Science}\@,
+  \bibyear{2003}\@.
+
+\bibitem{liu_imaging_2011}
+\bibauthor{LIU L\@, GARDECKI J~A\@, NADKARNI S~K, et~al}\@. \bibtitle{Imaging
+  the subcellular structure of human coronary atherosclerosis using
+  micro-optical coherence tomography}\bibmark{[J]}\@. \bibjournal{Nature
+  Medicine}\@, \bibyear{2011}\@,
+  \bibvolume{17}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1010\thinspace{}\textnormal{--}\thinspace{}1014}\@.
+
+\bibitem{paniagua-diaz_blind_2019}
+\bibauthor{PANIAGUA-DIAZ A~M\@, STARSHYNOV I\@, FAYARD N, et~al}\@.
+  \bibtitle{Blind ghost imaging}\bibmark{[J]}\@. \bibjournal{Optica}\@,
+  \bibyear{2019}\@, \bibvolume{6}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{460\thinspace{}\textnormal{--}\thinspace{}464}\@.
+
+\bibitem{park_full-field_2014}
+\bibauthor{PARK C\@, PARK J-H\@, RODRIGUEZ C, et~al}\@. \bibtitle{Full-{Field}
+  {Subwavelength} {Imaging} {Using} a {Scattering} {Superlens}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{2014}\@,
+  \bibvolume{113}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{113901}\@.
+
+\bibitem{conkey_color_2012}
+\bibauthor{CONKEY D~B\@, PIESTUN R}\@. \bibtitle{Color image projection through
+  a strongly scattering wall}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
+  \bibyear{2012}\@, \bibvolume{20}\bibnumber{(25)}\thinspace{}\textnormal{:
+  }\bibpages{27312\thinspace{}\textnormal{--}\thinspace{}27318}\@.
+
+\bibitem{leung_acousto-optic_2013}
+\bibauthor{LEUNG T~S\@, JIANG S}\@. \bibtitle{Acousto-optic imaging of a color
+  picture hidden behind a scattering layer}\bibmark{[J]}\@. \bibjournal{Optics
+  Express}\@, \bibyear{2013}\@,
+  \bibvolume{21}\bibnumber{(22)}\thinspace{}\textnormal{:
+  }\bibpages{26780\thinspace{}\textnormal{--}\thinspace{}26785}\@.
+
+\bibitem{sahoo_single-shot_2017}
+\bibauthor{SAHOO S~K\@, TANG D\@, DANG C}\@. \bibtitle{Single-shot
+  multispectral imaging with a monochromatic camera}\bibmark{[J]}\@.
+  \bibjournal{Optica}\@, \bibyear{2017}\@,
+  \bibvolume{4}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{1209\thinspace{}\textnormal{--}\thinspace{}1213}\@.
+
+\bibitem{wu_single-shot_2016}
+\bibauthor{WU T\@, KATZ O\@, SHAO X, et~al}\@. \bibtitle{Single-shot
+  diffraction-limited imaging through scattering layers via bispectrum
+  analysis}\bibmark{[J]}\@. \bibjournal{Optics Letters}\@, \bibyear{2016}\@,
+  \bibvolume{41}\bibnumber{(21)}\thinspace{}\textnormal{: }\bibpages{5003}\@.
+
+\bibitem{goodman_introduction_2005}
+\bibauthor{GOODMAN J~W}\@. \bibbooktitle{Introduction to {Fourier}
+  {Optics}}\bibmark{[M]}\@. \bibaddress{Chicago}\thinspace{}\textnormal{:
+  }\bibpublisher{Roberts and Company Publishers}\@, \bibyear{2005}\@.
+
+\bibitem{lohmann_speckle_1983}
+\bibauthor{LOHMANN A~W\@, WEIGELT G\@, WIRNITZER B}\@. \bibtitle{Speckle
+  masking in astronomy: triple correlation theory and
+  applications}\bibmark{[J]}\@. \bibjournal{Applied Optics}\@,
+  \bibyear{1983}\@, \bibvolume{22}\bibnumber{(24)}\thinspace{}\textnormal{:
+  }\bibpages{4028\thinspace{}\textnormal{--}\thinspace{}4037}\@.
+
+\bibitem{northcott_algorithms_1988}
+\bibauthor{NORTHCOTT M~J\@, AYERS G~R\@, DAINTY J~C}\@. \bibtitle{Algorithms
+  for image reconstruction from photon-limited data using the triple
+  correlation}\bibmark{[J]}\@. \bibjournal{JOSA A}\@, \bibyear{1988}\@,
+  \bibvolume{5}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{986\thinspace{}\textnormal{--}\thinspace{}992}\@.
 
 \end{thebibliography}

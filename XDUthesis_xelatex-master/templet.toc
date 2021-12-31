@@ -20,10 +20,12 @@
 \contentsline {section}{\numberline {1.5}讨论}{18}{section.1.5}%
 \contentsline {section}{\numberline {1.6}本章小结}{19}{section.1.6}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}基于三阶相关相位恢复的彩色成像方法}{21}{chapter.2}%
-\contentsline {section}{\numberline {2.1}现状}{21}{section.2.1}%
-\contentsline {section}{\numberline {2.2}学位论文的版面设置要求}{21}{section.2.2}%
-\contentsline {section}{\numberline {2.3}学位论文的打印、装订要求}{22}{section.2.3}%
-\contentsline {section}{\numberline {2.4}其他说明}{22}{section.2.4}%
-\contentsline {chapter}{参考文献}{23}{section*.33}%
-\contentsline {chapter}{致谢}{25}{section*.35}%
-\contentsline {chapter}{作者简介}{27}{section*.37}%
+\contentsline {section}{\numberline {2.1}基于三阶相关相位恢复算法的彩色像基本理论}{22}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}振幅恢复}{23}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}相位恢复}{23}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}学位论文的版面设置要求}{25}{section.2.2}%
+\contentsline {section}{\numberline {2.3}学位论文的打印、装订要求}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}其他说明}{25}{section.2.4}%
+\contentsline {chapter}{参考文献}{27}{section*.36}%
+\contentsline {chapter}{致谢}{29}{section*.38}%
+\contentsline {chapter}{作者简介}{31}{section*.40}%

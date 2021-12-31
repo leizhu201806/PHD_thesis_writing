@@ -22,45 +22,71 @@ Warning--string name "nov" is undefined
 --line 403 of file bib/tex.bib
 Warning--string name "oct" is undefined
 --line 448 of file bib/tex.bib
-You've used 4 entries,
+Warning--string name "feb" is undefined
+--line 480 of file bib/tex.bib
+Warning--string name "dec" is undefined
+--line 498 of file bib/tex.bib
+Warning--string name "may" is undefined
+--line 516 of file bib/tex.bib
+Warning--string name "jul" is undefined
+--line 532 of file bib/tex.bib
+Warning--string name "apr" is undefined
+--line 551 of file bib/tex.bib
+Warning--string name "aug" is undefined
+--line 569 of file bib/tex.bib
+Warning--string name "sep" is undefined
+--line 590 of file bib/tex.bib
+Warning--string name "dec" is undefined
+--line 609 of file bib/tex.bib
+Warning--string name "nov" is undefined
+--line 628 of file bib/tex.bib
+Warning--string name "oct" is undefined
+--line 647 of file bib/tex.bib
+Warning--string name "nov" is undefined
+--line 664 of file bib/tex.bib
+Warning--string name "dec" is undefined
+--line 696 of file bib/tex.bib
+Warning--string name "jul" is undefined
+--line 716 of file bib/tex.bib
+You've used 19 entries,
             3054 wiz_defined-function locations,
-            738 strings with 6797 characters,
-and the built_in function-call counts, 9423 in all, are:
-= -- 1078
-> -- 16
-< -- 36
-+ -- 877
-- -- 57
-* -- 235
-:= -- 1072
+            830 strings with 9759 characters,
+and the built_in function-call counts, 39463 in all, are:
+= -- 4487
+> -- 70
+< -- 159
++ -- 3556
+- -- 240
+* -- 1052
+:= -- 4426
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 24
+call.type$ -- 19
+change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 1345
-empty$ -- 313
-format.name$ -- 48
-if$ -- 2503
+cite$ -- 19
+duplicate$ -- 5679
+empty$ -- 1396
+format.name$ -- 204
+if$ -- 10482
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 19
 missing$ -- 0
-newline$ -- 39
-num.names$ -- 4
-pop$ -- 118
+newline$ -- 84
+num.names$ -- 19
+pop$ -- 499
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 61
+skip$ -- 289
 stack$ -- 0
-substring$ -- 1155
-swap$ -- 227
+substring$ -- 4850
+swap$ -- 1028
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 110
-width$ -- 5
-write$ -- 87
-(There were 2 warnings)
+while$ -- 461
+width$ -- 21
+write$ -- 301
+(There were 15 warnings)
