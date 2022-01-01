@@ -117,7 +117,60 @@
     \mathcal{F} \{ I_m \}^{(3)} = C_m^{(3)}*\mathcal{F}\{ O \}^{(3)}
 \end{aligned}
 \label{eq:4.8}
-\end{equation}其中，$^{(3)}$表示三阶相关运算。
+\end{equation}其中，$\cdot ^{(3)}$表示三阶相关运算。
+
+在天文成像中，可以通过多帧图像平均的方式获得光学系统的OTF。透过散射介质成像，其成像模型与天文成像中的模型极其相似。天文成像通过时间平均的方式实现了光学系统OTF的获取，我们将在散斑成像中通过空间平均的方式实现。我们将将散斑图划分为$M$个子散斑图来执行，假设每个子散斑具有各自的OTF。因此，通过散射介质成像的OTF可以表示为：
+\begin{equation}
+\begin{aligned}
+    C(\mu) = \langle C_m(\mu)  \rangle
+\end{aligned}
+\label{eq:4.9}
+\end{equation}其中，$\langle \cdot  \rangle$表示平均运算。
+
+根据三阶相关理论\cite{lohmann_speckle_1983,northcott_algorithms_1988}，公式（\ref{eq:4.9}）可以表示为：
+\begin{equation}
+\begin{aligned}
+    \langle C_m(\mu,\nu)^{(3)} \rangle= \langle C_m(\mu) C_m(\nu) C_m(-\mu-\nu)  \rangle
+\end{aligned}
+\label{eq:4.10}
+\end{equation}然后，我们将公式（\ref{eq:4.7}）带入公式（\ref{eq:4.10}）可以获得：
+
+\begin{equation}
+\begin{aligned}
+    \langle C_m(\mu,\nu)^{(3)} \rangle= &\iiint P_{m}(\mu^{\prime}) P_{m}^{*}(\mu + \mu^{\prime}) P_{m}(\mu^{\prime}) P_{m}^{*}(\mu^{\prime} + \nu) P_{m}(\omega) P_{m}^{*}(\omega -\mu - \nu) \\ &\langle R_{m}(\mu^{\prime}) R_{m}^{*}(\mu + \mu^{\prime}) R_{m}(\mu^{\prime}) R_{m}^{*}(\mu^{\prime} + \nu) R_{m}(\omega) R_{m}^{*}(\omega -\mu - \nu) \rangle \mathrm{d}{\mu^{\prime}} \mathrm{d}{\nu^{\prime}} \mathrm{d}{\omega}
+\end{aligned}
+\label{eq:4.11}
+\end{equation}
+
+根据散射特性，我们可知散射介质的散射效应$R_{m}$是符合高斯统计且具有各态历经性的特点，并且相互之间的相关函数为$\delta$，所以我们将天文学中的时间平均替换为空间平均，即；
+
+\begin{equation}
+\begin{aligned}
+    \langle R_{m}(\mu^{\prime}) R_{m}^{*}(\mu^{\prime}+\mu) \rangle= \delta(\mu)
+\end{aligned}
+\label{eq:4.12}
+\end{equation}
+
+将公式（\ref{eq:4.12}）带入公式（\ref{eq:4.11}），我们可以获得
+
+\begin{equation}
+\begin{aligned}
+    \langle C_m(\mu,\nu)^{(3)} \rangle = &\langle C_m(\mu) \rangle \langle C_m(\nu) \cdot C_m(-\nu-\mu) \rangle + \\
+		& \langle C_m(\mu)\cdot C_m(\nu) \rangle \langle C_m(-\nu-\mu) \rangle +\\
+		& \langle C_m(\nu) \rangle \langle C_m(\mu) \cdot C_m(-\nu-\mu) \rangle -\\
+		& 2\langle C_m(\nu) \rangle \langle C_m(\mu)\rangle \langle C_m(-\nu-\mu) \rangle +\\
+		& + \kappa(\mu,\nu)^{(3)}
+\end{aligned}
+\label{eq:4.13}
+\end{equation}其中，函数$\kappa(\mu,\nu)^{(3)}$的定义为：
+
+\begin{equation}
+\begin{aligned}
+    \kappa(\mu,\nu)^{(3)} = &\int |P_m(\omega)|^2 \cdot |P_m(\mu+\nu+\omega)|^2 \\
+		& \left[|P_m(\mu + \omega)|^2 + |P_m(\nu+\omega)|^2 \right]^2 \mathrm{d}{\omega}
+\end{aligned}
+\label{eq:4.13}
+\end{equation}
 
 \section{学位论文的版面设置要求}
 

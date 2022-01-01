@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  31 DEC 2021 16:56
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  1 JAN 2022 13:37
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1041,7 +1041,11 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 (templet.aux (chapters/abstract.aux) (chapters/substance.aux)
-(chapters/edit.aux) (chapters/thanks.aux) (chapters/resume.aux))
+(chapters/edit.aux
+
+LaTeX Warning: Label `eq:4.13' multiply defined.
+
+) (chapters/thanks.aux) (chapters/resume.aux))
 \openout1 = `templet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1914,7 +1918,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[24])
+[24]
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1923,7 +1927,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[25]
+[25])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1932,11 +1936,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[26
-
-
-
-] (templet.bbl
+[26] (templet.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1949,6 +1949,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [27
+
+
+
 
 ]
 
@@ -2023,16 +2026,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `templet.out' has not changed.
 (rerunfilecheck)             Checksum: 3DA5466A99B7AAFE8B5AC84777B9E9CD;4438.
  ) 
 Here is how much of TeX's memory you used:
- 30980 strings out of 411295
- 648127 string characters out of 2836124
- 971809 words of memory out of 3000000
- 50789 multiletter control sequences out of 15000+600000
+ 30985 strings out of 411295
+ 648171 string characters out of 2836124
+ 972024 words of memory out of 3000000
+ 50794 multiletter control sequences out of 15000+600000
  414914 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,617s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (54 pages, 555560 bytes).
+Output written on templet.xdv (54 pages, 565720 bytes).
