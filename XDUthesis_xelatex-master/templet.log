@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  2 JAN 2022 14:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  2 JAN 2022 14:32
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1947,8 +1947,10 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [27]
-Underfull \vbox (badness 2856) has occurred while \output is active []
-
+File: figures//C4.fig6.pdf Graphic file (type pdf)
+<use figures//C4.fig6.pdf>
+File: figures//C4.fig7.pdf Graphic file (type pdf)
+<use figures//C4.fig7.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1958,7 +1960,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[28])
+[28]
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1967,7 +1969,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[29]
+[29])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1976,11 +1978,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[30
-
-
-
-] (templet.bbl
+[30] (templet.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1993,6 +1991,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [31
+
+
+
 
 ]
 
@@ -2068,15 +2069,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: A4ED1CE65914D8DF25FD97395E5ED17D;4716.
+(rerunfilecheck)             Checksum: EC86919C4741BA81E2D278B9386396FA;4716.
  ) 
 Here is how much of TeX's memory you used:
- 31030 strings out of 411295
- 649582 string characters out of 2836124
- 972613 words of memory out of 3000000
- 50837 multiletter control sequences out of 15000+600000
+ 31054 strings out of 411295
+ 650098 string characters out of 2836124
+ 972714 words of memory out of 3000000
+ 50859 multiletter control sequences out of 15000+600000
  414914 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (58 pages, 599092 bytes).
+Output written on templet.xdv (58 pages, 606684 bytes).

@@ -1446,6 +1446,10 @@ INPUT .\figures\\C4.fig4.pdf
 INPUT figures\\C4.fig4.pdf
 INPUT .\figures\\C4.fig5.pdf
 INPUT figures\\C4.fig5.pdf
+INPUT .\figures\\C4.fig6.pdf
+INPUT figures\\C4.fig6.pdf
+INPUT .\figures\\C4.fig7.pdf
+INPUT figures\\C4.fig7.pdf
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl
