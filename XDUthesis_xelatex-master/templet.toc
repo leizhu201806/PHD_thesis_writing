@@ -23,9 +23,11 @@
 \contentsline {section}{\numberline {2.1}基于三阶相关相位恢复算法的彩色像基本理论}{22}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}振幅恢复}{23}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}相位恢复}{23}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}学位论文的版面设置要求}{26}{section.2.2}%
-\contentsline {section}{\numberline {2.3}学位论文的打印、装订要求}{26}{section.2.3}%
-\contentsline {section}{\numberline {2.4}其他说明}{26}{section.2.4}%
-\contentsline {chapter}{参考文献}{27}{section*.36}%
-\contentsline {chapter}{致谢}{29}{section*.38}%
-\contentsline {chapter}{作者简介}{31}{section*.40}%
+\contentsline {subsection}{\numberline {2.1.3}仿真验证及方法对比}{27}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}成像系统与结果分析}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}成像系统}{28}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}学位论文的打印、装订要求}{29}{section.2.3}%
+\contentsline {section}{\numberline {2.4}其他说明}{29}{section.2.4}%
+\contentsline {chapter}{参考文献}{31}{section*.38}%
+\contentsline {chapter}{致谢}{33}{section*.40}%
+\contentsline {chapter}{作者简介}{35}{section*.42}%

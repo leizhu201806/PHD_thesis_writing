@@ -169,10 +169,79 @@
     \kappa(\mu,\nu)^{(3)} = &\int |P_m(\omega)|^2 \cdot |P_m(\mu+\nu+\omega)|^2 \\
 		& \left[|P_m(\mu + \omega)|^2 + |P_m(\nu+\omega)|^2 \right]^2 \mathrm{d}{\omega}
 \end{aligned}
-\label{eq:4.13}
+\label{eq:4.14}
 \end{equation}
 
-\section{学位论文的版面设置要求}
+由公式（\ref{eq:4.1}）可知，$\kappa(\mu,\nu)^{(3)}$取决于散射介质孔径函数的影响$P_m$。然后，我们将公式（\ref{eq:4.13}）带入公式（\ref{eq:4.8}）可得：
+
+\begin{equation}
+\begin{aligned}
+    \langle C_m(\mu,\nu)^{(3)} \rangle \cdot \mathcal{F}\{ O \}^{(3)}= &\langle C_m(\mu) \rangle \langle C_m(\nu) \cdot C_m(-\nu-\mu) \rangle \cdot \mathcal{F}\{ O \}^{(3)}+ \\
+		& \langle C_m(\mu)\cdot C_m(\nu) \rangle \langle C_m(-\nu-\mu) \rangle \cdot \mathcal{F}\{ O \}^{(3)}+\\
+		& \langle C_m(\nu) \rangle \langle C_m(\mu) \cdot C_m(-\nu-\mu) \rangle \cdot \mathcal{F}\{ O \}^{(3)}-\\
+		& 2\langle C_m(\nu) \rangle \langle C_m(\mu)\rangle \langle C_m(-\nu-\mu) \rangle \cdot \mathcal{F}\{ O \}^{(3)}+\\
+		& + \kappa(\mu,\nu)^{(3)}\cdot \mathcal{F}\{ O \}^{(3)}
+\end{aligned}
+\label{eq:4.15}
+\end{equation}
+在公式（\ref{eq:4.15}）中，$\langle C_m(\mu) \rangle$拥有与天文散斑成像中长曝光时OTF相同的特性。因此，他是非零的，只有轴上$\mu = 0$，$\nu = 0$，$\mu = -\nu$和$\mu =\nu= 0$时值为零。所以，继续推导公式（\ref{eq:4.15}）可得：
+
+\begin{equation}
+\begin{aligned}
+    \langle C_m(\mu,\nu)^{(3)} \rangle \cdot \mathcal{F}\{ O \}^{(3)} \approx \kappa(\mu,\nu)^{(3)}\cdot \mathcal{F}\{ O \}^{(3)} \approx   \langle \mathcal{F}\{ I_m \}^{(3)} \rangle
+\end{aligned}
+\label{eq:4.16}
+\end{equation}
+
+根据公式（\ref{eq:4.14}）可知：$\kappa(\mu,\nu)^{(3)}$与散射介质的影响$R_m$无关。因此，公式（\ref{eq:4.16}）可以简化为:
+
+\begin{equation}
+\begin{aligned}
+   \mathcal{F}\{ O \}^{(3)} \approx   \langle \mathcal{F}\{ I_m \}^{(3)} \rangle
+\end{aligned}
+\label{eq:4.17}
+\end{equation}
+
+因此，目标的三阶相关相位$\mathcal{F}\{ O \}^{(3)}$近似等于所有子散斑三阶相关相位的平均$\langle \mathcal{F}\{ I_m \}^{(3)} \rangle$。
+
+根据三阶相关理论，目标的傅里叶相位$\phi_{l}$和子散斑图案的三阶相关的相位$\beta_{m}^{(3)}$应满足方程：
+
+\begin{equation}
+\begin{aligned}
+   \mbox{exp}[i\phi(l)]= \mbox{exp}\left[i(\phi(\mu)+\phi(\nu)- \langle {\beta_{m}^{(3)}(\mu,\nu)} \rangle)\right]
+\end{aligned}
+\label{eq:4.18}
+\end{equation}其中，$\nu=l-\mu$,
+\begin{equation}
+\begin{aligned}
+  {\beta_{m}^{(3)}(\mu,\nu)}= \mbox{arg}\left[\mathcal{F}\{I_m\}(\mu)\cdot \mathcal{F}\{I_m\}(\nu) \cdot \mathcal{F}\{I_m\}(-\mu-\nu)\right]
+\end{aligned}
+\label{eq:4.19}
+\end{equation}
+然后，根据公式（\ref{eq:4.18}）可以恢复隐藏目标的傅里叶相位信息。在傅立叶域中，第一个频率的值与物体的位置有关。在实践中，我们将第一个频率$\phi_{1}$ 和$\phi_{0}$的相位设置为零。为了避免直接计算二维图像的三阶相关所引入的巨大计算工作，我们根据中心切片定理，通过Radon变换\cite{ayers_knoxthompson_1988}将子散斑图案转换为多个一维信号，计算多个以为信号的三阶相关，最后通过逆Radon变换的方式获取傅里叶相位信息。如图\ref{fig:4.3}c所示，其为来自第$m$个子散斑的某一以维信号的三阶相位${\beta_{m}^{(3)}(\mu,\nu)}$。
+
+\subsection{仿真验证及方法对比}
+为了验证基于三阶相关相位恢复的散斑成像的有效性，我们进行了相应的数字模拟仿真，其结果如图\ref{fig:4.4}所示。从图\ref{fig:4.4}可以看出，原始目标的方向与重建的目标的方向完全保持一致，该特性保证了透过散射介质彩色成像的顺利进行。此外，我们将不同的相位恢复算法：三阶相关，HIO和广义近似信息传递的相位恢复算法（Phase Retrieval via Generalized Approximate Message Passing，prGAMP所重建的结果进行了对比，其结果如图\ref{fig:4.5}所示，其中图（a）为原始目标；（b）为散斑图案；（c）为三阶相关相位恢复算法所对应的重建结果；（d）为HIO算法所对应的重建结果；（e）为 prGAMP算法所对应的重建结果。实验结果同时也证明了基于三阶相位恢复算法能够保证正确的恢复隐藏目标的图像。
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.55]{C4.fig4}
+	\caption{基于三阶相关相位恢复的散斑成像仿真结果}
+	\label{fig:4.4}
+\end{figure}
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.55]{C4.fig5}
+	\caption{不同相位恢复算法重建结果对比}
+	\label{fig:4.5}
+\end{figure}
+
+通过以上的仿真结果和实验结果可以得出：三阶相位相关相位恢复算法能够有效的恢复隐藏目标的方向信息。于是，这一特性能够确保在彩色成像中不用颜色通道中的方向时正确的，该特性有利于合成彩色图像。
+
+\section{成像系统与结果分析}
+\subsection{成像系统}
+该章中，我们所采用的成像结构与第二章中成像臂的模型相似，如图\ref{fig:4.2}a所示。采用LED（$\lambda = 400 \sim 800 nm$）为照明光源，当照明光穿过物体后照明散射介质，然后被相机所获取。实验中，我们采用干涉型滤光片对散射光进行滤波进而获取不同彩色通道的光，相机为CMOS（Andor, Zyla），像素尺寸为：$6.5\mu m$,像素数为：$2160 \times 2560$。
 
 （1）行间距：固定值~20~磅（题名页除外）。
 
