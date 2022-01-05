@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  4 JAN 2022 17:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  5 JAN 2022 18:30
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1951,9 +1951,6 @@ File: figures//C4.fig6.pdf Graphic file (type pdf)
 File: figures//C4.fig7.pdf Graphic file (type pdf)
 <use figures//C4.fig7.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1979,6 +1976,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [29]
 File: figures//C4.fig10.pdf Graphic file (type pdf)
 <use figures//C4.fig10.pdf>
+File: figures//C4.fig11.pdf Graphic file (type pdf)
+<use figures//C4.fig11.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1989,8 +1988,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [30]
-File: figures//C4.fig11.pdf Graphic file (type pdf)
-<use figures//C4.fig11.pdf>
 File: figures//C4.fig12.pdf Graphic file (type pdf)
 <use figures//C4.fig12.pdf>
 
@@ -2005,6 +2002,16 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [31]
 File: figures//C4.fig13.pdf Graphic file (type pdf)
 <use figures//C4.fig13.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[32]
 File: figures//C4.fig14.pdf Graphic file (type pdf)
 <use figures//C4.fig14.pdf>
 
@@ -2016,16 +2023,15 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[32])
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
 [33]
+File: figures//C4.fig15.pdf Graphic file (type pdf)
+<use figures//C4.fig15.pdf>
+File: figures//C4.fig16.pdf Graphic file (type pdf)
+<use figures//C4.fig16.pdf>
+)
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2034,7 +2040,25 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[34
+[34]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[35]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[36
 
 
 
@@ -2050,7 +2074,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[35
+[37
 
 ]
 
@@ -2061,7 +2085,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[36])
+[38])
 \openout2 = `chapters/thanks.aux'.
 
  (chapters/thanks.tex
@@ -2073,35 +2097,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[37
-
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[38
-
-])
-\openout2 = `chapters/resume.aux'.
-
- (chapters/resume.tex
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
 [39
-
 
 
 
@@ -2116,6 +2112,34 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 [40
 
+])
+\openout2 = `chapters/resume.aux'.
+
+ (chapters/resume.tex
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[41
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[42
+
 ]) (templet.aux (chapters/abstract.aux) (chapters/substance.aux)
 (chapters/edit.aux) (chapters/thanks.aux) (chapters/resume.aux))
 
@@ -2126,15 +2150,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: 8ECDB64673840CB81A235D1D1C7FA6DF;4970.
+(rerunfilecheck)             Checksum: DC3012F1C0A32A4E559D524C41E3C496;5383.
  ) 
 Here is how much of TeX's memory you used:
- 31138 strings out of 411295
- 651964 string characters out of 2836124
- 973308 words of memory out of 3000000
- 50936 multiletter control sequences out of 15000+600000
+ 31163 strings out of 411295
+ 652517 string characters out of 2836124
+ 973842 words of memory out of 3000000
+ 50959 multiletter control sequences out of 15000+600000
  414914 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (62 pages, 657656 bytes).
+Output written on templet.xdv (64 pages, 681780 bytes).
