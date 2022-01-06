@@ -52,45 +52,55 @@ Warning--string name "jul" is undefined
 --line 716 of file bib/tex.bib
 Warning--string name "jul" is undefined
 --line 736 of file bib/tex.bib
-You've used 20 entries,
+Warning--string name "nov" is undefined
+--line 754 of file bib/tex.bib
+Warning--string name "sep" is undefined
+--line 771 of file bib/tex.bib
+Warning--string name "feb" is undefined
+--line 787 of file bib/tex.bib
+Warning--string name "nov" is undefined
+--line 849 of file bib/tex.bib
+Warning--string name "mar" is undefined
+--line 865 of file bib/tex.bib
+You've used 41 entries,
             3054 wiz_defined-function locations,
-            835 strings with 9938 characters,
-and the built_in function-call counts, 42164 in all, are:
-= -- 4804
-> -- 74
-< -- 168
-+ -- 3804
-- -- 255
-* -- 1115
-:= -- 4727
+            960 strings with 14336 characters,
+and the built_in function-call counts, 82673 in all, are:
+= -- 9362
+> -- 150
+< -- 341
++ -- 7511
+- -- 511
+* -- 2264
+:= -- 9347
 add.period$ -- 0
-call.type$ -- 20
-change.case$ -- 108
+call.type$ -- 41
+change.case$ -- 218
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 6085
-empty$ -- 1486
-format.name$ -- 216
-if$ -- 11197
+cite$ -- 41
+duplicate$ -- 11786
+empty$ -- 2879
+format.name$ -- 436
+if$ -- 21976
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 41
 missing$ -- 0
-newline$ -- 87
-num.names$ -- 20
-pop$ -- 535
+newline$ -- 150
+num.names$ -- 41
+pop$ -- 1048
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 305
+skip$ -- 615
 stack$ -- 0
-substring$ -- 5196
-swap$ -- 1092
+substring$ -- 10052
+swap$ -- 2214
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 491
-width$ -- 22
-write$ -- 316
-(There were 16 warnings)
+while$ -- 981
+width$ -- 43
+write$ -- 624
+(There were 21 warnings)

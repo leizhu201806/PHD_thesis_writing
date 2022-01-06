@@ -1,79 +1,42 @@
 
 \chapter{基于波动随机照明的透过散射介质超光学记忆效应范围成像}
 
-图：包括曲线图、示意图、流程图、框图等。图序号一律用阿拉伯数字分章依序编码，如：图~1.3~、图~2.11~。
+非侵入式光学成像在从生物成像技术\cite{zhao_non-invasive_2001,artzi_vivo_2011}到光学检测\cite{kozloff_non-invasive_2009}的各个领域都有重要应用。但是，不均匀的样品（例如生物组织）会散射光，从而导致探测器上出现复杂的散斑图案\cite{Goodman1976,Bender}。
+随着穿透深度的增加，从散射光中分离出少量的弹道光成为一个很大的挑战\cite{Abramson1978,huang_optical_1991}。多年来，人们提出了许多方法来通过利用或抑制散射光来克服透过散射介质实现非入侵成像的问题。随着空间光调制器的发展，许多方法已经被提出实现控制和操纵散射光的方法\cite{Mosk2012,rotter_light_2017}。目前，已经提出了几种技术来通过使用反馈信号来优化入射光波前来实现聚焦，以重新形成一个焦点，然后利用扫描的方式实现成像\cite{Vellekoop2007,Horstmeyer2015}。这些技术通常需要途径至散射层的两侧获取信号以优化波前，这些条件极大地限制了它们在实际场景中的应用。
+为了克服这个问题，已经提出了基于波前整形和各种反馈信号（例如荧光或超声信号）的其他策略\cite{Horstmeyer2015,Katz2019,Popoff2010,Hofer2019}，实现波前整形。然而，这些方法要么需要较长的采集时间，要么仅限于小视场 。
+另一方面，还提出了几种利用角散斑相关性的技术\cite{bertolotti_non-invasive_2012,katz_non-invasive_2014}，即光学记忆效应\cite{Freund1988,Yllmaz2019,Osnabrugge}，用于对隐藏在散射介质后面的物体进行成像。这些方法计算散斑图案的自相关，其本质上利用散斑的自相关与隐藏目标的自相关相同，并使用相位检索算法从自相关重建对象图像。虽然这些方法速度很快，但它们的成像范围仍然受到光学记忆效应范围的限制。前面章节中，我们对基于光学记忆效应下的散斑成像进行了原理介绍和实验验证。
 
-每一个图应有简短确切的图名，连同图序号置于图的正下方。图名称、图中的内容字号为五号，中文字体为宋体，英文字体为~Times New Roman~，行距一般为单倍行距。图中坐标上标注的符号和缩略词必须与正文保持一致。引用图应在图题右上角标出文献来源；曲线图的纵横坐标必须标注“量、标准规定符号、单位”，这三者只有在不必要标明（如无量纲等）的情况下方可省略。
+线性荧光广泛应用于生物学和生物医学科学\cite{Ruan2020,Lichtman2005,mangeat_super_resolved_2021}。 它能够对细胞、亚细胞或分子成分进行成像，并具有空间分辨率高、对比度高、速度快的优点。近年来，许多技术允许使用荧光通过散射介质进行聚焦和成像。
+即便如此，这些方法要么依赖于引导星 \cite{Hhorstmeyer} 的使用，仅限于光学记忆效应范围 \cite{hofer_wide_2018}，要么需要表征散射介质 \cite{boniface_non_invasive_2020}。
 
-图与正文之间一般应空一行。
+在本章，我们提出了一种新型的成像方法，该方法使用简单地利用旋转漫射器生成的波动随机散斑照明，允许透过散射介质在一定深度上远远超出光学记忆效应范围的进行非侵入性成像。当随机照明散斑产生后，每个荧光发射器都会在探测器上产生独特的散斑图案，我们称其为“散斑指纹”。相机所捕获的每张图像都是来自不同荧光发射器的所产生的散斑指纹的非相干总和。当随机照明随着旋转器改变时，探测器上所接收的散斑的各个散斑指纹的权重随之改变。为了检索每个单独的指纹，我们在随机改变光照的同时捕获一组图像，并使用非负矩阵分解 (Non-negative Matrix Factorization，NMF) 算法对采集的数据进行去混叠。随后，通过探索指纹之间的相关性，使用指纹重建最终图像。为了验证该技术的有效性，我们通过实验证明了我们在荧光珠和连续荧光物体上的非侵入性成像方法。
 
-\begin{figure}[!h]
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[height=5cm ,width=5cm]{figures/fig.eps}\\
-\caption{插图示例}
+\section{基于波动随机照明的透过散射介质超光学记忆效应范围成像基本原理}
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.75]{C5.fig1}
+	\caption{非入侵成像系统示意图}
+	\label{fig:5.1}
 \end{figure}
 
-公式：正文中的公式、算式、方程式等必须编排序号，序号一律用阿拉伯数字分章依序编码，如：(3-32)、 (6-21)。
-
-对于较长的公式，另起行居中横排，只可在符号处（如：+、-、*、/、$<$$>$等）转行。公式序号标注于该式所在行（当有续行时，应标注于最后一行）的最右边。连续性的公式在“=”处排列整齐。大于~999~的整数或多于三位的小数，一律用半个阿拉伯数字符的小间隔分开；小于~1~的数应将~0~置Bonjour
-
-Le service Izly évolue. C’est pourquoi nous mettons à jour nos Conditions générales d’utilisation (CGU).
-
-Quelles sont nos principales modifications des CGU ?
-Le remplacement du rechargement par prélèvement SEPA par la mise en service d’un nouveau moyen de rechargement : le virement sécurisé, avec notre partenaire Fintecture,
-La modification des modalités de prévenance lors de la modification des Conditions générales d’utilisation à l’initiative de XPOLLENS.
-
-Vous voulez en savoir plus ?
-Nous vous invitons à consulter à cette page l’intégralité de nos nouvelles conditions générales d’utilisation.
-Ces modifications entreront en vigueur le 13 septembre 2021. Si vous continuez à utiliser le service Izly après cette date, cela signifie que vous acceptez les conditions générales d’utilisation mises à jour.
-À tout moment, vous avez la possibilité de récupérer le solde de votre compte et résilier le service, depuis votre espace utilisateur.
-
-Merci de faire partie des utilisateurs Izly !
-L’équipe Izly于小数点之前。公式的行距一般为单倍行距。
-
-公式与正文之间一般应空一行。
+当激光通过旋转漫反射器时，入射激光被添加了随机相位实现了入射激光的随机调制，进而调制光透过散射介质产生了未知的随机散斑，未知的散斑照明目标。利用随机散斑照明目标后，目标产生自身的激发光，激发光传播并通过散射介质，产生散斑最终被相机所接收，此时相机所获得的散斑为不同散斑指纹的非相干总和。尽管捕获的图像对比度低、随机且看似无信息，但它们包含来自对象独立发射器的所有散斑指纹，且其各自的权重随着随机照明的改变具有时间的多样性。此外，光学记忆效应范围内的独立发射器将在相机上产生相关但平移的散斑指纹 \cite{Freund1988}，而光学记忆效应范围外的发射器将产生完全不相关的散斑指纹。对于给定的散斑照明，捕获的图像 $I_{\textsl{fluo}}$ 可以表示为具有不同权重的散斑指纹的线性叠加。因此，相机图像$I_{\textsl{fluo}}$由下式给出：
 
 \begin{equation}
-\begin{split}
-{X_{e1}}\left( {s,{n_1},{k_1}} \right) &= \left( {\begin{array}{*{20}{c}}
-{{k_1}}\\
-s
-\end{array}} \right)\frac{{{n_1}!}}{{\left( {{n_1} - s} \right)!}}\sum\nolimits_{v = 0}^{\min \left( {{n_1} - s,{k_1} - s} \right)} {{{\left( { - 1} \right)}^v}\left( {\begin{array}{*{20}{c}}
-{{k_1} - s}\\
-v
-\end{array}} \right)} \\
-& \times \frac{{\left( {{n_1} - s} \right)!}}{{\left( {{n_1} - s - v} \right)!}}{\left( {{n_1} - s - v} \right)^{{k_1} - s - v}}
-\end{split}
+\begin{aligned}
+I_{fluo}(r,t) = \sum^{P}_{k=1} w_{k}(r) h_{k}(t),
+\label{eq:5.1}
+\end{aligned}
 \end{equation}
-~\par
-表：包括分类项目和数据，一般要求分类项目由左至右横排，数据从上到下竖列。
+其中， $I_{fluo}(r,t)$为对应于第$t$次照明时相机所接收到低对比度散斑，$r$为空间坐标，$w_{k}(r)$为第$k$个独立发射器所对应的散斑指纹，$h_{k}(t)$为第$t$次照明时第$k$个独立发射器所接收到的激光光的强度，$P$为系统中独立发射器的数量。
 
-分类项目横排中必须标明符号或单位，竖列的数据栏中不要出现“同上”、“同左”等词语，一律要填写具体的数字或文字。表序号一律用阿拉伯数字分章依序编码，如：表~2.5~、表~10.3~。
+当拥有足够多的随机散斑照明时，就可以采集到足够的低对比度散斑图案，通过NNF对散斑集进行去混叠，获得各自发射器的散斑指纹，该步骤将在接下来部分进行详细介绍。
 
-每一个表格应有简短确切的题名，连同表序号置于表的正上方。表名称、表中的内容居中排列，字号为五号，中文字体为宋体，英文字体为~Times New Roman~，行距一般与正文保持一致。表格线统一用单线条，磅值为~0.5~磅。
+\subsection{散斑指纹去混叠}
 
-表格与正文之间一般应空一行。
-
-\begin{table}[!htbp]
-\renewcommand{\arraystretch}{1.5}
-\zihao{5}\caption{表格示例}
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline
-\multirow{2}{*}{\backslashbox{电性能参数}{馈电方式}}&\multirow{2}{*}{探针} & \multirow{2}{*}{环形缝隙}  & \multicolumn{2}{c|}{探针和缝隙} & \multicolumn{2}{c|}{缝隙和CPW} \\
-\cline{4-7} & & &  探针 & 缝隙 & 缝隙 & CPW \\
-\hline
-谐振频率 & 9.5 GHz & 8.8 GHz & 9.4 GHz & 9.8 GHz & 9.2 GHz&9.3 GHz\\
-\hline
-\tabincell{c}{带宽 \\ $|S_{11}|$ $<$-10 dB）}& 7.3\% & 4.5\% & 6.9\% & 6.8\% & 4.9\% & 5.3\% \\
-\hline
-\tabincell{c}{隔离度\\（带内最差）} & -16.5 dB & -17 dB & \multicolumn{2}{c|}{-31 dB} & \multicolumn{2}{c|}{-22 dB} \\
-\hline
-方向图 & 不对称 & 对称 & 不对称 & 对称 & 对称 & 对称 \\
-\hline
-交叉极化电平 & 高 & 低 & 高 & 低 & 低 &低 \\
-\hline
-\end{tabular}
-\end{table}
-\zihao{-4}\setlength{\baselineskip}{20pt}
-计量单位：学位论文中出现的计量单位一律采用国务院~1984~年~2~月~27~日发布的《中华人民共和国法定计量单位》标准。
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=1.0]{C5.fig2}
+	\caption{散斑指纹去混叠过程}
+	\label{fig:5.2}
+\end{figure}

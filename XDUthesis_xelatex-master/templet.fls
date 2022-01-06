@@ -1218,6 +1218,51 @@ INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Lei\AppData\Roaming\MiKTeX\tex\latex\relsize\relsize.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT .\templet.aux
@@ -1485,10 +1530,10 @@ INPUT .\chapters\guide.tex
 INPUT chapters\guide.tex
 INPUT .\chapters\guide.tex
 INPUT chapters\guide.tex
-INPUT .\figures\fig.eps
-INPUT .\figures\fig.eps
-INPUT figures\fig.eps
-INPUT figures\fig.eps
+INPUT .\figures\\C5.fig1.pdf
+INPUT figures\\C5.fig1.pdf
+INPUT .\figures\\C5.fig2.pdf
+INPUT figures\\C5.fig2.pdf
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl

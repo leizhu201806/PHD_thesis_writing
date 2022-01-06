@@ -55,7 +55,7 @@
 \bibitem{goodman_speckle_2007}
 \bibauthor{GOODMAN J~W}\@. \bibbooktitle{Speckle {Phenomena} in {Optics}:
   {Theory} and {Applications}}\bibmark{[M]}\@.
-  \bibaddress{Chicago}\thinspace{}\textnormal{: }\bibpublisher{Roberts and
+  \bibaddress{Englewood}\thinspace{}\textnormal{: }\bibpublisher{Roberts and
   Company Publishers}\@, \bibyear{2007}\@.
 
 \bibitem{newman_imaging_2016}
@@ -135,7 +135,7 @@
 
 \bibitem{goodman_introduction_2005}
 \bibauthor{GOODMAN J~W}\@. \bibbooktitle{Introduction to {Fourier}
-  {Optics}}\bibmark{[M]}\@. \bibaddress{Chicago}\thinspace{}\textnormal{:
+  {Optics}}\bibmark{[M]}\@. \bibaddress{Englewood}\thinspace{}\textnormal{:
   }\bibpublisher{Roberts and Company Publishers}\@, \bibyear{2005}\@.
 
 \bibitem{lohmann_speckle_1983}
@@ -158,5 +158,145 @@
   atmospheric turbulence}\bibmark{[J]}\@. \bibjournal{JOSA A}\@,
   \bibyear{1988}\@, \bibvolume{5}\bibnumber{(7)}\thinspace{}\textnormal{:
   }\bibpages{963\thinspace{}\textnormal{--}\thinspace{}985}\@.
+
+\bibitem{zhao_non-invasive_2001}
+\bibauthor{ZHAO M\@, BEAUREGARD D~A\@, LOIZOU L, et~al}\@.
+  \bibtitle{Non-invasive detection of apoptosis using magnetic resonance
+  imaging and a targeted contrast agent}\bibmark{[J]}\@. \bibjournal{Nature
+  Medicine}\@, \bibyear{2001}\@,
+  \bibvolume{7}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{1241\thinspace{}\textnormal{--}\thinspace{}1244}\@.
+
+\bibitem{artzi_vivo_2011}
+\bibauthor{ARTZI N\@, OLIVA N\@, PURON C, et~al}\@. \bibtitle{In vivo and in
+  vitro tracking of erosion in biodegradable materials using non-invasive
+  fluorescence imaging}\bibmark{[J]}\@. \bibjournal{Nature Materials}\@,
+  \bibyear{2011}\@, \bibvolume{10}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{890\thinspace{}\textnormal{--}\thinspace{}890}\@.
+
+\bibitem{kozloff_non-invasive_2009}
+\bibauthor{KOZLOFF K~M\@, QUINTI L\@, PATNTIRAPONG S, et~al}\@.
+  \bibtitle{Non-invasive optical detection of cathepsin {K}-mediated
+  fluorescence reveals osteoclast activity in vitro and in
+  vivo}\bibmark{[J]}\@. \bibjournal{Bone}\@, \bibyear{2009}\@,
+  \bibvolume{44}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{190\thinspace{}\textnormal{--}\thinspace{}198}\@.
+
+\bibitem{Goodman1976}
+\bibauthor{GOODMAN J~W}\@. \bibtitle{{Some fundamental properties of
+  speckle}}\bibmark{[J]}\@. \bibjournal{Journal of the Optical Society of
+  America}\@, \bibyear{1976}\@,
+  \bibvolume{66}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{1145}\@.
+
+\bibitem{Bender}
+\bibauthor{BENDER N\@, YıLMAZ H\@, BROMBERG Y, et~al}\@.
+  \bibtitle{{Customizing speckle intensity statistics}}\bibmark{[J]}\@.
+  \bibjournal{Optica}\@, \bibyear{2018}\@,
+  \bibvolume{5}\bibnumber{(5)}\thinspace{}\textnormal{: }\bibpages{595}\@.
+
+\bibitem{Abramson1978}
+\bibauthor{ABRAMSON N}\@. \bibtitle{{Light-in-flight recording by
+  holography}}\bibmark{[J]}\@. \bibjournal{Optics Letters}\@, \bibyear{1978}\@,
+  \bibvolume{3}\bibnumber{(4)}\thinspace{}\textnormal{: }\bibpages{121}\@.
+
+\bibitem{huang_optical_1991}
+\bibauthor{HUANG D\@, SWANSON E~A\@, LIN C~P, et~al}\@. \bibtitle{Optical
+  coherence tomography}\bibmark{[J]}\@. \bibjournal{Science}\@,
+  \bibyear{1991}\@, \bibvolume{254}\bibnumber{(5035)}\thinspace{}\textnormal{:
+  }\bibpages{1178\thinspace{}\textnormal{--}\thinspace{}1181}\@.
+
+\bibitem{Mosk2012}
+\bibauthor{MOSK A~P\@, LAGENDIJK A\@, LEROSEY G, et~al}\@.
+  \bibtitle{{Controlling waves in space and time for imaging and focusing in
+  complex media}}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
+  \bibyear{2012}\@, \bibvolume{6}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{283\thinspace{}\textnormal{--}\thinspace{}292}\@.
+
+\bibitem{rotter_light_2017}
+\bibauthor{ROTTER S\@, GIGAN S}\@. \bibtitle{Light fields in complex media:
+  {Mesoscopic} scattering meets wave control}\bibmark{[J]}\@.
+  \bibjournal{Reviews of Modern Physics}\@, \bibyear{2017}\@,
+  \bibvolume{89}\bibnumber{(1)}\thinspace{}\textnormal{: }\bibpages{015005}\@.
+
+\bibitem{Vellekoop2007}
+\bibauthor{VELLEKOOP I~M\@, MOSK A~P}\@. \bibtitle{{Focusing coherent light
+  through opaque strongly scattering media}}\bibmark{[J]}\@. \bibjournal{Optics
+  Letters}\@, \bibyear{2007}\@,
+  \bibvolume{32}\bibnumber{(16)}\thinspace{}\textnormal{: }\bibpages{2309}\@.
+
+\bibitem{Horstmeyer2015}
+\bibauthor{HORSTMEYER R\@, RUAN H\@, YANG C}\@. \bibtitle{{Guidestar-assisted
+  wavefront-shaping methods for focusing light into biological
+  tissue}}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@, \bibyear{2015}\@,
+  \bibvolume{9}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{563\thinspace{}\textnormal{--}\thinspace{}571}\@.
+
+\bibitem{Katz2019}
+\bibauthor{KATZ O\@, RAMAZ F\@, GIGAN S, et~al}\@. \bibtitle{{Controlling light
+  in complex media beyond the acoustic diffraction-limit using the
+  acousto-optic transmission matrix}}\bibmark{[J]}\@. \bibjournal{Nature
+  Communications}\@, \bibyear{2019}\@,
+  \bibvolume{10}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}10}\@.
+
+\bibitem{Popoff2010}
+\bibauthor{POPOFF S~M\@, LEROSEY G\@, CARMINATI R, et~al}\@.
+  \bibtitle{{Measuring the transmission matrix in optics: An approach to the
+  study and control of light propagation in disordered media}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{2010}\@,
+  \bibvolume{104}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
+
+\bibitem{Hofer2019}
+\bibauthor{HOFER M\@, BRASSELET S}\@. \bibtitle{{Manipulating the transmission
+  matrix of scattering media for nonlinear imaging beyond the memory
+  effect}}\bibmark{[J]}\@. \bibjournal{Optics Letters}\@, \bibyear{2019}\@,
+  \bibvolume{44}\bibnumber{(9)}\thinspace{}\textnormal{: }\bibpages{2137}\@.
+
+\bibitem{Osnabrugge}
+\bibauthor{OSNABRUGGE G\@, HORSTMEYER R\@, PAPADOPOULOS I~N, et~al}\@.
+  \bibtitle{{Generalized optical memory effect}}\bibmark{[J]}\@.
+  \bibjournal{Optica}\@, \bibyear{2017}\@,
+  \bibvolume{4}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{886\thinspace{}\textnormal{--}\thinspace{}892}\@.
+
+\bibitem{Ruan2020}
+\bibauthor{RUAN H\@, LIU Y\@, XU J, et~al}\@. \bibtitle{{Fluorescence imaging
+  through dynamic scattering media with speckle-encoded ultrasound-modulated
+  light correlation}}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
+  \bibyear{2020}\@.
+
+\bibitem{Lichtman2005}
+\bibauthor{LICHTMAN J~W\@, CONCHELLO J~A}\@. \bibtitle{{Fluorescence
+  microscopy}}\bibmark{[J]}\@. \bibjournal{Nature Methods}\@, \bibyear{2005}\@,
+  \bibvolume{2}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{910\thinspace{}\textnormal{--}\thinspace{}919}\@.
+
+\bibitem{mangeat_super_resolved_2021}
+\bibauthor{MANGEAT T\@, LABOUESSE S\@, ALLAIN M, et~al}\@.
+  \bibtitle{Super-resolved live-cell imaging using random illumination
+  microscopy}\bibmark{[J]}\@. \bibjournal{Cell Reports Methods}\@,
+  \bibyear{2021}\@, \bibvolume{0}\bibnumber{(0)}\@.
+
+\bibitem{Hhorstmeyer}
+\bibauthor{HORSTMEYER R\@, RUAN H\@, YANG C}\@. \bibtitle{Guidestar-assisted
+  wavefront-shaping methods for focusing light into biological
+  tissue}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@, \bibyear{2015}\@,
+  \bibvolume{9}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{563\thinspace{}\textnormal{--}\thinspace{}571}\@.
+
+\bibitem{hofer_wide_2018}
+\bibauthor{HOFER M\@, SOELLER C\@, BRASSELET S, et~al}\@. \bibtitle{Wide field
+  fluorescence epi-microscopy behind a scattering medium enabled by speckle
+  correlations}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
+  \bibyear{2018}\@, \bibvolume{26}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{9866\thinspace{}\textnormal{--}\thinspace{}9881}\@.
+
+\bibitem{boniface_non_invasive_2020}
+\bibauthor{BONIFACE A\@, DONG J\@, GIGAN S}\@. \bibtitle{Non-invasive focusing
+  and imaging in scattering media with a fluorescence-based transmission
+  matrix}\bibmark{[J]}\@. \bibjournal{Nature Communications}\@,
+  \bibyear{2020}\@, \bibvolume{11}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{6154}\@.
 
 \end{thebibliography}
