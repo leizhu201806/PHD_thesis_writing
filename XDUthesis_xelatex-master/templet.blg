@@ -9,6 +9,8 @@ Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: chapters/substance.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: chapters/edit.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: chapters/guide.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: chapters/thanks.aux
@@ -52,7 +54,7 @@ Warning--string name "jul" is undefined
 --line 736 of file bib/tex.bib
 You've used 20 entries,
             3054 wiz_defined-function locations,
-            834 strings with 9920 characters,
+            835 strings with 9938 characters,
 and the built_in function-call counts, 42164 in all, are:
 = -- 4804
 > -- 74

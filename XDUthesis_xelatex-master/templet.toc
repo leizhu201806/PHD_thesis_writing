@@ -30,8 +30,9 @@
 \contentsline {subsection}{\numberline {2.2.3}成像分析}{30}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}基于三阶相关相位恢复方法扩展及讨论}{33}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}不同相位恢复算法之间的混合}{33}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}学位论文的打印、装订要求}{34}{section.2.4}%
-\contentsline {section}{\numberline {2.5}其他说明}{35}{section.2.5}%
-\contentsline {chapter}{参考文献}{37}{section*.49}%
-\contentsline {chapter}{致谢}{39}{section*.51}%
-\contentsline {chapter}{作者简介}{41}{section*.53}%
+\contentsline {subsection}{\numberline {2.3.2}噪声分析}{35}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}本章小结}{36}{section.2.4}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于波动随机照明的透过散射介质超光学记忆效应范围成像}{39}{chapter.3}%
+\contentsline {chapter}{参考文献}{41}{section*.53}%
+\contentsline {chapter}{致谢}{43}{section*.55}%
+\contentsline {chapter}{作者简介}{45}{section*.57}%
