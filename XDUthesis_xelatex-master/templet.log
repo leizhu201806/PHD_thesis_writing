@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  6 JAN 2022 18:34
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  7 JAN 2022 17:06
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2178,6 +2178,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [40]
 File: figures//C5.fig2.pdf Graphic file (type pdf)
 <use figures//C5.fig2.pdf>
+File: figures//C5.fig3.pdf Graphic file (type pdf)
+<use figures//C5.fig3.pdf>
 )
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2311,15 +2313,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: EB5EBBE2946039A1CFBB1B16AEF36FA2;6097.
+(rerunfilecheck)             Checksum: E266A1F787651567F11E99C2FA5DF6F4;6097.
  ) 
 Here is how much of TeX's memory you used:
- 32247 strings out of 411295
- 670158 string characters out of 2836124
- 1001549 words of memory out of 3000000
- 52022 multiletter control sequences out of 15000+600000
+ 32260 strings out of 411295
+ 670437 string characters out of 2836124
+ 1001641 words of memory out of 3000000
+ 52035 multiletter control sequences out of 15000+600000
  414914 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (72 pages, 792700 bytes).
+Output written on templet.xdv (72 pages, 799124 bytes).
