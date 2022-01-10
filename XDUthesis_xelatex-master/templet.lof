@@ -38,5 +38,9 @@
 \contentsline {figure}{\numberline {2.18}{\ignorespaces 不同尺寸散斑的重建结果\relax }}{37}{figure.caption.50}%
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces 非入侵成像系统示意图\relax }}{40}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 散斑指纹去混叠过程\relax }}{41}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 散斑滤波\relax }}{41}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 散斑去混叠示意图\relax }}{41}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 散斑指纹去混叠过程\relax }}{42}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 散斑滤波\relax }}{42}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 系统的秩$\rho $估计（仿真）\relax }}{43}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 系统的秩$\rho $估计（实验）\relax }}{43}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 散斑去混叠实验结果\relax }}{43}{figure.caption.58}%

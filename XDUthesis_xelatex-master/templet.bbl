@@ -299,4 +299,50 @@
   \bibyear{2020}\@, \bibvolume{11}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{6154}\@.
 
+\bibitem{Moretti2020a}
+\bibauthor{MORETTI C\@, GIGAN S}\@. \bibtitle{{Readout of fluorescence
+  functional signals through highly scattering tissue}}\bibmark{[J]}\@.
+  \bibjournal{Nature Photonics}\@, \bibyear{2020}\@,
+  \bibvolume{14}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{361\thinspace{}\textnormal{--}\thinspace{}364}\@.
+
+\bibitem{Pegard2016}
+\bibauthor{P{\'{E}}GARD N~C\@, LIU H-Y\@, ANTIPA N, et~al}\@.
+  \bibtitle{{Compressive light-field microscopy for 3D neural activity
+  recording}}\bibmark{[J]}\@. \bibjournal{Optica}\@, \bibyear{2016}\@,
+  \bibvolume{3}\bibnumber{(5)}\thinspace{}\textnormal{: }\bibpages{517}\@.
+
+\bibitem{Pnevmatikakis2016}
+\bibauthor{PNEVMATIKAKIS E~A\@, SOUDRY D\@, GAO Y, et~al}\@.
+  \bibtitle{{Simultaneous Denoising, Deconvolution, and Demixing of Calcium
+  Imaging Data}}\bibmark{[J]}\@. \bibjournal{Neuron}\@, \bibyear{2016}\@,
+  \bibvolume{89}\bibnumber{(2)}\thinspace{}\textnormal{: }\bibpages{285}\@.
+
+\bibitem{hutchins_position_dependent_2008}
+\bibauthor{HUTCHINS L~N\@, MURPHY S~M\@, SINGH P, et~al}\@.
+  \bibtitle{Position-dependent motif characterization using non-negative matrix
+  factorization}\bibmark{[J]}\@. \bibjournal{Bioinformatics}\@,
+  \bibyear{2008}\@, \bibvolume{24}\bibnumber{(23)}\thinspace{}\textnormal{:
+  }\bibpages{2684\thinspace{}\textnormal{--}\thinspace{}2690}\@.
+
+\bibitem{paatero_positive_1994}
+\bibauthor{PAATERO P\@, TAPPER U}\@. \bibtitle{Positive matrix factorization:
+  {A} non-negative factor model with optimal utilization of error estimates of
+  data values}\bibmark{[J]}\@. \bibjournal{Environmetrics}\@, \bibyear{1994}\@,
+  \bibvolume{5}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{111\thinspace{}\textnormal{--}\thinspace{}126}\@.
+
+\bibitem{lee_learning_1999}
+\bibauthor{LEE D~D\@, SEUNG H~S}\@. \bibtitle{Learning the parts of objects by
+  non-negative matrix factorization}\bibmark{[J]}\@. \bibjournal{Nature}\@,
+  \bibyear{1999}\@, \bibvolume{401}\bibnumber{(6755)}\thinspace{}\textnormal{:
+  }\bibpages{788\thinspace{}\textnormal{--}\thinspace{}791}\@.
+
+\bibitem{lee_algorithms_2001}
+\bibauthor{LEE D\@, SEUNG H~S}\@. \bibtitle{Algorithms for {Non}-negative
+  {Matrix} {Factorization}}\bibmark{[C]} //\thinspace{}\bibbooktitle{Advances
+  in {Neural} {Information} {Processing} {Systems}\thinspace{}\textnormal{:
+  }Vol~13}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{MIT
+  Press}\@, \bibyear{2001}\@.
+
 \end{thebibliography}

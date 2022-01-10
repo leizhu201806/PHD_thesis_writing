@@ -56,6 +56,27 @@ I_{fluo}(r,t) = \sum^{P}_{k=1} w_{k}(r) h_{k}(t),
 
 \subsection{散斑指纹去混叠}
 
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.5]{C5.fig4}
+	\caption{散斑去混叠示意图}
+	\label{fig:5.4}
+\end{figure}
+
+如图\ref{fig:5.4}所示，独立发射器所对应的各自的散斑指纹一定，当我们使用散斑照明时，获得一些列混叠散斑。如何从一些混叠散斑中恢复出每个独立发射器的散斑指纹，将在接下来部分描述。
+
+如公式(\ref{eq:5.1})所示，当使用随机照明时，$h_{k}(t)$随着照明的改变该随之变化。因为照明强度和散斑指纹的非负性，我们可以通过非线性优化的方式求得$w_{k}(r)$，即：
+
+\begin{equation}
+	\begin{aligned}
+\min_{W>0,H>0} \Arrowvert I -WH\Arrowvert_F^{2},
+\label{eq:5.2}
+\end{aligned}
+\end{equation}
+其中，$\vert\vert M\vert\vert_F = \sqrt{\sum_i\sum_j \vert M_{ij}\vert^2}$为Frobenius矩阵范数。公式(\ref{eq:5.2})最小化问题可以表述为一个低秩分解问题。$I \in \mathbb{R}_{+}^{r \times t} $包含所有的散斑图案$I_{fluo}(r,t)$，$I \in \mathbb{R}_{+}^{r \times t}$ 可以被近似为两个实数矩阵$W \in \mathbb{R}_{+}^{r \times \rho}$ 和$H \in \mathbb{R}_{+}^{\rho \times t}$。
+矩阵$W \in \mathbb{R}_{+}^{r \times \rho}$为指纹矩阵，$H \in \mathbb{R}_{+}^{\rho \times t}$为时间矩阵，其中 $r$ 是像素，$\rho$ 是 $I$矩阵所估计的秩，$t$ 表示散斑帧数。由于收集到的图像和混合指纹都具有非负性，这个问题正好对应于NMF优化问题。
+NMF算法常用于去混叠场景，例如结构性成像\cite{boniface_non_invasive_2020}和功能性成像\cite{Moretti2020a,Pegard2016, Pnevmatikakis2016}等，NMF去混叠过程如图\ref{fig:5.2}所示。
+在数据矩阵去混叠之前，我们需要对所获得的相机散斑进行滤波，去除散斑的轮廓噪声，在傅里叶域中移除低频信号，如图\ref{fig:5.3}所示。即在在NMF算法的运行过程前，我们需要确定$\rho$，该参数可以通过最小化NMF的均方根残差作为秩的函数来从数据中估计。
 
 \begin{figure}[htp]
 	\centering
@@ -70,3 +91,45 @@ I_{fluo}(r,t) = \sum^{P}_{k=1} w_{k}(r) h_{k}(t),
 	\caption{散斑滤波}
 	\label{fig:5.3}
 \end{figure}
+
+为了运行NMF算法，矩阵秩$\rho$是一个需要预先确定的唯一参数。通常可以使用几种方法来估计$\rho$,例如使用 \textsl{k}-means 算法 \cite{Moretti2020a} 查看集群的数量，或者通过估计损失函数的“拐点”\cite{boniface_non_invasive_2020,hutchins_position_dependent_2008}。
+在我们的使用情境下，为了简化该估计过程，我们尝试不同的数值作为该矩阵的$\rho$，记录不同数值所对应的均方根残差（Root Mean Square Residual，RMSR）：$\vert\vert I_{fluo}-WH \vert\vert_{Fro}$。然后，RMSR最小值所对应的$\rho$，即该值为系统的秩$\rho$。为了验证我们所提出方法的有效性，于是进行了相应的仿真，仿真结果如图\ref{fig:5.5}所示。首先，我们生成5个点源目标，利用卷积模型生成各自的散斑指纹，并采用随机照明的方式对目标机型照明，记录其相应的散斑图案。然后根据前面所描述的矩阵秩$\rho$估计方法进行估计。图\ref{fig:5.5}中，三角形符号指示出RMSR的最小值，实线代表12次均方根值的平均值，每次的NMF优化采用不同的随机初始值。
+三角形符号表示RMSR的最小均值，实线代表12次均方根值与NMF随机初始化值的均值，星号是误差条，表示其正负方向的标准偏差。通过仿真可至，当估计的秩$\rho$ 等于系统的真实秩$P$ 时，平均RMSR值为最小。我们同时分别尝试了，不同数量的点源目标，仿真结果如图\ref{fig:5.5}所示。其仿真结果表明：RMSR的最小值分别为：5，10和15，与真实值非常吻合。
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.5]{C5.fig5}
+	\caption{系统的秩$\rho$估计（仿真）}
+	\label{fig:5.5}
+\end{figure}
+
+此外，我们通过实验证明该了估计方法的有效性。在实验中，通过随机放置11荧光珠为目标，利用旋转毛玻璃提供随机照明，记录其荧光散斑图案，并进行该数据集秩的估计，实验结果如图\ref{fig:5.6}所示。如图\ref{fig:5.6}(b)所示，所估计的$\rho$与系统真实$P$保持一致。同时，我们还在\ref{fig:5.6}(a)中提前展示了其图像的重建结果，左图为真实目标，右图为重建结果。通过仿真和实验的方式，证明了估计数据集秩的方法有效性。
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.5]{C5.fig6}
+	\caption{系统的秩$\rho$估计（实验）}
+	\label{fig:5.6}
+\end{figure}
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.30]{C5.fig7}
+	\caption{散斑去混叠实验结果}
+	\label{fig:5.7}
+\end{figure}
+
+为了更加直观的显示散斑去混叠的结果，我们进行了另外一组实验，实验结果如图\ref{fig:5.7}所示。图\ref{fig:5.7}(a)为原始目标，图\ref{fig:5.7}(b)为去混叠后散斑和图\ref{fig:5.7}(c)为对应图\ref{fig:5.7}(b)各自去混叠散斑的强度分布图。如图\ref{fig:5.7}中，虚线所标出的去混叠散斑，该散斑为算法所制造的噪声，当没有正确的估计数据集的秩可能造成此种结果。可以通过分析去混叠散斑的强度分布图进行剔除操作。但是，在本章所提出的重建方法中未使用此操作。
+
+\subsubsection*{\textbf{\textit{NMF算法}}}
+
+NMF的早期工作是由芬兰的一组研究人员\cite{paatero_positive_1994}在1990年代中期以正矩阵分解的方式进行的。 在 Lee 和 Seung 之后，它被广泛称为非负矩阵分解研究了NMF的两种不同分解算法的特性\cite{lee_learning_1999,lee_algorithms_2001}。它们仅在量化近似质量的成本函数上略有不同。一种算法可以最小化传统的最小二乘误差，而另一种算法最小化广义Kullback-Leibler散度。在这里，我们仅描述在去混叠过程中所使用的的传统最小二乘误差类型。为了找到近似的因式分解$I \approx WH$，一个简单的评价函数为度量是 $I$ 和 $WH$ 之间的欧几里得距离的平方，即对应于Frobenius范数：
+
+\begin{equation}
+	\begin{aligned}
+\Arrowvert I -WH\Arrowvert_F^{2} = \sum_{i,j} (I -WH)_{i,j}^2,
+\label{eq:5.3}
+\end{aligned}
+\end{equation}
+
+虽然函数$\Arrowvert I -WH\Arrowvert_F^{2}$仅在$W$或仅$H$是凸的，它的两个变量$W$和$H$不同时为凸。因此，通过寻找全局最小值去解决此问题较难实现。然而，有许多数值优化技术可用于寻找局部最小值。交替成本的最小化导致了交替最小二乘法 (Alternating Least Squares，ALS) 算法：在这种方法中，在$W$和$H$的初始随机初始化之后，迭代地执行 $W$ 固定 $H$ 和 执行$H$ 固定 $W$ 的最小二乘解，直到成本函数达到最小值，或连续迭代之间的成本函数差异变得小于给定的容差值，或达到最大迭代次数。在每次迭代中，$W$和$H$ 的负元素被替换为$0$或很小的数。由于NMF算的稳定性和可解释性，该算法已经在众多领域有着较多的应用。
