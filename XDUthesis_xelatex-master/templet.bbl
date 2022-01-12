@@ -345,4 +345,19 @@
   }Vol~13}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{MIT
   Press}\@, \bibyear{2001}\@.
 
+\bibitem{biggs_acceleration_1997}
+\bibauthor{BIGGS D~S~C\@, ANDREWS M}\@. \bibtitle{Acceleration of iterative
+  image restoration algorithms}\bibmark{[J]}\@. \bibjournal{Applied Optics}\@,
+  \bibyear{1997}\@, \bibvolume{36}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1766\thinspace{}\textnormal{--}\thinspace{}1775}\@.
+
+\bibitem{Chan2011}
+\bibauthor{CHAN S~H\@, KHOSHABEH R\@, GIBSON K~B, et~al}\@. \bibtitle{{An
+  Augmented Lagrangian Method for Total Variation Video
+  Restoration}}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Image
+  Processing}\@, \bibyear{2011}\@,
+  \bibvolume{20}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{3097\thinspace{}\textnormal{--}\thinspace{}3111}\@.
+  \url{http://ieeexplore.ieee.org/document/5779734/}\@.
+
 \end{thebibliography}

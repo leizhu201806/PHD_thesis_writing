@@ -65,45 +65,46 @@ Warning--string name "mar" is undefined
 Warning--string name "dec" is undefined
 --line 1113 of file bib/tex.bib
 Warning--Require address: lee_algorithms_2001
-You've used 48 entries,
+Warning--Require citedate: Chan2011
+You've used 50 entries,
             3054 wiz_defined-function locations,
-            1005 strings with 15869 characters,
-and the built_in function-call counts, 95761 in all, are:
-= -- 10824
-> -- 174
-< -- 396
-+ -- 8674
-- -- 591
-* -- 2650
-:= -- 10812
+            1019 strings with 16283 characters,
+and the built_in function-call counts, 100080 in all, are:
+= -- 11311
+> -- 181
+< -- 412
++ -- 9032
+- -- 617
+* -- 2771
+:= -- 11263
 add.period$ -- 0
-call.type$ -- 48
-change.case$ -- 252
+call.type$ -- 50
+change.case$ -- 262
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 13646
-empty$ -- 3353
-format.name$ -- 504
-if$ -- 25445
+cite$ -- 52
+duplicate$ -- 14302
+empty$ -- 3526
+format.name$ -- 524
+if$ -- 26570
 int.to.chr$ -- 0
-int.to.str$ -- 48
+int.to.str$ -- 50
 missing$ -- 0
-newline$ -- 171
-num.names$ -- 48
-pop$ -- 1214
+newline$ -- 177
+num.names$ -- 50
+pop$ -- 1279
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 720
+skip$ -- 745
 stack$ -- 0
-substring$ -- 11632
-swap$ -- 2594
+substring$ -- 12184
+swap$ -- 2717
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 1136
-width$ -- 50
-write$ -- 728
-(There were 23 warnings)
+warning$ -- 2
+while$ -- 1190
+width$ -- 52
+write$ -- 760
+(There were 24 warnings)
