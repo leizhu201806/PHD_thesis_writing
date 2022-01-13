@@ -354,10 +354,16 @@
 \bibitem{Chan2011}
 \bibauthor{CHAN S~H\@, KHOSHABEH R\@, GIBSON K~B, et~al}\@. \bibtitle{{An
   Augmented Lagrangian Method for Total Variation Video
-  Restoration}}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Image
+  Restoration}}\bibmark{[J]}\@. \bibjournal{IEEE Transactions on Image
   Processing}\@, \bibyear{2011}\@,
   \bibvolume{20}\bibnumber{(11)}\thinspace{}\textnormal{:
   }\bibpages{3097\thinspace{}\textnormal{--}\thinspace{}3111}\@.
-  \url{http://ieeexplore.ieee.org/document/5779734/}\@.
+
+\bibitem{Daoud2017}
+\bibauthor{WANG Z\@, BOVIK A\@, SHEIKH H, et~al}\@. \bibtitle{{Image Quality
+  Assessment: From Error Visibility to Structural Similarity}}\bibmark{[J]}\@.
+  \bibjournal{IEEE Transactions on Image Processing}\@, \bibyear{2004}\@,
+  \bibvolume{13}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{600\thinspace{}\textnormal{--}\thinspace{}612}\@.
 
 \end{thebibliography}

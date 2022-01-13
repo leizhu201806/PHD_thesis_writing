@@ -36,7 +36,13 @@
 \contentsline {section}{\numberline {3.1}基于波动随机照明的透过散射介质超光学记忆效应范围成像基本原理}{40}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}散斑指纹去混叠}{41}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}基于散斑指纹的图像重建}{44}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}实验验证}{47}{section.3.2}%
-\contentsline {chapter}{参考文献}{51}{section*.65}%
-\contentsline {chapter}{致谢}{55}{section*.67}%
-\contentsline {chapter}{作者简介}{57}{section*.69}%
+\contentsline {section}{\numberline {3.2}实验验证}{46}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}稀疏2D荧光目标重建}{47}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}复杂连续3D目标}{48}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}实验分析与讨论}{50}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}估计系统的秩}{50}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}光学记忆效应范围}{51}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}FBR}{51}{subsection.3.3.3}%
+\contentsline {chapter}{参考文献}{55}{section*.71}%
+\contentsline {chapter}{致谢}{59}{section*.73}%
+\contentsline {chapter}{作者简介}{61}{section*.75}%
