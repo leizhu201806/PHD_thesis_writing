@@ -42,7 +42,9 @@
 \contentsline {section}{\numberline {3.3}实验分析与讨论}{50}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}估计系统的秩}{50}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}光学记忆效应范围}{51}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}FBR}{51}{subsection.3.3.3}%
-\contentsline {chapter}{参考文献}{55}{section*.71}%
-\contentsline {chapter}{致谢}{59}{section*.73}%
-\contentsline {chapter}{作者简介}{61}{section*.75}%
+\contentsline {subsection}{\numberline {3.3.3}FBR}{52}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}去卷积方和互相关方法的对比}{53}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}不同数量散斑对于重建结果的影响}{54}{subsection.3.3.5}%
+\contentsline {chapter}{参考文献}{55}{section*.72}%
+\contentsline {chapter}{致谢}{59}{section*.74}%
+\contentsline {chapter}{作者简介}{61}{section*.76}%

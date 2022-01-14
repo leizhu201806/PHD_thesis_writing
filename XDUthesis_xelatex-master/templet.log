@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  13 JAN 2022 17:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  14 JAN 2022 17:05
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2319,9 +2319,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [51]
-File: figures//C5.fig18.pdf Graphic file (type pdf)
-<use figures//C5.fig18.pdf>
-)
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2331,6 +2328,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [52]
+File: figures//C5.fig18.pdf Graphic file (type pdf)
+<use figures//C5.fig18.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2340,6 +2340,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [53]
+File: figures//C5.fig19.pdf Graphic file (type pdf)
+<use figures//C5.fig19.pdf>
+)
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2464,15 +2467,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: 8FF640BF52DA5BF07036EEFC0326CE6C;7214.
+(rerunfilecheck)             Checksum: A79C437C374BF55A9B5DC53D921737BF;7628.
  ) 
 Here is how much of TeX's memory you used:
- 32543 strings out of 411295
- 679894 string characters out of 2836124
- 1003947 words of memory out of 3000000
- 52309 multiletter control sequences out of 15000+600000
+ 32555 strings out of 411295
+ 680164 string characters out of 2836124
+ 1004425 words of memory out of 3000000
+ 52320 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,785s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (84 pages, 991916 bytes).
+Output written on templet.xdv (84 pages, 1011448 bytes).

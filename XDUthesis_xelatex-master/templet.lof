@@ -52,6 +52,7 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces 2D稀疏荧光目标透过散射介质成像实验结果\relax }}{49}{figure.caption.65}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces 非稀疏、连续复杂目标透过散射介质成像实验结果\relax }}{50}{figure.caption.66}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces 不同重建与参考图像之间的SSIM系数图\relax }}{51}{figure.caption.67}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces 不同重建与参考图像之间的SSIM系数图\relax }}{52}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces FBR细节信息\relax }}{53}{figure.caption.69}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{54}{figure.caption.70}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 估计不同散射介质的OME范围\relax }}{51}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces FBR细节信息\relax }}{52}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{53}{figure.caption.70}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces 去卷积方和互相关方法的对比结果\relax }}{54}{figure.caption.71}%
