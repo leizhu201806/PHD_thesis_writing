@@ -366,4 +366,10 @@
   \bibvolume{13}\bibnumber{(4)}\thinspace{}\textnormal{:
   }\bibpages{600\thinspace{}\textnormal{--}\thinspace{}612}\@.
 
+\bibitem{Antipa2018}
+\bibauthor{ANTIPA N\@, KUO G\@, HECKEL R, et~al}\@. \bibtitle{{DiffuserCam:
+  lensless single-exposure 3D imaging}}\bibmark{[J]}\@. \bibjournal{Optica}\@,
+  \bibyear{2018}\@, \bibvolume{5}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{1}\@.
+
 \end{thebibliography}

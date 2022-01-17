@@ -11,6 +11,8 @@ Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: chapters/edit.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: chapters/guide.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: chapters/supplementary.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: chapters/thanks.aux
@@ -65,45 +67,45 @@ Warning--string name "mar" is undefined
 Warning--string name "dec" is undefined
 --line 1113 of file bib/tex.bib
 Warning--Require address: lee_algorithms_2001
-You've used 51 entries,
+You've used 52 entries,
             3054 wiz_defined-function locations,
-            1025 strings with 16408 characters,
-and the built_in function-call counts, 102167 in all, are:
-= -- 11540
-> -- 185
-< -- 421
-+ -- 9211
-- -- 632
-* -- 2825
-:= -- 11488
+            1030 strings with 16620 characters,
+and the built_in function-call counts, 103920 in all, are:
+= -- 11736
+> -- 189
+< -- 430
++ -- 9383
+- -- 644
+* -- 2881
+:= -- 11705
 add.period$ -- 0
-call.type$ -- 51
-change.case$ -- 268
+call.type$ -- 52
+change.case$ -- 274
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 14603
-empty$ -- 3612
-format.name$ -- 536
-if$ -- 27130
+cite$ -- 53
+duplicate$ -- 14831
+empty$ -- 3662
+format.name$ -- 548
+if$ -- 27600
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 52
 missing$ -- 0
-newline$ -- 180
-num.names$ -- 51
-pop$ -- 1311
+newline$ -- 183
+num.names$ -- 52
+pop$ -- 1328
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 764
+skip$ -- 779
 stack$ -- 0
-substring$ -- 12434
-swap$ -- 2774
+substring$ -- 12631
+swap$ -- 2823
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 1220
-width$ -- 53
-write$ -- 773
+while$ -- 1240
+width$ -- 54
+write$ -- 788
 (There were 23 warnings)

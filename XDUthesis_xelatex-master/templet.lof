@@ -56,3 +56,7 @@
 \contentsline {figure}{\numberline {3.17}{\ignorespaces FBR细节信息\relax }}{52}{figure.caption.69}%
 \contentsline {figure}{\numberline {3.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{53}{figure.caption.70}%
 \contentsline {figure}{\numberline {3.19}{\ignorespaces 去卷积方和互相关方法的对比结果\relax }}{54}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces 少量散斑照明时，稀疏目标的重建结果\relax }}{55}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces 不同数量散斑照明时，连续目标的重建结果\relax }}{55}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces 利用SLM提供随机照明时所重建的图像\relax }}{56}{figure.caption.74}%
+\addvspace {10.0pt}
