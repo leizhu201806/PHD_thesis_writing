@@ -1587,6 +1587,10 @@ INPUT .\chapters\supplementary.tex
 INPUT chapters\supplementary.tex
 INPUT .\chapters\supplementary.tex
 INPUT chapters\supplementary.tex
+INPUT .\figures\\C6.fig1.pdf
+INPUT figures\\C6.fig1.pdf
+INPUT .\figures\\C6.fig2.pdf
+INPUT figures\\C6.fig2.pdf
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl

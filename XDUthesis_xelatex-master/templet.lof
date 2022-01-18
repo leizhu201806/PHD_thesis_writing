@@ -60,3 +60,5 @@
 \contentsline {figure}{\numberline {3.21}{\ignorespaces 不同数量散斑照明时，连续目标的重建结果\relax }}{55}{figure.caption.73}%
 \contentsline {figure}{\numberline {3.22}{\ignorespaces 利用SLM提供随机照明时所重建的图像\relax }}{56}{figure.caption.74}%
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 多帧散斑照明的散射3D目标成像示意图\relax }}{59}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 不同OME范围散斑指纹之间傅里叶振幅信息探索\relax }}{62}{figure.caption.76}%
