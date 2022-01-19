@@ -1,0 +1,12 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "supplementary.xdv" "supplementary.pdf" "supplementary" 0
+  "supplementary.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "supplementary.pdf"
+["xelatex"] 1642602731 "supplementary.tex" "supplementary.xdv" "supplementary" 1642602732
+  "C:/Users/Lei/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1634560834 23122326 9d93fcd8131424d0510db3d957cedf95 ""
+  "supplementary.aux" 1642602612 3386 dabdc300e549d5f1a03444253ed53f2b ""
+  "supplementary.tex" 1642602728 10536 7cefd5411d16799a3997d17a7fe59a98 ""
+  (generated)
+  "supplementary.xdv"
+  "supplementary.log"

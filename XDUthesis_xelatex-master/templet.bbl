@@ -372,4 +372,16 @@
   \bibyear{2018}\@, \bibvolume{5}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{1}\@.
 
+\bibitem{torgerson_multidimensional_1952}
+\bibauthor{TORGERSON W~S}\@. \bibtitle{Multidimensional scaling: {I}. {Theory}
+  and method}\bibmark{[J]}\@. \bibjournal{Psychometrika}\@, \bibyear{1952}\@,
+  \bibvolume{17}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{401\thinspace{}\textnormal{--}\thinspace{}419}\@.
+
+\bibitem{de_leeuw_modern_2005}
+\bibauthor{de LEEUW J}\@. \bibtitle{Modern {Multidimensional} {Scaling}:
+  {Theory} and {Applications} ({Second} {Edition})}\bibmark{[J]}\@.
+  \bibjournal{Journal of Statistical Software}\@, \bibyear{2005}\@,
+  \bibvolume{14}\@.
+
 \end{thebibliography}
