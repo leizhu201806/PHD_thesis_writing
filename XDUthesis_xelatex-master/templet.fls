@@ -1591,8 +1591,16 @@ INPUT .\figures\\C6.fig1.pdf
 INPUT figures\\C6.fig1.pdf
 INPUT .\figures\\C6.fig2.pdf
 INPUT figures\\C6.fig2.pdf
+INPUT .\figures\\C6.fig5.pdf
+INPUT figures\\C6.fig5.pdf
+INPUT .\figures\\C6.fig6.pdf
+INPUT figures\\C6.fig6.pdf
 INPUT .\figures\\C6.fig3.pdf
 INPUT figures\\C6.fig3.pdf
+INPUT .\figures\\C6.fig4.pdf
+INPUT figures\\C6.fig4.pdf
+INPUT .\figures\\C6.fig7.pdf
+INPUT figures\\C6.fig7.pdf
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl
