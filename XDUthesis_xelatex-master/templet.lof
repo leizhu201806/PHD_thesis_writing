@@ -52,18 +52,18 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces 2D稀疏荧光目标透过散射介质成像实验结果\relax }}{49}{figure.caption.65}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces 非稀疏、连续复杂目标透过散射介质成像实验结果\relax }}{50}{figure.caption.66}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces 不同重建与参考图像之间的SSIM系数图\relax }}{51}{figure.caption.67}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces 估计不同散射介质的OME范围\relax }}{51}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces FBR细节信息\relax }}{52}{figure.caption.69}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{53}{figure.caption.70}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces 去卷积方和互相关方法的对比结果\relax }}{54}{figure.caption.71}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces 少量散斑照明时，稀疏目标的重建结果\relax }}{55}{figure.caption.72}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces 不同数量散斑照明时，连续目标的重建结果\relax }}{55}{figure.caption.73}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces 利用SLM提供随机照明时所重建的图像\relax }}{56}{figure.caption.74}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 估计不同散射介质的OME范围\relax }}{52}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces FBR细节信息\relax }}{53}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{54}{figure.caption.70}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces 去卷积方和互相关方法的对比结果\relax }}{55}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces 少量散斑照明时，稀疏目标的重建结果\relax }}{56}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces 不同数量散斑照明时，连续目标的重建结果\relax }}{56}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces 利用SLM提供随机照明时所重建的图像\relax }}{57}{figure.caption.74}%
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 多帧散斑照明的散射3D目标成像示意图\relax }}{59}{figure.caption.75}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 不同OME范围散斑指纹之间傅里叶振幅信息探索\relax }}{62}{figure.caption.77}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 不同OME范围散斑指纹间相关性探索\relax }}{63}{figure.caption.78}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 基于MDS的散斑分类仿真结果\relax }}{65}{figure.caption.79}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces 不同OME范围成像仿真结果\relax }}{66}{figure.caption.80}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 基于MDS散斑分类散射成像仿真结果\relax }}{66}{figure.caption.81}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 多OME范围成像仿真结果\relax }}{67}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 基于MDS散斑分类散射成像仿真结果\relax }}{67}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 多OME范围成像仿真结果\relax }}{68}{figure.caption.82}%
