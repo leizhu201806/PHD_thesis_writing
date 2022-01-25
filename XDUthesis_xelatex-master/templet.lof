@@ -1,69 +1,90 @@
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 透过散射介质的光谱信息和结构信息恢复的结构示意图\relax }}{2}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 基于光谱传输矩阵的光谱重建基本原理\relax }}{3}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces 散斑的相关系数\relax }}{4}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces 散斑相关成像模型\relax }}{4}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 基本相位恢复流程图\relax }}{6}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 仿真结果\relax }}{8}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 光谱重建算法的抗噪性能分析\relax }}{8}{figure.caption.21}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces 光谱成像实验装置图\relax }}{9}{figure.caption.22}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces 光谱成像实验结果图\relax }}{10}{figure.caption.23}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces 光谱重建结果\relax }}{10}{figure.caption.24}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces 光谱重建结果\relax }}{11}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces 宽谱照明时实验结果\relax }}{11}{figure.caption.26}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces 宽谱照明时实验结果\relax }}{12}{figure.caption.27}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces 基于SSTM的透过散射介质成像系统示意图\relax }}{14}{figure.caption.28}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces SSTM标定示意图\relax }}{15}{figure.caption.29}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces 不同算法的重建结果对比\relax }}{16}{figure.caption.30}%
-\contentsline {figure}{\numberline {1.17}{\ignorespaces 点源目标的重建结果\relax }}{17}{figure.caption.31}%
-\contentsline {figure}{\numberline {1.18}{\ignorespaces 数字目标的重建结果\relax }}{18}{figure.caption.32}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 数字光学相位共轭示意图\relax }}{3}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 波前整形示意图\relax }}{4}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces 波前整形聚焦结果\relax }}{5}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces 超衍射极限聚焦示意图\relax }}{6}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces 超衍射极限聚焦实验结果\relax }}{6}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces 利用随机散射透镜实现的超衍射极限成像\relax }}{7}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 基于散斑方差的非入侵式波前优化方法示意图\relax }}{8}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 基于散斑方差的非入侵式波前优化聚焦结果\relax }}{8}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces 四步相移测量传输矩阵的实验原理图\relax }}{9}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces 采用相位共轭法得到的聚焦结果\relax }}{10}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces 光学记忆效应实验结果\relax }}{11}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces 基于光学记忆效应的非侵入式成像方法示意图\relax }}{12}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces 基于光学记忆效应的散射成像方法的实验结果\relax }}{13}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces 基于单帧散斑自相关成像的示意图\relax }}{14}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces 基于单帧散斑自相关成像的实验结果\relax }}{14}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces 采用双谱分析得到的重建结果\relax }}{15}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces 基于浴帘效应的散射成像结果\relax }}{15}{figure.caption.30}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces 基于去卷积的散射成像结果\relax }}{16}{figure.caption.31}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces 基于相位多样性的散斑成像原理示意图\relax }}{17}{figure.caption.32}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces 基于相位多样性的散射成像实验结果\relax }}{17}{figure.caption.33}%
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 透过散射介质彩色成像的基本原理\relax }}{22}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 单帧的透过散射介质成像示意图\relax }}{22}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 三阶相关的相位恢复算法流程如图\relax }}{24}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 基于三阶相关相位恢复的散斑成像仿真结果\relax }}{27}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces 不同相位恢复算法重建结果对比\relax }}{28}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces 基于三阶相关相位恢复的实验装置图\relax }}{28}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces 基于三阶相关相位恢复的实验结果\relax }}{29}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces 彩色实验结果\relax }}{29}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces 不同目标的彩色实验结果\relax }}{30}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces 复杂目标的彩色实验结果\relax }}{30}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 光谱成像实验结果\relax }}{31}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces 不同投影数的对比结果\relax }}{31}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces 抗噪性能分析对比结果\relax }}{32}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces 不同子散斑重叠率的重建结果\relax }}{33}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces 混合型相位恢复算法\Romannum {1}\relax }}{34}{figure.caption.47}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces 混合型相位恢复算法\Romannum {2}\relax }}{35}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces 不同相位恢复算法的实验结果\relax }}{36}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces 不同尺寸散斑的重建结果\relax }}{37}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 透过散射介质的光谱信息和结构信息恢复的结构示意图\relax }}{20}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 基于光谱传输矩阵的光谱重建基本原理\relax }}{21}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 散斑的相关系数\relax }}{22}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 散斑相关成像模型\relax }}{22}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 基本相位恢复流程图\relax }}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 仿真结果\relax }}{26}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 光谱重建算法的抗噪性能分析\relax }}{26}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 光谱成像实验装置图\relax }}{27}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 光谱成像实验结果图\relax }}{28}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 光谱重建结果\relax }}{28}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 光谱重建结果\relax }}{29}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces 宽谱照明时实验结果\relax }}{29}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces 宽谱照明时实验结果\relax }}{30}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces 基于SSTM的透过散射介质成像系统示意图\relax }}{32}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces SSTM标定示意图\relax }}{33}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces 不同算法的重建结果对比\relax }}{34}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces 点源目标的重建结果\relax }}{35}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces 数字目标的重建结果\relax }}{36}{figure.caption.52}%
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 非入侵成像系统示意图\relax }}{40}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 散斑去混叠示意图\relax }}{41}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 散斑指纹去混叠过程\relax }}{42}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 散斑滤波\relax }}{42}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 系统的秩$\rho $估计（仿真）\relax }}{43}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 系统的秩$\rho $估计（实验）\relax }}{43}{figure.caption.57}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 散斑去混叠实验结果\relax }}{43}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 散斑的相关性探索\relax }}{45}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 去卷积结果（OME范围内）\relax }}{46}{figure.caption.61}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 实验装置示意图\relax }}{47}{figure.caption.62}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 离散荧光目标的实验结果\relax }}{48}{figure.caption.63}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces FBR重建流程\relax }}{49}{figure.caption.64}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces 2D稀疏荧光目标透过散射介质成像实验结果\relax }}{49}{figure.caption.65}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces 非稀疏、连续复杂目标透过散射介质成像实验结果\relax }}{50}{figure.caption.66}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces 不同重建与参考图像之间的SSIM系数图\relax }}{51}{figure.caption.67}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces 估计不同散射介质的OME范围\relax }}{52}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces FBR细节信息\relax }}{53}{figure.caption.69}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{54}{figure.caption.70}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces 去卷积方和互相关方法的对比结果\relax }}{55}{figure.caption.71}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces 少量散斑照明时，稀疏目标的重建结果\relax }}{56}{figure.caption.72}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces 不同数量散斑照明时，连续目标的重建结果\relax }}{56}{figure.caption.73}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces 利用SLM提供随机照明时所重建的图像\relax }}{57}{figure.caption.74}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 透过散射介质彩色成像的基本原理\relax }}{40}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 单帧的透过散射介质成像示意图\relax }}{40}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 三阶相关的相位恢复算法流程如图\relax }}{42}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 基于三阶相关相位恢复的散斑成像仿真结果\relax }}{45}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 不同相位恢复算法重建结果对比\relax }}{46}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 基于三阶相关相位恢复的实验装置图\relax }}{46}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 基于三阶相关相位恢复的实验结果\relax }}{47}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 彩色实验结果\relax }}{47}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 不同目标的彩色实验结果\relax }}{48}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 复杂目标的彩色实验结果\relax }}{48}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 光谱成像实验结果\relax }}{49}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 不同投影数的对比结果\relax }}{49}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 抗噪性能分析对比结果\relax }}{50}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces 不同子散斑重叠率的重建结果\relax }}{51}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces 混合型相位恢复算法\Romannum {1}\relax }}{52}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 混合型相位恢复算法\Romannum {2}\relax }}{53}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces 不同相位恢复算法的实验结果\relax }}{54}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces 不同尺寸散斑的重建结果\relax }}{55}{figure.caption.70}%
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 多帧散斑照明的散射3D目标成像示意图\relax }}{59}{figure.caption.75}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 不同OME范围散斑指纹之间傅里叶振幅信息探索\relax }}{62}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同OME范围散斑指纹间相关性探索\relax }}{63}{figure.caption.78}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于MDS的散斑分类仿真结果\relax }}{65}{figure.caption.79}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 不同OME范围成像仿真结果\relax }}{66}{figure.caption.80}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 基于MDS散斑分类散射成像仿真结果\relax }}{67}{figure.caption.81}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 多OME范围成像仿真结果\relax }}{68}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 非入侵成像系统示意图\relax }}{58}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 散斑去混叠示意图\relax }}{59}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 散斑指纹去混叠过程\relax }}{60}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 散斑滤波\relax }}{60}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 系统的秩$\rho $估计（仿真）\relax }}{61}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 系统的秩$\rho $估计（实验）\relax }}{61}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 散斑去混叠实验结果\relax }}{61}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 散斑的相关性探索\relax }}{63}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 去卷积结果（OME范围内）\relax }}{64}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 实验装置示意图\relax }}{65}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 离散荧光目标的实验结果\relax }}{66}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces FBR重建流程\relax }}{67}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 2D稀疏荧光目标透过散射介质成像实验结果\relax }}{67}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 非稀疏、连续复杂目标透过散射介质成像实验结果\relax }}{68}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 不同重建与参考图像之间的SSIM系数图\relax }}{69}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 估计不同散射介质的OME范围\relax }}{70}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces FBR细节信息\relax }}{71}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces $\alpha = \frac {max\{o_{i,k}\}} {max\{o_{k,k}\}}$曲线图\relax }}{72}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 去卷积方和互相关方法的对比结果\relax }}{73}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 少量散斑照明时，稀疏目标的重建结果\relax }}{74}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 不同数量散斑照明时，连续目标的重建结果\relax }}{74}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces 利用SLM提供随机照明时所重建的图像\relax }}{75}{figure.caption.94}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 多帧散斑照明的散射多OME范围成像示意图\relax }}{77}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 不同OME范围散斑指纹之间傅里叶振幅信息探索\relax }}{80}{figure.caption.97}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 不同OME范围散斑指纹间相关性探索\relax }}{81}{figure.caption.98}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 基于MDS的散斑分类仿真结果\relax }}{83}{figure.caption.99}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 多OME范围成像仿真结果\relax }}{84}{figure.caption.100}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 基于MDS散斑分类多OME散射成像仿真结果\relax }}{85}{figure.caption.101}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 多OME范围成像仿真结果\relax }}{86}{figure.caption.102}%

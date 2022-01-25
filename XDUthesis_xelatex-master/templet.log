@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  24 JAN 2022 18:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  25 JAN 2022 18:51
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1094,8 +1094,9 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             <->"SimSun/OT:script=hani;language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-(templet.aux (chapters/abstract.aux) (chapters/substance.aux)
-(chapters/edit.aux) (chapters/guide.aux) (chapters/supplementary.aux
+(templet.aux (chapters/abstract.aux) (chapters/introduction.aux)
+(chapters/substance.aux) (chapters/edit.aux) (chapters/guide.aux)
+(chapters/supplementary.aux
 
 LaTeX Warning: Label `eq:6.6' multiply defined.
 
@@ -1660,7 +1661,19 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 
-])
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[16])
 \tf@toc=\write7
 \openout7 = `templet.toc'.
 
@@ -1673,10 +1686,21 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[16]
-\openout2 = `chapters/substance.aux'.
+[17]
 
- (chapters/substance.tex
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[18
+
+]
+\openout2 = `chapters/introduction.aux'.
+
+ (chapters/introduction.tex
 第一章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1694,11 +1718,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 
-
 ]
-File: figures//Chapter3.FIG2.spectral_retrieval_model.pdf Graphic file (type pd
-f)
-<use figures//Chapter3.FIG2.spectral_retrieval_model.pdf>
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1709,11 +1731,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [2]
-File: figures//C3.fig13.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig13.spectral_retrieval_model.pdf>
-File: figures//C3.fig3.spectral_correlation_speckle.pdf Graphic file (type pdf)
-
-<use figures//C3.fig3.spectral_correlation_speckle.pdf>
+File: figures//C2.fig1.pdf Graphic file (type pdf)
+<use figures//C2.fig1.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1724,8 +1743,12 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [3]
-File: figures//C3.fig4.imaging_model.pdf Graphic file (type pdf)
-<use figures//C3.fig4.imaging_model.pdf>
+File: figures//C2.fig2.pdf Graphic file (type pdf)
+<use figures//C2.fig2.pdf>
+File: figures//C2.fig3.pdf Graphic file (type pdf)
+<use figures//C2.fig3.pdf>
+File: figures//C2.fig4.pdf Graphic file (type pdf)
+<use figures//C2.fig4.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1736,6 +1759,14 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [4]
+File: figures//C2.fig5.pdf Graphic file (type pdf)
+<use figures//C2.fig5.pdf>
+File: figures//C2.fig6.pdf Graphic file (type pdf)
+<use figures//C2.fig6.pdf>
+
+Underfull \vbox (badness 7030) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1745,12 +1776,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [5]
-File: figures//C3.fig5.phase_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig5.phase_retrieval_model.pdf>
-
-Underfull \vbox (badness 5217) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1760,16 +1785,10 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [6]
-File: figures//C3.fig6.simulation_results.pdf Graphic file (type pdf)
-<use figures//C3.fig6.simulation_results.pdf>
-File: figures//C3.fig7.performance_under_fifferent_noise_levels.pdf Graphic fil
-e (type pdf)
-<use figures//C3.fig7.performance_under_fifferent_noise_levels.pdf>
-File: figures//C3.fig8.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig8.experimental_setup.pdf>
-
-Underfull \vbox (badness 7151) has occurred while \output is active []
-
+File: figures//C2.fig19.pdf Graphic file (type pdf)
+<use figures//C2.fig19.pdf>
+File: figures//C2.fig20.pdf Graphic file (type pdf)
+<use figures//C2.fig20.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1789,13 +1808,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [8]
-LaTeX Font Info:    Trying to load font information for OMS+TimesNewRoman(0) on
- input line 190.
-LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 190.
-
-
-LaTeX Font Warning: Font shape `OMS/TimesNewRoman(0)/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 190.
+File: figures//C2.fig7.pdf Graphic file (type pdf)
+<use figures//C2.fig7.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1806,10 +1820,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [9]
-File: figures//C3.fig9.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig9.experimental_setup.pdf>
-File: figures//C3.fig11.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig11.experimental_setup.pdf>
+File: figures//C2.fig8.pdf Graphic file (type pdf)
+<use figures//C2.fig8.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1820,12 +1832,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [10]
-File: figures//C3.fig10.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig10.experimental_setup.pdf>
-File: figures//C3.fig12.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig12.experimental_setup.pdf>
-File: figures//C3.fig14.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig14.spectral_retrieval_model.pdf>
+File: figures//C2.fig9.pdf Graphic file (type pdf)
+<use figures//C2.fig9.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1836,8 +1844,10 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [11]
-Underfull \vbox (badness 1867) has occurred while \output is active []
-
+File: figures//C2.fig10.pdf Graphic file (type pdf)
+<use figures//C2.fig10.pdf>
+File: figures//C2.fig11.pdf Graphic file (type pdf)
+<use figures//C2.fig11.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1848,8 +1858,15 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [12]
-File: figures//C3.fig15.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig15.spectral_retrieval_model.pdf>
+File: figures//C2.fig12.pdf Graphic file (type pdf)
+<use figures//C2.fig12.pdf>
+File: figures//C2.fig13.pdf Graphic file (type pdf)
+<use figures//C2.fig13.pdf>
+File: figures//C2.fig14.pdf Graphic file (type pdf)
+<use figures//C2.fig14.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1860,9 +1877,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [13]
-File: figures//C3.fig16.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig16.spectral_retrieval_model.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1872,6 +1886,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [14]
+File: figures//C2.fig15.pdf Graphic file (type pdf)
+<use figures//C2.fig15.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1881,8 +1898,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [15]
-File: figures//C3.fig17.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig17.spectral_retrieval_model.pdf>
+File: figures//C2.fig16.pdf Graphic file (type pdf)
+<use figures//C2.fig16.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1893,10 +1910,10 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [16]
-File: figures//C3.fig18.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig18.spectral_retrieval_model.pdf>
-File: figures//C3.fig19.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig19.spectral_retrieval_model.pdf>
+File: figures//C2.fig17.pdf Graphic file (type pdf)
+<use figures//C2.fig17.pdf>
+File: figures//C2.fig18.pdf Graphic file (type pdf)
+<use figures//C2.fig18.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1906,7 +1923,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[17]
+[17])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1916,6 +1933,14 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [18]
+\openout2 = `chapters/substance.aux'.
+
+ (chapters/substance.tex
+第二章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1924,7 +1949,16 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[19])
+[19
+
+
+
+
+]
+File: figures//Chapter3.FIG2.spectral_retrieval_model.pdf Graphic file (type pd
+f)
+<use figures//Chapter3.FIG2.spectral_retrieval_model.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1934,13 +1968,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [20]
-\openout2 = `chapters/edit.aux'.
+File: figures//C3.fig13.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig13.spectral_retrieval_model.pdf>
+File: figures//C3.fig3.spectral_correlation_speckle.pdf Graphic file (type pdf)
 
- (chapters/edit.tex
-第二章
-
-Underfull \vbox (badness 4913) has occurred while \output is active []
-
+<use figures//C3.fig3.spectral_correlation_speckle.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1950,16 +1982,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[21
-
-
-
-
-]
-File: figures//C4.fig1.pdf Graphic file (type pdf)
-<use figures//C4.fig1.pdf>
-File: figures//C4.fig2.pdf Graphic file (type pdf)
-<use figures//C4.fig2.pdf>
+[21]
+File: figures//C3.fig4.imaging_model.pdf Graphic file (type pdf)
+<use figures//C3.fig4.imaging_model.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -1970,9 +1995,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [22]
-File: figures//C4.fig3.pdf Graphic file (type pdf)
-<use figures//C4.fig3.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1982,6 +2004,12 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [23]
+File: figures//C3.fig5.phase_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig5.phase_retrieval_model.pdf>
+
+Underfull \vbox (badness 5217) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -1991,6 +2019,17 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [24]
+File: figures//C3.fig6.simulation_results.pdf Graphic file (type pdf)
+<use figures//C3.fig6.simulation_results.pdf>
+File: figures//C3.fig7.performance_under_fifferent_noise_levels.pdf Graphic fil
+e (type pdf)
+<use figures//C3.fig7.performance_under_fifferent_noise_levels.pdf>
+File: figures//C3.fig8.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig8.experimental_setup.pdf>
+
+Underfull \vbox (badness 7151) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2009,6 +2048,226 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [26]
+LaTeX Font Info:    Trying to load font information for OMS+TimesNewRoman(0) on
+ input line 189.
+LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 189.
+
+
+LaTeX Font Warning: Font shape `OMS/TimesNewRoman(0)/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 189.
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[27]
+File: figures//C3.fig9.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig9.experimental_setup.pdf>
+File: figures//C3.fig11.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig11.experimental_setup.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[28]
+File: figures//C3.fig10.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig10.experimental_setup.pdf>
+File: figures//C3.fig12.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig12.experimental_setup.pdf>
+File: figures//C3.fig14.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig14.spectral_retrieval_model.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[29]
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[30]
+File: figures//C3.fig15.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig15.spectral_retrieval_model.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[31]
+File: figures//C3.fig16.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig16.spectral_retrieval_model.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[33]
+File: figures//C3.fig17.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig17.spectral_retrieval_model.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[34]
+File: figures//C3.fig18.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig18.spectral_retrieval_model.pdf>
+File: figures//C3.fig19.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig19.spectral_retrieval_model.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[35]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[36]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[37])
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[38]
+\openout2 = `chapters/edit.aux'.
+
+ (chapters/edit.tex
+第三章
+
+Underfull \vbox (badness 4913) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[39
+
+
+
+
+]
+File: figures//C4.fig1.pdf Graphic file (type pdf)
+<use figures//C4.fig1.pdf>
+File: figures//C4.fig2.pdf Graphic file (type pdf)
+<use figures//C4.fig2.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[40]
+File: figures//C4.fig3.pdf Graphic file (type pdf)
+<use figures//C4.fig3.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[41]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[42]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[43]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[44]
 File: figures//C4.fig4.pdf Graphic file (type pdf)
 <use figures//C4.fig4.pdf>
 File: figures//C4.fig5.pdf Graphic file (type pdf)
@@ -2022,7 +2281,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[27]
+[45]
 File: figures//C4.fig6.pdf Graphic file (type pdf)
 <use figures//C4.fig6.pdf>
 File: figures//C4.fig7.pdf Graphic file (type pdf)
@@ -2036,7 +2295,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[28]
+[46]
 File: figures//C4.fig8.pdf Graphic file (type pdf)
 <use figures//C4.fig8.pdf>
 File: figures//C4.fig9.pdf Graphic file (type pdf)
@@ -2050,7 +2309,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[29]
+[47]
 File: figures//C4.fig10.pdf Graphic file (type pdf)
 <use figures//C4.fig10.pdf>
 File: figures//C4.fig11.pdf Graphic file (type pdf)
@@ -2064,7 +2323,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[30]
+[48]
 File: figures//C4.fig12.pdf Graphic file (type pdf)
 <use figures//C4.fig12.pdf>
 
@@ -2076,7 +2335,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[31]
+[49]
 File: figures//C4.fig13.pdf Graphic file (type pdf)
 <use figures//C4.fig13.pdf>
 
@@ -2088,7 +2347,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[32]
+[50]
 File: figures//C4.fig14.pdf Graphic file (type pdf)
 <use figures//C4.fig14.pdf>
 File: figures//C4.fig15.pdf Graphic file (type pdf)
@@ -2102,7 +2361,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[33]
+[51]
 File: figures//C4.fig16.pdf Graphic file (type pdf)
 <use figures//C4.fig16.pdf>
 
@@ -2114,7 +2373,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[34]
+[52]
 File: figures//C4.fig17.pdf Graphic file (type pdf)
 <use figures//C4.fig17.pdf>
 
@@ -2126,7 +2385,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[35]
+[53]
 File: figures//C4.fig18.pdf Graphic file (type pdf)
 <use figures//C4.fig18.pdf>
 
@@ -2141,7 +2400,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[36])
+[54])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2150,7 +2409,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[37]
+[55]
 \openout2 = `chapters/guide.aux'.
 
  (chapters/guide.tex
@@ -2162,13 +2421,13 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[38
+[56
 
 
 
 
 ]
-第三章
+第四章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2181,7 +2440,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[39]
+[57]
 File: figures//C5.fig1.pdf Graphic file (type pdf)
 <use figures//C5.fig1.pdf>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12.045> not 
@@ -2197,7 +2456,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[40]
+[58]
 File: figures//C5.fig4.pdf Graphic file (type pdf)
 <use figures//C5.fig4.pdf>
 
@@ -2209,7 +2468,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[41]
+[59]
 File: figures//C5.fig2.pdf Graphic file (type pdf)
 <use figures//C5.fig2.pdf>
 File: figures//C5.fig3.pdf Graphic file (type pdf)
@@ -2225,7 +2484,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[42]
+[60]
 File: figures//C5.fig6.pdf Graphic file (type pdf)
 <use figures//C5.fig6.pdf>
 File: figures//C5.fig7.pdf Graphic file (type pdf)
@@ -2239,7 +2498,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[43]
+[61]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
 (Font)              using `TU/SimSun(0)/b/n' instead on input line 124.
@@ -2252,238 +2511,12 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[44]
+[62]
 File: figures//C5.fig8.pdf Graphic file (type pdf)
 <use figures//C5.fig8.pdf>
 File: figures//C5.fig9.pdf Graphic file (type pdf)
 <use figures//C5.fig9.pdf>
 
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[45]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[46]
-File: figures//C5.fig11.pdf Graphic file (type pdf)
-<use figures//C5.fig11.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[47]
-File: figures//C5.fig12.pdf Graphic file (type pdf)
-<use figures//C5.fig12.pdf>
-File: figures//C5.fig10.pdf Graphic file (type pdf)
-<use figures//C5.fig10.pdf>
-File: figures//C5.fig13.pdf Graphic file (type pdf)
-<use figures//C5.fig13.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[48]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[49]
-File: figures//C5.fig14.pdf Graphic file (type pdf)
-<use figures//C5.fig14.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[50]
-File: figures//C5.fig15.pdf Graphic file (type pdf)
-<use figures//C5.fig15.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[51]
-File: figures//C5.fig16.pdf Graphic file (type pdf)
-<use figures//C5.fig16.pdf>
-File: figures//C5.fig17.pdf Graphic file (type pdf)
-<use figures//C5.fig17.pdf>
-File: figures//C5.fig18.pdf Graphic file (type pdf)
-<use figures//C5.fig18.pdf>
-
-Underfull \vbox (badness 7344) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[52]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[53]
-Underfull \vbox (badness 5446) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[54]
-File: figures//C5.fig19.pdf Graphic file (type pdf)
-<use figures//C5.fig19.pdf>
-File: figures//C5.fig20.pdf Graphic file (type pdf)
-<use figures//C5.fig20.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[55]
-File: figures//C5.fig21.pdf Graphic file (type pdf)
-<use figures//C5.fig21.pdf>
-File: figures//C5.fig22.pdf Graphic file (type pdf)
-<use figures//C5.fig22.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[56])
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[57]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[58]
-\openout2 = `chapters/supplementary.aux'.
-
- (chapters/supplementary.tex
-第四章
-File: figures//C6.fig1.pdf Graphic file (type pdf)
-<use figures//C6.fig1.pdf>
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[59
-
-
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[60]
-File: figures//C6.fig2.pdf Graphic file (type pdf)
-<use figures//C6.fig2.pdf>
-File: figures//C6.fig5.pdf Graphic file (type pdf)
-<use figures//C6.fig5.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[61]
-
-Package fancyhdr Warning: \headheight is too small (10.5pt): 
-(fancyhdr)                Make it at least 24.57175pt, for example:
-(fancyhdr)                \setlength{\headheight}{24.57175pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
-
-[62]
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2502,6 +2535,232 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [64]
+File: figures//C5.fig11.pdf Graphic file (type pdf)
+<use figures//C5.fig11.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[65]
+File: figures//C5.fig12.pdf Graphic file (type pdf)
+<use figures//C5.fig12.pdf>
+File: figures//C5.fig10.pdf Graphic file (type pdf)
+<use figures//C5.fig10.pdf>
+File: figures//C5.fig13.pdf Graphic file (type pdf)
+<use figures//C5.fig13.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[66]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[67]
+File: figures//C5.fig14.pdf Graphic file (type pdf)
+<use figures//C5.fig14.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[68]
+File: figures//C5.fig15.pdf Graphic file (type pdf)
+<use figures//C5.fig15.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[69]
+File: figures//C5.fig16.pdf Graphic file (type pdf)
+<use figures//C5.fig16.pdf>
+File: figures//C5.fig17.pdf Graphic file (type pdf)
+<use figures//C5.fig17.pdf>
+File: figures//C5.fig18.pdf Graphic file (type pdf)
+<use figures//C5.fig18.pdf>
+
+Underfull \vbox (badness 7344) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[70]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[71]
+Underfull \vbox (badness 5446) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[72]
+File: figures//C5.fig19.pdf Graphic file (type pdf)
+<use figures//C5.fig19.pdf>
+File: figures//C5.fig20.pdf Graphic file (type pdf)
+<use figures//C5.fig20.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[73]
+File: figures//C5.fig21.pdf Graphic file (type pdf)
+<use figures//C5.fig21.pdf>
+File: figures//C5.fig22.pdf Graphic file (type pdf)
+<use figures//C5.fig22.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[74])
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[75]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[76]
+\openout2 = `chapters/supplementary.aux'.
+
+ (chapters/supplementary.tex
+第五章
+File: figures//C6.fig1.pdf Graphic file (type pdf)
+<use figures//C6.fig1.pdf>
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[77
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[78]
+File: figures//C6.fig2.pdf Graphic file (type pdf)
+<use figures//C6.fig2.pdf>
+File: figures//C6.fig5.pdf Graphic file (type pdf)
+<use figures//C6.fig5.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[79]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[80]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[81]
+
+Package fancyhdr Warning: \headheight is too small (10.5pt): 
+(fancyhdr)                Make it at least 24.57175pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.57175pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
+
+[82]
 File: figures//C6.fig6.pdf Graphic file (type pdf)
 <use figures//C6.fig6.pdf>
 
@@ -2513,7 +2772,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[65]
+[83]
 File: figures//C6.fig3.pdf Graphic file (type pdf)
 <use figures//C6.fig3.pdf>
 File: figures//C6.fig4.pdf Graphic file (type pdf)
@@ -2527,7 +2786,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[66]
+[84]
 File: figures//C6.fig7.pdf Graphic file (type pdf)
 <use figures//C6.fig7.pdf>
 
@@ -2542,7 +2801,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[67])
+[85])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2551,7 +2810,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[68] (templet.bbl
+[86] (templet.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2563,7 +2822,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[69
+[87
 
 
 
@@ -2580,7 +2839,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[70]
+[88]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2592,7 +2851,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[71]
+[89]
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2601,7 +2860,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[72])
+[90])
 \openout2 = `chapters/thanks.aux'.
 
  (chapters/thanks.tex
@@ -2613,7 +2872,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[73
+[91
 
 
 
@@ -2626,7 +2885,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[74
+[92
 
 ])
 \openout2 = `chapters/resume.aux'.
@@ -2640,7 +2899,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[75
+[93
 
 
 
@@ -2654,11 +2913,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[76
+[94
 
-]) (templet.aux (chapters/abstract.aux) (chapters/substance.aux)
-(chapters/edit.aux) (chapters/guide.aux) (chapters/supplementary.aux)
-(chapters/thanks.aux) (chapters/resume.aux))
+]) (templet.aux (chapters/abstract.aux) (chapters/introduction.aux)
+(chapters/substance.aux) (chapters/edit.aux) (chapters/guide.aux)
+(chapters/supplementary.aux) (chapters/thanks.aux) (chapters/resume.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -2670,15 +2929,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: AAA2641EFD2D43E9EB2ECB6B04A817F0;9391.
+(rerunfilecheck)             Checksum: D9D87F8021323FD4CE4DB9100F79EA8B;11406.
  ) 
 Here is how much of TeX's memory you used:
- 32713 strings out of 411295
- 684199 string characters out of 2836124
- 1007932 words of memory out of 3000000
- 52467 multiletter control sequences out of 15000+600000
+ 32973 strings out of 411295
+ 690980 string characters out of 2836124
+ 1013984 words of memory out of 3000000
+ 52719 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1200b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (100 pages, 1204684 bytes).
+Output written on templet.xdv (120 pages, 1451364 bytes).
