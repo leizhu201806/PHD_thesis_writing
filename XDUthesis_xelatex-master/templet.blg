@@ -71,45 +71,45 @@ Warning--string name "dec" is undefined
 Warning--string name "oct" is undefined
 --line 1260 of file bib/tex.bib
 Warning--Require address: lee_algorithms_2001
-You've used 54 entries,
+You've used 65 entries,
             3054 wiz_defined-function locations,
-            1042 strings with 16923 characters,
-and the built_in function-call counts, 105471 in all, are:
-= -- 11874
-> -- 193
-< -- 440
-+ -- 9473
-- -- 655
-* -- 2963
-:= -- 11849
+            1095 strings with 18588 characters,
+and the built_in function-call counts, 126158 in all, are:
+= -- 14187
+> -- 229
+< -- 523
++ -- 11275
+- -- 782
+* -- 3546
+:= -- 14102
 add.period$ -- 0
-call.type$ -- 54
-change.case$ -- 278
+call.type$ -- 65
+change.case$ -- 328
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 15036
-empty$ -- 3753
-format.name$ -- 556
-if$ -- 27995
+cite$ -- 66
+duplicate$ -- 18027
+empty$ -- 4538
+format.name$ -- 656
+if$ -- 33471
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 65
 missing$ -- 0
-newline$ -- 189
-num.names$ -- 54
-pop$ -- 1356
+newline$ -- 222
+num.names$ -- 65
+pop$ -- 1650
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 802
+skip$ -- 958
 stack$ -- 0
-substring$ -- 12792
-swap$ -- 2912
+substring$ -- 15316
+swap$ -- 3517
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 1265
-width$ -- 56
-write$ -- 815
+while$ -- 1526
+width$ -- 67
+write$ -- 975
 (There were 24 warnings)

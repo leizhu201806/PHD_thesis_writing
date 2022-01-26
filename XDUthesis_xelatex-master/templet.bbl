@@ -24,12 +24,63 @@
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
-\bibitem{bertolotti_non-invasive_2012}
-\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
-  \bibtitle{Non-invasive imaging through opaque scattering
-  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
-  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
-  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
+\bibitem{huang_optical_1991}
+\bibauthor{HUANG D\@, SWANSON E~A\@, LIN C~P, et~al}\@. \bibtitle{Optical
+  coherence tomography}\bibmark{[J]}\@. \bibjournal{Science}\@,
+  \bibyear{1991}\@, \bibvolume{254}\bibnumber{(5035)}\thinspace{}\textnormal{:
+  }\bibpages{1178\thinspace{}\textnormal{--}\thinspace{}1181}\@.
+
+\bibitem{webb_confocal_1996}
+\bibauthor{WEBB R~H}\@. \bibtitle{Confocal optical microscopy}\bibmark{[J]}\@.
+  \bibjournal{Reports on Progress in Physics}\@, \bibyear{1996}\@,
+  \bibvolume{59}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{427\thinspace{}\textnormal{--}\thinspace{}471}\@.
+
+\bibitem{denk_two_photon_1990}
+\bibauthor{DENK W\@, STRICKLER J~H\@, WEBB W~W}\@. \bibtitle{Two-{Photon}
+  {Laser} {Scanning} {Fluorescence} {Microscopy}}\bibmark{[J]}\@.
+  \bibjournal{Science}\@, \bibyear{1990}\@.
+
+\bibitem{helmchen_deep_2005}
+\bibauthor{HELMCHEN F\@, DENK W}\@. \bibtitle{Deep tissue two-photon
+  microscopy}\bibmark{[J]}\@. \bibjournal{Nature Methods}\@, \bibyear{2005}\@,
+  \bibvolume{2}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{932\thinspace{}\textnormal{--}\thinspace{}940}\@.
+
+\bibitem{zhang_functional_2006}
+\bibauthor{ZHANG H~F\@, MASLOV K\@, STOICA G, et~al}\@. \bibtitle{Functional
+  photoacoustic microscopy for high-resolution and noninvasive in vivo
+  imaging}\bibmark{[J]}\@. \bibjournal{Nature Biotechnology}\@,
+  \bibyear{2006}\@, \bibvolume{24}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{848\thinspace{}\textnormal{--}\thinspace{}851}\@.
+
+\bibitem{wang_multiscale_2009}
+\bibauthor{WANG L~V}\@. \bibtitle{Multiscale photoacoustic microscopy and
+  computed tomography}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
+  \bibyear{2009}\@, \bibvolume{3}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{503\thinspace{}\textnormal{--}\thinspace{}509}\@.
+
+\bibitem{ale_fmt_xct_2012}
+\bibauthor{ALE A\@, ERMOLAYEV V\@, HERZOG E, et~al}\@. \bibtitle{{FMT}-{XCT}:
+  in vivo animal studies with hybrid fluorescence molecular
+  tomography–{X}-ray computed tomography}\bibmark{[J]}\@. \bibjournal{Nature
+  Methods}\@, \bibyear{2012}\@,
+  \bibvolume{9}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{615\thinspace{}\textnormal{--}\thinspace{}620}\@.
+
+\bibitem{razansky_volumetric_2011}
+\bibauthor{RAZANSKY D\@, BUEHLER A\@, NTZIACHRISTOS V}\@. \bibtitle{Volumetric
+  real-time multispectral optoacoustic tomography of
+  biomarkers}\bibmark{[J]}\@. \bibjournal{Nature Protocols}\@,
+  \bibyear{2011}\@, \bibvolume{6}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1121\thinspace{}\textnormal{--}\thinspace{}1129}\@.
+
+\bibitem{ntziachristos_going_2010}
+\bibauthor{NTZIACHRISTOS V}\@. \bibtitle{Going deeper than microscopy: the
+  optical imaging frontier in biology}\bibmark{[J]}\@. \bibjournal{Nature
+  Methods}\@, \bibyear{2010}\@,
+  \bibvolume{7}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{603\thinspace{}\textnormal{--}\thinspace{}614}\@.
 
 \bibitem{Freund1988}
 \bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
@@ -37,6 +88,33 @@
   \bibjournal{Physical Review Letters}\@, \bibyear{1988}\@,
   \bibvolume{61}\bibnumber{(20)}\thinspace{}\textnormal{:
   }\bibpages{2328\thinspace{}\textnormal{--}\thinspace{}2331}\@.
+
+\bibitem{judkewitz_translation_2015}
+\bibauthor{JUDKEWITZ B\@, HORSTMEYER R\@, VELLEKOOP I~M, et~al}\@.
+  \bibtitle{Translation correlations in anisotropically scattering
+  media}\bibmark{[J]}\@. \bibjournal{Nature Physics}\@, \bibyear{2015}\@,
+  \bibvolume{11}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{684\thinspace{}\textnormal{--}\thinspace{}689}\@.
+
+\bibitem{osnabrugge_generalized_2017}
+\bibauthor{OSNABRUGGE G\@, HORSTMEYER R\@, PAPADOPOULOS I~N, et~al}\@.
+  \bibtitle{Generalized optical memory effect}\bibmark{[J]}\@.
+  \bibjournal{Optica}\@, \bibyear{2017}\@,
+  \bibvolume{4}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{886\thinspace{}\textnormal{--}\thinspace{}892}\@.
+
+\bibitem{vellekoop_scattered_2010}
+\bibauthor{VELLEKOOP I~M\@, AEGERTER C~M}\@. \bibtitle{Scattered light
+  fluorescence microscopy: imaging through turbid layers}\bibmark{[J]}\@.
+  \bibjournal{Optics Letters}\@, \bibyear{2010}\@,
+  \bibvolume{35}\bibnumber{(8)}\thinspace{}\textnormal{: }\bibpages{1245}\@.
+
+\bibitem{bertolotti_non-invasive_2012}
+\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
+  \bibtitle{Non-invasive imaging through opaque scattering
+  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
+  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
+  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
 
 \bibitem{Yllmaz2019}
 \bibauthor{YıLMAZ H\@, HSU C~W\@, GOETSCHY A, et~al}\@. \bibtitle{{Angular
@@ -198,12 +276,6 @@
 \bibauthor{ABRAMSON N}\@. \bibtitle{{Light-in-flight recording by
   holography}}\bibmark{[J]}\@. \bibjournal{Optics Letters}\@, \bibyear{1978}\@,
   \bibvolume{3}\bibnumber{(4)}\thinspace{}\textnormal{: }\bibpages{121}\@.
-
-\bibitem{huang_optical_1991}
-\bibauthor{HUANG D\@, SWANSON E~A\@, LIN C~P, et~al}\@. \bibtitle{Optical
-  coherence tomography}\bibmark{[J]}\@. \bibjournal{Science}\@,
-  \bibyear{1991}\@, \bibvolume{254}\bibnumber{(5035)}\thinspace{}\textnormal{:
-  }\bibpages{1178\thinspace{}\textnormal{--}\thinspace{}1181}\@.
 
 \bibitem{Mosk2012}
 \bibauthor{MOSK A~P\@, LAGENDIJK A\@, LEROSEY G, et~al}\@.

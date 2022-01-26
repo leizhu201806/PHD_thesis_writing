@@ -1454,8 +1454,12 @@ INPUT .\figures\\C2.fig7.pdf
 INPUT figures\\C2.fig7.pdf
 INPUT .\figures\\C2.fig8.pdf
 INPUT figures\\C2.fig8.pdf
+INPUT .\figures\\C2.fig23.pdf
+INPUT figures\\C2.fig23.pdf
 INPUT .\figures\\C2.fig9.pdf
 INPUT figures\\C2.fig9.pdf
+INPUT .\figures\\C2.fig21.pdf
+INPUT figures\\C2.fig21.pdf
 INPUT .\figures\\C2.fig10.pdf
 INPUT figures\\C2.fig10.pdf
 INPUT .\figures\\C2.fig11.pdf
@@ -1468,6 +1472,8 @@ INPUT .\figures\\C2.fig14.pdf
 INPUT figures\\C2.fig14.pdf
 INPUT .\figures\\C2.fig15.pdf
 INPUT figures\\C2.fig15.pdf
+INPUT .\figures\\C2.fig22.pdf
+INPUT figures\\C2.fig22.pdf
 INPUT .\figures\\C2.fig16.pdf
 INPUT figures\\C2.fig16.pdf
 INPUT .\figures\\C2.fig17.pdf
