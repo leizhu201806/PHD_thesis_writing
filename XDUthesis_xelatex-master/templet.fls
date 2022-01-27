@@ -1434,6 +1434,8 @@ INPUT .\chapters\introduction.tex
 INPUT chapters\introduction.tex
 INPUT .\chapters\introduction.tex
 INPUT chapters\introduction.tex
+INPUT .\figures\\C2.fig25.pdf
+INPUT figures\\C2.fig25.pdf
 INPUT .\figures\\C2.fig1.pdf
 INPUT figures\\C2.fig1.pdf
 INPUT .\figures\\C2.fig2.pdf
@@ -1448,8 +1450,6 @@ INPUT .\figures\\C2.fig6.pdf
 INPUT figures\\C2.fig6.pdf
 INPUT .\figures\\C2.fig19.pdf
 INPUT figures\\C2.fig19.pdf
-INPUT .\figures\\C2.fig20.pdf
-INPUT figures\\C2.fig20.pdf
 INPUT .\figures\\C2.fig7.pdf
 INPUT figures\\C2.fig7.pdf
 INPUT .\figures\\C2.fig8.pdf

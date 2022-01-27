@@ -82,6 +82,19 @@
   \bibvolume{7}\bibnumber{(8)}\thinspace{}\textnormal{:
   }\bibpages{603\thinspace{}\textnormal{--}\thinspace{}614}\@.
 
+\bibitem{bohren_absorption_2008}
+\bibauthor{BOHREN C~F\@, HUFFMAN D~R}\@. \bibbooktitle{Absorption and
+  {Scattering} of {Light} by {Small} {Particles}}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{John Wiley \&
+  Sons}\@, \bibyear{2008}\@.
+
+\bibitem{boniface_non_invasive_2020}
+\bibauthor{BONIFACE A\@, DONG J\@, GIGAN S}\@. \bibtitle{Non-invasive focusing
+  and imaging in scattering media with a fluorescence-based transmission
+  matrix}\bibmark{[J]}\@. \bibjournal{Nature Communications}\@,
+  \bibyear{2020}\@, \bibvolume{11}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{6154}\@.
+
 \bibitem{Freund1988}
 \bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
   propagation of optical waves through disordered media}}\bibmark{[J]}\@.
@@ -363,13 +376,6 @@
   correlations}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
   \bibyear{2018}\@, \bibvolume{26}\bibnumber{(8)}\thinspace{}\textnormal{:
   }\bibpages{9866\thinspace{}\textnormal{--}\thinspace{}9881}\@.
-
-\bibitem{boniface_non_invasive_2020}
-\bibauthor{BONIFACE A\@, DONG J\@, GIGAN S}\@. \bibtitle{Non-invasive focusing
-  and imaging in scattering media with a fluorescence-based transmission
-  matrix}\bibmark{[J]}\@. \bibjournal{Nature Communications}\@,
-  \bibyear{2020}\@, \bibvolume{11}\bibnumber{(1)}\thinspace{}\textnormal{:
-  }\bibpages{6154}\@.
 
 \bibitem{Moretti2020a}
 \bibauthor{MORETTI C\@, GIGAN S}\@. \bibtitle{{Readout of fluorescence
