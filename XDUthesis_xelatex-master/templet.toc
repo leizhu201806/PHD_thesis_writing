@@ -8,67 +8,67 @@
 \contentsline {section}{\numberline {1.1}光散射的基本概念}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}基于波前整形的散射成像技术}{5}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}光学相位共轭}{5}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}基于反馈优化波前整形的散射介质成像技术}{6}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}光学传输矩阵的散射介质成像技术}{10}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.2}基于反馈优化波前整形的散射介质成像技术}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}光学传输矩阵的散射介质成像技术}{9}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}非入侵传输矩阵测量技术}{12}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}基于光学记忆效应的散射成像技术}{12}{section.1.3}%
+\contentsline {section}{\numberline {1.3}基于光学记忆效应的散射成像技术}{13}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}光学记忆效应}{13}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}基于散斑相关的散射成像技术}{14}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}基于散斑相关的散射成像技术}{15}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}利用光学记忆效应点扫描成像技术}{18}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}基于点扩展函数工程的透过散射介质成像技术}{18}{section.1.4}%
+\contentsline {section}{\numberline {1.4}基于点扩展函数工程的透过散射介质成像技术}{19}{section.1.4}%
 \contentsline {section}{\numberline {1.5}本章小节}{21}{section.1.5}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}透过散射介质的光谱信恢复和空间信息恢复}{23}{chapter.2}%
-\contentsline {section}{\numberline {2.1}基于光谱传输矩阵和散斑相关成像方法的原理介绍}{24}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}基于光谱传输矩阵的光谱重建模型}{24}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}基于光学记忆效应的散斑相关成像模型}{26}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}光谱信息恢复及散斑自相关成像方法仿真验证}{29}{section.2.2}%
-\contentsline {section}{\numberline {2.3}光谱信息恢复及散斑自相关成像方法实验验证}{31}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}光谱重建分析}{32}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}散斑相关成像分析}{33}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}光谱传输矩阵方法的扩展}{34}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}基本原理}{35}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}SSTM标定原理}{36}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}目标重建算法}{37}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}实验结果}{38}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}讨论}{40}{section.2.5}%
-\contentsline {section}{\numberline {2.6}本章小结}{41}{section.2.6}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于三阶相关相位恢复的彩色成像方法}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}基于三阶相关相位恢复算法的彩色像基本理论}{44}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}振幅恢复}{45}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}相位恢复}{45}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}仿真验证及方法对比}{49}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}成像系统与结果分析}{49}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}成像系统}{49}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}实验结果}{50}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}成像分析}{52}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}基于三阶相关相位恢复方法扩展及讨论}{55}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}不同相位恢复算法之间的混合}{55}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}噪声分析}{57}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}本章小结}{58}{section.3.4}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}基于波动随机照明的透过散射介质超光学记忆效应范围成像}{61}{chapter.4}%
-\contentsline {section}{\numberline {4.1}基于波动随机照明的透过散射介质超光学记忆效应范围成像基本原理}{62}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}散斑指纹去混叠}{63}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}基于散斑指纹的图像重建}{66}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}实验验证}{68}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}稀疏2D荧光目标重建}{70}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}复杂连续3D目标}{72}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}实验分析与讨论}{73}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}估计系统的秩}{73}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}光学记忆效应范围}{73}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}FBR}{74}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}透过散射介质的光谱信恢复和空间信息恢复}{25}{chapter.2}%
+\contentsline {section}{\numberline {2.1}基于光谱传输矩阵和散斑相关成像方法的原理介绍}{26}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}基于光谱传输矩阵的光谱重建模型}{26}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}基于光学记忆效应的散斑相关成像模型}{28}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}光谱信息恢复及散斑自相关成像方法仿真验证}{31}{section.2.2}%
+\contentsline {section}{\numberline {2.3}光谱信息恢复及散斑自相关成像方法实验验证}{33}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}光谱重建分析}{34}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}散斑相关成像分析}{35}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}光谱传输矩阵方法的扩展}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}基本原理}{37}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}SSTM标定原理}{38}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}目标重建算法}{39}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}实验结果}{40}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}讨论}{42}{section.2.5}%
+\contentsline {section}{\numberline {2.6}本章小结}{43}{section.2.6}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于三阶相关相位恢复的彩色成像方法}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}基于三阶相关相位恢复算法的彩色像基本理论}{46}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}振幅恢复}{47}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}相位恢复}{47}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}仿真验证及方法对比}{51}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}成像系统与结果分析}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}成像系统}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}实验结果}{52}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}成像分析}{54}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}基于三阶相关相位恢复方法扩展及讨论}{57}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}不同相位恢复算法之间的混合}{57}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}噪声分析}{59}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}本章小结}{60}{section.3.4}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}基于波动随机照明的透过散射介质超光学记忆效应范围成像}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}基于波动随机照明的透过散射介质超光学记忆效应范围成像基本原理}{64}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}散斑指纹去混叠}{65}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}基于散斑指纹的图像重建}{68}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}实验验证}{70}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}稀疏2D荧光目标重建}{72}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}复杂连续3D目标}{74}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}实验分析与讨论}{74}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}估计系统的秩}{74}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}光学记忆效应范围}{75}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}FBR}{76}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}去卷积方和互相关方法的对比}{76}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}不同数量散斑对于重建结果的影响}{77}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}利用SLM产生随机照明}{78}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}动态散射介质成像}{79}{subsection.4.3.7}%
-\contentsline {section}{\numberline {4.4}本章小结}{79}{section.4.4}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}基于多帧散斑照明的散射介质多OME范围成像}{81}{chapter.5}%
-\contentsline {section}{\numberline {5.1}基于多帧散斑照明的散射介质多OME范围成像基本原理}{82}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}多OME范围模型}{82}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}基于散斑相关特性散斑分类方法}{85}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}基于多维缩放算法的散斑分类方法}{86}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}多OME范围仿真结果与分析}{88}{section.5.2}%
-\contentsline {section}{\numberline {5.3}讨论}{89}{section.5.3}%
-\contentsline {section}{\numberline {5.4}本章小节}{90}{section.5.4}%
-\contentsline {chapter}{参考文献}{91}{section*.107}%
-\contentsline {chapter}{致谢}{97}{section*.109}%
-\contentsline {chapter}{作者简介}{99}{section*.111}%
+\contentsline {subsection}{\numberline {4.3.5}不同数量散斑对于重建结果的影响}{78}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}利用SLM产生随机照明}{80}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}动态散射介质成像}{81}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}本章小结}{81}{section.4.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}基于多帧散斑照明的散射介质多OME范围成像}{83}{chapter.5}%
+\contentsline {section}{\numberline {5.1}基于多帧散斑照明的散射介质多OME范围成像基本原理}{84}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}多OME范围模型}{84}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}基于散斑相关特性散斑分类方法}{87}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}基于多维缩放算法的散斑分类方法}{88}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}多OME范围仿真结果与分析}{90}{section.5.2}%
+\contentsline {section}{\numberline {5.3}讨论}{91}{section.5.3}%
+\contentsline {section}{\numberline {5.4}本章小节}{92}{section.5.4}%
+\contentsline {chapter}{参考文献}{93}{section*.108}%
+\contentsline {chapter}{致谢}{101}{section*.110}%
+\contentsline {chapter}{作者简介}{103}{section*.112}%

@@ -70,47 +70,54 @@ Warning--string name "dec" is undefined
 --line 1113 of file bib/tex.bib
 Warning--string name "oct" is undefined
 --line 1260 of file bib/tex.bib
+Warning--string name "aug" is undefined
+--line 2249 of file bib/tex.bib
+Warning--I didn't find a database entry for "remeau_reference_less_2015"
+Warning--Require address: blochet_fast_2017
 Warning--Require address: bohren_absorption_2008
+Warning--Require address: fisher_optical_2012
+Warning--Require address: akkermans_mesoscopic_2007
+Warning--Require citedate: jin_depth_2018
 Warning--Require address: lee_algorithms_2001
-You've used 66 entries,
+You've used 120 entries,
             3054 wiz_defined-function locations,
-            1099 strings with 18728 characters,
-and the built_in function-call counts, 127453 in all, are:
-= -- 14328
-> -- 232
-< -- 530
-+ -- 11387
-- -- 790
-* -- 3590
-:= -- 14254
+            1357 strings with 28658 characters,
+and the built_in function-call counts, 227811 in all, are:
+= -- 25491
+> -- 423
+< -- 966
++ -- 20171
+- -- 1440
+* -- 6542
+:= -- 25368
 add.period$ -- 0
-call.type$ -- 66
-change.case$ -- 332
+call.type$ -- 120
+change.case$ -- 606
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 18198
-empty$ -- 4586
-format.name$ -- 664
-if$ -- 33820
+cite$ -- 126
+duplicate$ -- 32473
+empty$ -- 8340
+format.name$ -- 1212
+if$ -- 60408
 int.to.chr$ -- 0
-int.to.str$ -- 66
+int.to.str$ -- 120
 missing$ -- 0
-newline$ -- 225
-num.names$ -- 66
-pop$ -- 1662
+newline$ -- 387
+num.names$ -- 120
+pop$ -- 3015
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 975
+skip$ -- 1764
 stack$ -- 0
-substring$ -- 15461
-swap$ -- 3556
+substring$ -- 27525
+swap$ -- 6473
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 1539
-width$ -- 68
-write$ -- 987
-(There were 25 warnings)
+warning$ -- 6
+while$ -- 2806
+width$ -- 123
+write$ -- 1785
+(There were 31 warnings)
