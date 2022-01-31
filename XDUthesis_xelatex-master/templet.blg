@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 The style file: gbt7714-2005.bst
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: chapters/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: chapters/general.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chapters/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
@@ -25,99 +27,100 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: bib/tex.bib
 Warning--string name "nov" is undefined
---line 403 of file bib/tex.bib
+--line 406 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 448 of file bib/tex.bib
+--line 451 of file bib/tex.bib
 Warning--string name "feb" is undefined
---line 480 of file bib/tex.bib
+--line 483 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 498 of file bib/tex.bib
+--line 501 of file bib/tex.bib
 Warning--string name "may" is undefined
---line 516 of file bib/tex.bib
+--line 519 of file bib/tex.bib
 Warning--string name "jul" is undefined
---line 532 of file bib/tex.bib
+--line 535 of file bib/tex.bib
 Warning--string name "apr" is undefined
---line 551 of file bib/tex.bib
+--line 554 of file bib/tex.bib
 Warning--string name "aug" is undefined
---line 569 of file bib/tex.bib
+--line 572 of file bib/tex.bib
 Warning--string name "sep" is undefined
---line 590 of file bib/tex.bib
+--line 593 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 609 of file bib/tex.bib
+--line 612 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 628 of file bib/tex.bib
+--line 631 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 647 of file bib/tex.bib
+--line 650 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 664 of file bib/tex.bib
+--line 667 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 696 of file bib/tex.bib
+--line 699 of file bib/tex.bib
 Warning--string name "jul" is undefined
---line 716 of file bib/tex.bib
+--line 719 of file bib/tex.bib
 Warning--string name "jul" is undefined
---line 736 of file bib/tex.bib
+--line 739 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 754 of file bib/tex.bib
+--line 757 of file bib/tex.bib
 Warning--string name "sep" is undefined
---line 771 of file bib/tex.bib
+--line 774 of file bib/tex.bib
 Warning--string name "feb" is undefined
---line 787 of file bib/tex.bib
+--line 790 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 849 of file bib/tex.bib
+--line 852 of file bib/tex.bib
 Warning--string name "mar" is undefined
---line 865 of file bib/tex.bib
+--line 868 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 1113 of file bib/tex.bib
+--line 1116 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 1260 of file bib/tex.bib
+--line 1263 of file bib/tex.bib
 Warning--string name "aug" is undefined
---line 2249 of file bib/tex.bib
+--line 2252 of file bib/tex.bib
 Warning--I didn't find a database entry for "remeau_reference_less_2015"
+Warning--Require address: robert_micrographia_2015
 Warning--Require address: blochet_fast_2017
 Warning--Require address: bohren_absorption_2008
 Warning--Require address: fisher_optical_2012
 Warning--Require address: akkermans_mesoscopic_2007
 Warning--Require citedate: jin_depth_2018
 Warning--Require address: lee_algorithms_2001
-You've used 120 entries,
+You've used 122 entries,
             3054 wiz_defined-function locations,
-            1357 strings with 28658 characters,
-and the built_in function-call counts, 227811 in all, are:
-= -- 25491
-> -- 423
-< -- 966
-+ -- 20171
-- -- 1440
-* -- 6542
-:= -- 25368
+            1370 strings with 29099 characters,
+and the built_in function-call counts, 230013 in all, are:
+= -- 25711
+> -- 428
+< -- 978
++ -- 20321
+- -- 1455
+* -- 6633
+:= -- 25587
 add.period$ -- 0
-call.type$ -- 120
-change.case$ -- 606
+call.type$ -- 122
+change.case$ -- 612
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 32473
-empty$ -- 8340
-format.name$ -- 1212
-if$ -- 60408
+cite$ -- 129
+duplicate$ -- 32780
+empty$ -- 8452
+format.name$ -- 1224
+if$ -- 60980
 int.to.chr$ -- 0
-int.to.str$ -- 120
+int.to.str$ -- 122
 missing$ -- 0
-newline$ -- 387
-num.names$ -- 120
-pop$ -- 3015
+newline$ -- 393
+num.names$ -- 122
+pop$ -- 3050
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1764
+skip$ -- 1792
 stack$ -- 0
-substring$ -- 27525
-swap$ -- 6473
+substring$ -- 27772
+swap$ -- 6568
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 2806
-width$ -- 123
-write$ -- 1785
-(There were 31 warnings)
+warning$ -- 7
+while$ -- 2837
+width$ -- 125
+write$ -- 1812
+(There were 32 warnings)

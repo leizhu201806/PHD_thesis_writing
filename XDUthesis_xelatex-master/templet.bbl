@@ -24,6 +24,32 @@
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
+\bibitem{robert_micrographia_2015}
+\bibauthor{ROBERT H\@, ALLESTRY J~M A~J}\@. \bibbooktitle{Micrographia, {Or},
+  {Some} {Physiological} {Descriptions} of {Minute} {Bodies} {Made} by
+  {Magnifying} {Glasses} ?with {Observations} and {Inquiries} {Thereupon} /{By}
+  {R}. {Hooke}}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Sagwan Press}\@, \bibyear{2015}\@.
+
+\bibitem{abbe_beitrage_1873}
+\bibauthor{ABBE E}\@. \bibtitle{Beiträge zur {Theorie} des {Mikroskops} und
+  der mikroskopischen {Wahrnehmung}}\bibmark{[J]}\@. \bibjournal{Archiv für
+  Mikroskopische Anatomie}\@, \bibyear{1873}\@,
+  \bibvolume{9}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{413\thinspace{}\textnormal{--}\thinspace{}468}\@.
+
+\bibitem{Lichtman2005}
+\bibauthor{LICHTMAN J~W\@, CONCHELLO J~A}\@. \bibtitle{{Fluorescence
+  microscopy}}\bibmark{[J]}\@. \bibjournal{Nature Methods}\@, \bibyear{2005}\@,
+  \bibvolume{2}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{910\thinspace{}\textnormal{--}\thinspace{}919}\@.
+
+\bibitem{Goodman1976}
+\bibauthor{GOODMAN J~W}\@. \bibtitle{{Some fundamental properties of
+  speckle}}\bibmark{[J]}\@. \bibjournal{Journal of the Optical Society of
+  America}\@, \bibyear{1976}\@,
+  \bibvolume{66}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{1145}\@.
+
 \bibitem{ntziachristos_going_2010}
 \bibauthor{NTZIACHRISTOS V}\@. \bibtitle{Going deeper than microscopy: the
   optical imaging frontier in biology}\bibmark{[J]}\@. \bibjournal{Nature
@@ -37,6 +63,61 @@
   Letters}\@, \bibyear{2007}\@,
   \bibvolume{32}\bibnumber{(16)}\thinspace{}\textnormal{: }\bibpages{2309}\@.
 
+\bibitem{derode_robust_1995}
+\bibauthor{DERODE A\@, ROUX P\@, FINK M}\@. \bibtitle{Robust {Acoustic} {Time}
+  {Reversal} with {High}-{Order} {Multiple} {Scattering}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{1995}\@,
+  \bibvolume{75}\bibnumber{(23)}\thinspace{}\textnormal{:
+  }\bibpages{4206\thinspace{}\textnormal{--}\thinspace{}4209}\@.
+
+\bibitem{draeger_one_channel_1997}
+\bibauthor{DRAEGER C\@, FINK M}\@. \bibtitle{One-{Channel} {Time} {Reversal} of
+  {Elastic} {Waves} in a {Chaotic} {2D}-{Silicon} {Cavity}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{1997}\@,
+  \bibvolume{79}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{407\thinspace{}\textnormal{--}\thinspace{}410}\@.
+
+\bibitem{leith_holographic_1966}
+\bibauthor{LEITH E~N\@, UPATNIEKS J}\@. \bibtitle{Holographic {Imagery}
+  {Through} {Diffusing} {Media}}\bibmark{[J]}\@. \bibjournal{JOSA}\@,
+  \bibyear{1966}\@, \bibvolume{56}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{523\thinspace{}\textnormal{--}\thinspace{}523}\@.
+
+\bibitem{fink_acoustic_2001}
+\bibauthor{FINK M\@, PRADA C}\@. \bibtitle{Acoustic time-reversal
+  mirrors}\bibmark{[J]}\@. \bibjournal{Inverse Problems}\@, \bibyear{2001}\@,
+  \bibvolume{17}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{R1\thinspace{}\textnormal{--}\thinspace{}R38}\@.
+
+\bibitem{yaqoob_optical_2008}
+\bibauthor{YAQOOB Z\@, PSALTIS D\@, FELD M~S, et~al}\@. \bibtitle{Optical phase
+  conjugation for turbidity suppression in biological samples}\bibmark{[J]}\@.
+  \bibjournal{Nature Photonics}\@, \bibyear{2008}\@,
+  \bibvolume{2}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{110\thinspace{}\textnormal{--}\thinspace{}115}\@.
+
+\bibitem{paurisse_phase_2009}
+\bibauthor{PAURISSE M\@, HANNA M\@, DRUON F, et~al}\@. \bibtitle{Phase and
+  amplitude control of a multimode {LMA} fiber beam by use of digital
+  holography}\bibmark{[J]}\@. \bibjournal{Optics Express}\@, \bibyear{2009}\@,
+  \bibvolume{17}\bibnumber{(15)}\thinspace{}\textnormal{:
+  }\bibpages{13000\thinspace{}\textnormal{--}\thinspace{}13008}\@.
+
+\bibitem{cui_implementation_2010}
+\bibauthor{CUI M\@, YANG C}\@. \bibtitle{Implementation of a digital optical
+  phase conjugation system and its application to study the robustness of
+  turbidity suppression by phase conjugation}\bibmark{[J]}\@.
+  \bibjournal{Optics Express}\@, \bibyear{2010}\@,
+  \bibvolume{18}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{3444\thinspace{}\textnormal{--}\thinspace{}3455}\@.
+
+\bibitem{lhermite_coherent_2010}
+\bibauthor{LHERMITE J\@, SURAN E\@, KERMENE V, et~al}\@. \bibtitle{Coherent
+  combining of 49 laser beams from a multiple core optical fiber by a spatial
+  light modulator}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
+  \bibyear{2010}\@, \bibvolume{18}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{4783\thinspace{}\textnormal{--}\thinspace{}4789}\@.
+
 \bibitem{vellekoop_exploiting_2010}
 \bibauthor{VELLEKOOP I~M\@, LAGENDIJK A\@, MOSK A~P}\@. \bibtitle{Exploiting
   disorder for perfect focusing}\bibmark{[J]}\@. \bibjournal{Nature
@@ -44,86 +125,18 @@
   \bibvolume{4}\bibnumber{(5)}\thinspace{}\textnormal{:
   }\bibpages{320\thinspace{}\textnormal{--}\thinspace{}322}\@.
 
-\bibitem{van_putten_scattering_2011}
-\bibauthor{van PUTTEN E~G\@, AKBULUT D\@, BERTOLOTTI J, et~al}\@.
-  \bibtitle{Scattering {Lens} {Resolves} {Sub}-100 nm {Structures} with
-  {Visible} {Light}}\bibmark{[J]}\@. \bibjournal{Physical Review Letters}\@,
-  \bibyear{2011}\@, \bibvolume{106}\bibnumber{(19)}\thinspace{}\textnormal{:
-  }\bibpages{193905}\@.
+\bibitem{choi_overcoming_2011}
+\bibauthor{CHOI Y\@, YANG T~D\@, FANG-YEN C, et~al}\@. \bibtitle{Overcoming the
+  {Diffraction} {Limit} {Using} {Multiple} {Light} {Scattering} in a {Highly}
+  {Disordered} {Medium}}\bibmark{[J]}\@. \bibjournal{Physical Review
+  Letters}\@, \bibyear{2011}\@,
+  \bibvolume{107}\bibnumber{(2)}\thinspace{}\textnormal{: }\bibpages{023902}\@.
 
 \bibitem{boniface_non_invasive_2019}
 \bibauthor{BONIFACE A\@, BLOCHET B\@, DONG J, et~al}\@. \bibtitle{Non-invasive
   light focusing in scattering media using speckle variance
   optimization}\bibmark{[J]}\@. \bibjournal{Optica}\@, \bibyear{2019}\@,
   \bibvolume{6}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{1381}\@.
-
-\bibitem{Popoff2010}
-\bibauthor{POPOFF S~M\@, LEROSEY G\@, CARMINATI R, et~al}\@.
-  \bibtitle{{Measuring the transmission matrix in optics: An approach to the
-  study and control of light propagation in disordered media}}\bibmark{[J]}\@.
-  \bibjournal{Physical Review Letters}\@, \bibyear{2010}\@,
-  \bibvolume{104}\bibnumber{(10)}\thinspace{}\textnormal{:
-  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
-
-\bibitem{boniface_non_invasive_2020}
-\bibauthor{BONIFACE A\@, DONG J\@, GIGAN S}\@. \bibtitle{Non-invasive focusing
-  and imaging in scattering media with a fluorescence-based transmission
-  matrix}\bibmark{[J]}\@. \bibjournal{Nature Communications}\@,
-  \bibyear{2020}\@, \bibvolume{11}\bibnumber{(1)}\thinspace{}\textnormal{:
-  }\bibpages{6154}\@.
-
-\bibitem{Freund1988}
-\bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
-  propagation of optical waves through disordered media}}\bibmark{[J]}\@.
-  \bibjournal{Physical Review Letters}\@, \bibyear{1988}\@,
-  \bibvolume{61}\bibnumber{(20)}\thinspace{}\textnormal{:
-  }\bibpages{2328\thinspace{}\textnormal{--}\thinspace{}2331}\@.
-
-\bibitem{bertolotti_non-invasive_2012}
-\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
-  \bibtitle{Non-invasive imaging through opaque scattering
-  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
-  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
-  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
-
-\bibitem{katz_non-invasive_2014}
-\bibauthor{KATZ O\@, HEIDMANN P\@, FINK M, et~al}\@. \bibtitle{Non-invasive
-  single-shot imaging through scattering layers and around corners via speckle
-  correlations}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
-  \bibyear{2014}\@, \bibvolume{8}\bibnumber{(10)}\thinspace{}\textnormal{:
-  }\bibpages{784\thinspace{}\textnormal{--}\thinspace{}790}\@.
-
-\bibitem{wu_single-shot_2016}
-\bibauthor{WU T\@, KATZ O\@, SHAO X, et~al}\@. \bibtitle{Single-shot
-  diffraction-limited imaging through scattering layers via bispectrum
-  analysis}\bibmark{[J]}\@. \bibjournal{Optics Letters}\@, \bibyear{2016}\@,
-  \bibvolume{41}\bibnumber{(21)}\thinspace{}\textnormal{: }\bibpages{5003}\@.
-
-\bibitem{edrei_optical_2016}
-\bibauthor{EDREI E\@, SCARCELLI G}\@. \bibtitle{Optical imaging through dynamic
-  turbid media using the {Fourier}-domain shower-curtain
-  effect}\bibmark{[J]}\@. \bibjournal{Optica}\@, \bibyear{2016}\@,
-  \bibvolume{3}\bibnumber{(1)}\thinspace{}\textnormal{:
-  }\bibpages{71\thinspace{}\textnormal{--}\thinspace{}74}\@.
-
-\bibitem{vellekoop_scattered_2010}
-\bibauthor{VELLEKOOP I~M\@, AEGERTER C~M}\@. \bibtitle{Scattered light
-  fluorescence microscopy: imaging through turbid layers}\bibmark{[J]}\@.
-  \bibjournal{Optics Letters}\@, \bibyear{2010}\@,
-  \bibvolume{35}\bibnumber{(8)}\thinspace{}\textnormal{: }\bibpages{1245}\@.
-
-\bibitem{edrei_memory-effect_2016}
-\bibauthor{EDREI E\@, SCARCELLI G}\@. \bibtitle{Memory-effect based
-  deconvolution microscopy for super-resolution imaging through scattering
-  media}\bibmark{[J]}\@. \bibjournal{Scientific Reports}\@, \bibyear{2016}\@,
-  \bibvolume{6}\bibnumber{(1)}\thinspace{}\textnormal{: }\bibpages{33558}\@.
-
-\bibitem{wu_imaging_2017}
-\bibauthor{WU T\@, DONG J\@, SHAO X, et~al}\@. \bibtitle{Imaging through a thin
-  scattering layer and jointly retrieving the point-spread-function using
-  phase-diversity}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
-  \bibyear{2017}\@, \bibvolume{25}\bibnumber{(22)}\thinspace{}\textnormal{:
-  }\bibpages{27182\thinspace{}\textnormal{--}\thinspace{}27194}\@.
 
 \bibitem{huang_optical_1991}
 \bibauthor{HUANG D\@, SWANSON E~A\@, LIN C~P, et~al}\@. \bibtitle{Optical
@@ -176,13 +189,6 @@
   \bibyear{2011}\@, \bibvolume{6}\bibnumber{(8)}\thinspace{}\textnormal{:
   }\bibpages{1121\thinspace{}\textnormal{--}\thinspace{}1129}\@.
 
-\bibitem{yaqoob_optical_2008}
-\bibauthor{YAQOOB Z\@, PSALTIS D\@, FELD M~S, et~al}\@. \bibtitle{Optical phase
-  conjugation for turbidity suppression in biological samples}\bibmark{[J]}\@.
-  \bibjournal{Nature Photonics}\@, \bibyear{2008}\@,
-  \bibvolume{2}\bibnumber{(2)}\thinspace{}\textnormal{:
-  }\bibpages{110\thinspace{}\textnormal{--}\thinspace{}115}\@.
-
 \bibitem{conkey_genetic_2012}
 \bibauthor{CONKEY D~B\@, BROWN A~N\@, CARAVACA-AGUIRRE A~M, et~al}\@.
   \bibtitle{Genetic algorithm optimization for focusing through turbid media in
@@ -199,6 +205,21 @@
   \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{SPIE}\@,
   \bibyear{2017}\thinspace{}\textnormal{:
   }\bibpages{37\thinspace{}\textnormal{--}\thinspace{}37}\@.
+
+\bibitem{Popoff2010}
+\bibauthor{POPOFF S~M\@, LEROSEY G\@, CARMINATI R, et~al}\@.
+  \bibtitle{{Measuring the transmission matrix in optics: An approach to the
+  study and control of light propagation in disordered media}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{2010}\@,
+  \bibvolume{104}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
+
+\bibitem{Freund1988}
+\bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
+  propagation of optical waves through disordered media}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{1988}\@,
+  \bibvolume{61}\bibnumber{(20)}\thinspace{}\textnormal{:
+  }\bibpages{2328\thinspace{}\textnormal{--}\thinspace{}2331}\@.
 
 \bibitem{sahoo_single-shot_2017}
 \bibauthor{SAHOO S~K\@, TANG D\@, DANG C}\@. \bibtitle{Single-shot
@@ -219,32 +240,6 @@
   {Scattering} of {Light} by {Small} {Particles}}\bibmark{[M]}\@.
   \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{John Wiley \&
   Sons}\@, \bibyear{2008}\@.
-
-\bibitem{derode_robust_1995}
-\bibauthor{DERODE A\@, ROUX P\@, FINK M}\@. \bibtitle{Robust {Acoustic} {Time}
-  {Reversal} with {High}-{Order} {Multiple} {Scattering}}\bibmark{[J]}\@.
-  \bibjournal{Physical Review Letters}\@, \bibyear{1995}\@,
-  \bibvolume{75}\bibnumber{(23)}\thinspace{}\textnormal{:
-  }\bibpages{4206\thinspace{}\textnormal{--}\thinspace{}4209}\@.
-
-\bibitem{draeger_one_channel_1997}
-\bibauthor{DRAEGER C\@, FINK M}\@. \bibtitle{One-{Channel} {Time} {Reversal} of
-  {Elastic} {Waves} in a {Chaotic} {2D}-{Silicon} {Cavity}}\bibmark{[J]}\@.
-  \bibjournal{Physical Review Letters}\@, \bibyear{1997}\@,
-  \bibvolume{79}\bibnumber{(3)}\thinspace{}\textnormal{:
-  }\bibpages{407\thinspace{}\textnormal{--}\thinspace{}410}\@.
-
-\bibitem{leith_holographic_1966}
-\bibauthor{LEITH E~N\@, UPATNIEKS J}\@. \bibtitle{Holographic {Imagery}
-  {Through} {Diffusing} {Media}}\bibmark{[J]}\@. \bibjournal{JOSA}\@,
-  \bibyear{1966}\@, \bibvolume{56}\bibnumber{(4)}\thinspace{}\textnormal{:
-  }\bibpages{523\thinspace{}\textnormal{--}\thinspace{}523}\@.
-
-\bibitem{fink_acoustic_2001}
-\bibauthor{FINK M\@, PRADA C}\@. \bibtitle{Acoustic time-reversal
-  mirrors}\bibmark{[J]}\@. \bibjournal{Inverse Problems}\@, \bibyear{2001}\@,
-  \bibvolume{17}\bibnumber{(1)}\thinspace{}\textnormal{:
-  }\bibpages{R1\thinspace{}\textnormal{--}\thinspace{}R38}\@.
 
 \bibitem{fisher_optical_2012}
 \bibauthor{FISHER R~A}\@. \bibbooktitle{Optical {Phase}
@@ -287,27 +282,12 @@
   \bibvolume{15}\bibnumber{(14)}\thinspace{}\textnormal{:
   }\bibpages{820\thinspace{}\textnormal{--}\thinspace{}822}\@.
 
-\bibitem{paurisse_phase_2009}
-\bibauthor{PAURISSE M\@, HANNA M\@, DRUON F, et~al}\@. \bibtitle{Phase and
-  amplitude control of a multimode {LMA} fiber beam by use of digital
-  holography}\bibmark{[J]}\@. \bibjournal{Optics Express}\@, \bibyear{2009}\@,
-  \bibvolume{17}\bibnumber{(15)}\thinspace{}\textnormal{:
-  }\bibpages{13000\thinspace{}\textnormal{--}\thinspace{}13008}\@.
-
-\bibitem{cui_implementation_2010}
-\bibauthor{CUI M\@, YANG C}\@. \bibtitle{Implementation of a digital optical
-  phase conjugation system and its application to study the robustness of
-  turbidity suppression by phase conjugation}\bibmark{[J]}\@.
-  \bibjournal{Optics Express}\@, \bibyear{2010}\@,
-  \bibvolume{18}\bibnumber{(4)}\thinspace{}\textnormal{:
-  }\bibpages{3444\thinspace{}\textnormal{--}\thinspace{}3455}\@.
-
-\bibitem{lhermite_coherent_2010}
-\bibauthor{LHERMITE J\@, SURAN E\@, KERMENE V, et~al}\@. \bibtitle{Coherent
-  combining of 49 laser beams from a multiple core optical fiber by a spatial
-  light modulator}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
-  \bibyear{2010}\@, \bibvolume{18}\bibnumber{(5)}\thinspace{}\textnormal{:
-  }\bibpages{4783\thinspace{}\textnormal{--}\thinspace{}4789}\@.
+\bibitem{van_putten_scattering_2011}
+\bibauthor{van PUTTEN E~G\@, AKBULUT D\@, BERTOLOTTI J, et~al}\@.
+  \bibtitle{Scattering {Lens} {Resolves} {Sub}-100 nm {Structures} with
+  {Visible} {Light}}\bibmark{[J]}\@. \bibjournal{Physical Review Letters}\@,
+  \bibyear{2011}\@, \bibvolume{106}\bibnumber{(19)}\thinspace{}\textnormal{:
+  }\bibpages{193905}\@.
 
 \bibitem{cui_parallel_2011}
 \bibauthor{CUI M}\@. \bibtitle{Parallel wavefront optimization method for
@@ -362,13 +342,6 @@
   \bibyear{2011}\@, \bibvolume{13}\bibnumber{(12)}\thinspace{}\textnormal{:
   }\bibpages{123021}\@.
 
-\bibitem{choi_overcoming_2011}
-\bibauthor{CHOI Y\@, YANG T~D\@, FANG-YEN C, et~al}\@. \bibtitle{Overcoming the
-  {Diffraction} {Limit} {Using} {Multiple} {Light} {Scattering} in a {Highly}
-  {Disordered} {Medium}}\bibmark{[J]}\@. \bibjournal{Physical Review
-  Letters}\@, \bibyear{2011}\@,
-  \bibvolume{107}\bibnumber{(2)}\thinspace{}\textnormal{: }\bibpages{023902}\@.
-
 \bibitem{yoon_measuring_2015}
 \bibauthor{YOON J\@, LEE K\@, PARK J, et~al}\@. \bibtitle{Measuring optical
   transmission matrices by wavefront shaping}\bibmark{[J]}\@.
@@ -405,6 +378,13 @@
   2019 {IEEE} {International} {Conference} on {Acoustics}, {Speech} and
   {Signal} {Processing} ({ICASSP})}\@. \bibyear{2019}\thinspace{}\textnormal{:
   }\bibpages{4963\thinspace{}\textnormal{--}\thinspace{}4967}\@.
+
+\bibitem{boniface_non_invasive_2020}
+\bibauthor{BONIFACE A\@, DONG J\@, GIGAN S}\@. \bibtitle{Non-invasive focusing
+  and imaging in scattering media with a fluorescence-based transmission
+  matrix}\bibmark{[J]}\@. \bibjournal{Nature Communications}\@,
+  \bibyear{2020}\@, \bibvolume{11}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{6154}\@.
 
 \bibitem{park_multispectral_2013}
 \bibauthor{PARK H\@, CROZIER K~B}\@. \bibtitle{Multispectral imaging with
@@ -447,6 +427,13 @@
   \bibvolume{11}\bibnumber{(8)}\thinspace{}\textnormal{:
   }\bibpages{684\thinspace{}\textnormal{--}\thinspace{}689}\@.
 
+\bibitem{bertolotti_non-invasive_2012}
+\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
+  \bibtitle{Non-invasive imaging through opaque scattering
+  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
+  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
+  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
+
 \bibitem{akkermans_mesoscopic_2007}
 \bibauthor{AKKERMANS E\@, MONTAMBAUX G}\@. \bibbooktitle{Mesoscopic {Physics}
   of {Electrons} and {Photons}}\bibmark{[M]}\@.
@@ -459,6 +446,13 @@
   \bibaddress{Englewood}\thinspace{}\textnormal{: }\bibpublisher{Roberts and
   Company Publishers}\@, \bibyear{2007}\@.
 
+\bibitem{katz_non-invasive_2014}
+\bibauthor{KATZ O\@, HEIDMANN P\@, FINK M, et~al}\@. \bibtitle{Non-invasive
+  single-shot imaging through scattering layers and around corners via speckle
+  correlations}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
+  \bibyear{2014}\@, \bibvolume{8}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{784\thinspace{}\textnormal{--}\thinspace{}790}\@.
+
 \bibitem{fienup_phase_1982}
 \bibauthor{FIENUP J~R}\@. \bibtitle{Phase retrieval algorithms: a
   comparison}\bibmark{[J]}\@. \bibjournal{Applied Optics}\@, \bibyear{1982}\@,
@@ -470,6 +464,19 @@
   Letters}\@, \bibyear{1978}\@,
   \bibvolume{3}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{27\thinspace{}\textnormal{--}\thinspace{}29}\@.
+
+\bibitem{wu_single-shot_2016}
+\bibauthor{WU T\@, KATZ O\@, SHAO X, et~al}\@. \bibtitle{Single-shot
+  diffraction-limited imaging through scattering layers via bispectrum
+  analysis}\bibmark{[J]}\@. \bibjournal{Optics Letters}\@, \bibyear{2016}\@,
+  \bibvolume{41}\bibnumber{(21)}\thinspace{}\textnormal{: }\bibpages{5003}\@.
+
+\bibitem{edrei_optical_2016}
+\bibauthor{EDREI E\@, SCARCELLI G}\@. \bibtitle{Optical imaging through dynamic
+  turbid media using the {Fourier}-domain shower-curtain
+  effect}\bibmark{[J]}\@. \bibjournal{Optica}\@, \bibyear{2016}\@,
+  \bibvolume{3}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{71\thinspace{}\textnormal{--}\thinspace{}74}\@.
 
 \bibitem{singh_looking_2014}
 \bibauthor{SINGH A~K\@, NAIK D~N\@, PEDRINI G, et~al}\@. \bibtitle{Looking
@@ -532,6 +539,18 @@
   \bibyear{2018}\@, \bibvolume{8}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{1134}\@.
 
+\bibitem{vellekoop_scattered_2010}
+\bibauthor{VELLEKOOP I~M\@, AEGERTER C~M}\@. \bibtitle{Scattered light
+  fluorescence microscopy: imaging through turbid layers}\bibmark{[J]}\@.
+  \bibjournal{Optics Letters}\@, \bibyear{2010}\@,
+  \bibvolume{35}\bibnumber{(8)}\thinspace{}\textnormal{: }\bibpages{1245}\@.
+
+\bibitem{edrei_memory-effect_2016}
+\bibauthor{EDREI E\@, SCARCELLI G}\@. \bibtitle{Memory-effect based
+  deconvolution microscopy for super-resolution imaging through scattering
+  media}\bibmark{[J]}\@. \bibjournal{Scientific Reports}\@, \bibyear{2016}\@,
+  \bibvolume{6}\bibnumber{(1)}\thinspace{}\textnormal{: }\bibpages{33558}\@.
+
 \bibitem{richardson_bayesian-based_1972}
 \bibauthor{RICHARDSON W~H}\@. \bibtitle{Bayesian-{Based} {Iterative} {Method}
   of {Image} {Restoration}*}\bibmark{[J]}\@. \bibjournal{JOSA}\@,
@@ -543,6 +562,13 @@
   of observed distributions}\bibmark{[J]}\@. \bibjournal{The Astronomical
   Journal}\@, \bibyear{1974}\@, \bibvolume{79}\thinspace{}\textnormal{:
   }\bibpages{745}\@.
+
+\bibitem{wu_imaging_2017}
+\bibauthor{WU T\@, DONG J\@, SHAO X, et~al}\@. \bibtitle{Imaging through a thin
+  scattering layer and jointly retrieving the point-spread-function using
+  phase-diversity}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
+  \bibyear{2017}\@, \bibvolume{25}\bibnumber{(22)}\thinspace{}\textnormal{:
+  }\bibpages{27182\thinspace{}\textnormal{--}\thinspace{}27194}\@.
 
 \bibitem{antipa_diffusercam_2018}
 \bibauthor{ANTIPA N\@, KUO G\@, HECKEL R, et~al}\@. \bibtitle{{DiffuserCam}:
@@ -662,12 +688,6 @@
   \bibvolume{44}\bibnumber{(2)}\thinspace{}\textnormal{:
   }\bibpages{190\thinspace{}\textnormal{--}\thinspace{}198}\@.
 
-\bibitem{Goodman1976}
-\bibauthor{GOODMAN J~W}\@. \bibtitle{{Some fundamental properties of
-  speckle}}\bibmark{[J]}\@. \bibjournal{Journal of the Optical Society of
-  America}\@, \bibyear{1976}\@,
-  \bibvolume{66}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{1145}\@.
-
 \bibitem{Bender}
 \bibauthor{BENDER N\@, YıLMAZ H\@, BROMBERG Y, et~al}\@.
   \bibtitle{{Customizing speckle intensity statistics}}\bibmark{[J]}\@.
@@ -725,12 +745,6 @@
   through dynamic scattering media with speckle-encoded ultrasound-modulated
   light correlation}}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
   \bibyear{2020}\@.
-
-\bibitem{Lichtman2005}
-\bibauthor{LICHTMAN J~W\@, CONCHELLO J~A}\@. \bibtitle{{Fluorescence
-  microscopy}}\bibmark{[J]}\@. \bibjournal{Nature Methods}\@, \bibyear{2005}\@,
-  \bibvolume{2}\bibnumber{(12)}\thinspace{}\textnormal{:
-  }\bibpages{910\thinspace{}\textnormal{--}\thinspace{}919}\@.
 
 \bibitem{mangeat_super_resolved_2021}
 \bibauthor{MANGEAT T\@, LABOUESSE S\@, ALLAIN M, et~al}\@.

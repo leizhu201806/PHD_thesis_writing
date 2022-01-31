@@ -62,7 +62,7 @@
 \end{equation}
 
 这个方程表明平均场的强度在平板内部呈指数下降：$\mathcal{L}(z) = \mathcal{L}_{0}e^{-\mu_{ext}z}$L，其中$z$是传播长度，$\mathcal{L}_{0}$是初始值。我们遇到了物理学或化学中经常遇到的著名的比尔-朗伯定律。从这个衰减中，我们可以定义由$l_{ext}=1/\mu_{ext}$给出的特征长度。确切地说，对于消光长度，也可以通过以下方式定义散射和吸收长度（或平均自由程（Mean-Free Path, MFP））： $l_{s} = 1/\mu_{s}$,$l_{a} = 1/\mu_{a}$。
-其中，$l_{s}$ 和 $l_{a}$分别可以解释为两个散射和两个吸收事件之间的平均距离。在大多数生物组织中$\mu_{s} \gg \mu_{s}$，MFP$l_{s}$是感兴趣的距离。根据根据平板$L$相对于$l_{s}$的厚度，如图所示\ref{fig2:25}，可以考虑三种不同的散射状态\cite{ntziachristos_going_2010}：\par
+其中，$l_{s}$ 和 $l_{a}$分别可以解释为两个散射和两个吸收事件之间的平均距离。在大多数生物组织中$\mu_{s} \gg \mu_{s}$，MFP$l_{s}$是感兴趣的距离。根据根据平板$L$相对于$l_{s}$的厚度，如图所示\ref{fig2:25}\cite{ntziachristos_going_2010}，可以考虑三种不同的散射状态\cite{ntziachristos_going_2010}：\par
 $\bullet$ $ L \ll l_{s} $：弹道光区域\par
 $\bullet$ $L \sim l_{s} $：单次散射区域\par
 $\bullet$ $L \gg l_{s} $：多重散射区域\par
@@ -70,7 +70,7 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.5]{C2.fig25}
-	\caption{不同散射区域示意图\cite{ntziachristos_going_2010}}
+	\caption{不同散射区域示意图}
 	\label{fig2:25}
 \end{figure}
 
@@ -99,37 +99,37 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 
 基于反馈优化的波前整形技术利用优化算法（非线性或线性），通过迭代获取到目标光场所对应的最优波前，从而实现透过散射介质聚焦或成像。本质上，基于反馈优化的波前整形技术将散射介质对于光场的调制过程看作“黑箱”处理，通过迭代算法获取相应的波前，进而实现了对于输出光场的模式以及不同模式之间耦合的控制。
 
-2007年，A. P. Mosk\cite{Vellekoop2007}课题组利用SLM对入射到随机散射介质中的光波进行波前相位调制，采用反馈控制算法对空间光调制器的SLM像素进行逐个优化，通过不断迭代的方式获取最优波前，所得的最优波前幅值或相位可以适当补偿由介质散射引起的波前畸变，最终得到了亮度高于调制前散斑1000倍的聚焦光斑，远远优于光学透镜的聚焦效果，实验装置和实验结果分别如图\ref{fig2:2}和图\ref{fig2:3}所示。图\ref{fig2:2}中，图\ref{fig2:2}(a)为未波前整形前示意图；图\ref{fig2:2}(b)为波前整形后示意图。图\ref{fig2:3}中，图\ref{fig2:3}(a)为聚焦前散斑；图\ref{fig2:3}(b)为单点聚焦结果；图\ref{fig2:3}(c)为多点聚焦结果；图\ref{fig2:3}(d)为优化后的波前相位图。
+2007年，A. P. Mosk\cite{Vellekoop2007}课题组利用SLM对入射到随机散射介质中的光波进行波前相位调制，采用反馈控制算法对空间光调制器的SLM像素进行逐个优化，通过不断迭代的方式获取最优波前，所得的最优波前幅值或相位可以适当补偿由介质散射引起的波前畸变，最终得到了亮度高于调制前散斑1000倍的聚焦光斑，远远优于光学透镜的聚焦效果，实验装置和实验结果分别如图\ref{fig2:2}和图\ref{fig2:3}所示\cite{Vellekoop2007}。图\ref{fig2:2}中，图\ref{fig2:2}(a)为未波前整形前示意图；图\ref{fig2:2}(b)为波前整形后示意图。图\ref{fig2:3}中，图\ref{fig2:3}(a)为聚焦前散斑；图\ref{fig2:3}(b)为单点聚焦结果；图\ref{fig2:3}(c)为多点聚焦结果；图\ref{fig2:3}(d)为优化后的波前相位图。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.35]{C2.fig2}
-	\caption{波前整形示意图\cite{Vellekoop2007}}
+	\caption{波前整形示意图}
 	\label{fig2:2}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.40]{C2.fig3}
-	\caption{波前整形聚焦结果\cite{Vellekoop2007}}
+	\caption{波前整形聚焦结果}
 	\label{fig2:3}
 \end{figure}
 
-2010年，A. P. Mosk\cite{vellekoop_exploiting_2010}课题组通过在传统透镜光学系统后面放置一块厚度为6 μm的散射介质（如图\ref{fig2:4}所示，图\ref{fig2:4}(a)为传统透镜聚焦光学系统；图\ref{fig2:4}(b)为随机散射介质聚焦光学系统），利用反馈优化的波前整形方法获得了直径仅为传统光学系统1/10的聚焦光斑，极大地提升了光学系统的分辨率，实现了超衍射极限聚焦，如图\ref{fig2:5}所示，图\ref{fig2:5}(a)为传统透镜光学系统聚焦光斑；图\ref{fig2:5}(b)为随机散射介质光学系统调制的前散斑；图\ref{fig2:5}(c)为超衍射极限聚焦光斑；图\ref{fig2:5}(d)为优化的波前相位。该项工作充分利用了随机散射介质的随机散射特性，随机散射介质可以增大原有光学系统的数值孔径，从而使所获得的焦斑尺寸能超越传统透镜的光学衍射极限，具有划时代的意义。
+2010年，A. P. Mosk\cite{vellekoop_exploiting_2010}课题组通过在传统透镜光学系统后面放置一块厚度为6 μm的散射介质（如图\ref{fig2:4}所示，图\ref{fig2:4}(a)为传统透镜聚焦光学系统；图\ref{fig2:4}(b)为随机散射介质聚焦光学系统），利用反馈优化的波前整形方法获得了直径仅为传统光学系统1/10的聚焦光斑，极大地提升了光学系统的分辨率，实现了超衍射极限聚焦，如图\ref{fig2:5}所示\cite{vellekoop_exploiting_2010}，图\ref{fig2:5}(a)为传统透镜光学系统聚焦光斑；图\ref{fig2:5}(b)为随机散射介质光学系统调制的前散斑；图\ref{fig2:5}(c)为超衍射极限聚焦光斑；图\ref{fig2:5}(d)为优化的波前相位。该项工作充分利用了随机散射介质的随机散射特性，随机散射介质可以增大原有光学系统的数值孔径，从而使所获得的焦斑尺寸能超越传统透镜的光学衍射极限，具有划时代的意义。
 
-2011年，A. P. Mosk\cite{van_putten_scattering_2011}课题组在利用随机散射介质实现超衍射极限聚焦工作的基础上，提出了一种基于SLM的随机散射透镜超衍射极限扫描显微成像方法。该课题组利用反馈控制调节聚焦的方法将光源聚焦到显微镜的物平面上，调节SLM并扫描整个物平面，实现了对金纳米粒子的观测，分辨率可达97 nm。该方法不需要使用荧光分子对样本进行标记，可以实现对样本的无损观测，实验结果如图\ref{fig2:6}所示，图\ref{fig2:6}(a)为传统显微镜成像；图\ref{fig2:6}(b)超衍射极限成像；图\ref{fig2:6}(c)为图(a)左边第一颗粒子的中心切线与图(b)左边第一颗粒子的中心切线对比。
+2011年，A. P. Mosk\cite{van_putten_scattering_2011}课题组在利用随机散射介质实现超衍射极限聚焦工作的基础上，提出了一种基于SLM的随机散射透镜超衍射极限扫描显微成像方法。该课题组利用反馈控制调节聚焦的方法将光源聚焦到显微镜的物平面上，调节SLM并扫描整个物平面，实现了对金纳米粒子的观测，分辨率可达97 nm。该方法不需要使用荧光分子对样本进行标记，可以实现对样本的无损观测，实验结果如图\ref{fig2:6}所示\cite{van_putten_scattering_2011}，图\ref{fig2:6}(a)为传统显微镜成像；图\ref{fig2:6}(b)超衍射极限成像；图\ref{fig2:6}(c)为图(a)左边第一颗粒子的中心切线与图(b)左边第一颗粒子的中心切线对比。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.5]{C2.fig4}
-	\caption{超衍射极限聚焦示意图\cite{vellekoop_exploiting_2010}}
+	\caption{超衍射极限聚焦示意图}
 	\label{fig2:4}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.40]{C2.fig5}
-	\caption{超衍射极限聚焦实验结果\cite{vellekoop_exploiting_2010}}
+	\caption{超衍射极限聚焦实验结果}
 	\label{fig2:5}
 \end{figure}
 
@@ -138,16 +138,16 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.5]{C2.fig6}
-	\caption{利用随机散射透镜实现的超衍射极限成像\cite{van_putten_scattering_2011}}
+	\caption{利用随机散射透镜实现的超衍射极限成像}
 	\label{fig2:6}
 \end{figure}
 
-2019年，法国Antoine等人\cite{boniface_non_invasive_2019}提出了基于散斑方差的非入侵式波前优化方法，利用荧光信号散斑的方差作为波前优化算法的反馈信息，进行散斑信号方差优化，实现了透过散射介质的非入侵波前优化聚焦，此工作大幅推进了波前优化技术在生物医学应用领域的进程。图\ref{fig2:19}所示为基于散斑方差的非入侵式波前优化方法示意图和优化聚焦结果。在图\ref{fig2:19}中，图\ref{fig2:19}(a)为实验装置示意图；图\ref{fig2:19}(b)为未优化前散斑；图\ref{fig2:19}(c)为未优化前荧光信号散斑；图\ref{fig2:19}(d-f)分别为不同随机初始值所优化后散斑聚焦图像。
+2019年，法国Antoine等人\cite{boniface_non_invasive_2019}提出了基于散斑方差的非入侵式波前优化方法，利用荧光信号散斑的方差作为波前优化算法的反馈信息，进行散斑信号方差优化，实现了透过散射介质的非入侵波前优化聚焦，此工作大幅推进了波前优化技术在生物医学应用领域的进程。图\ref{fig2:19}所示为基于散斑方差的非入侵式波前优化方法示意图和优化聚焦结果\cite{boniface_non_invasive_2019}。在图\ref{fig2:19}中，图\ref{fig2:19}(a)为实验装置示意图；图\ref{fig2:19}(b)为未优化前散斑；图\ref{fig2:19}(c)为未优化前荧光信号散斑；图\ref{fig2:19}(d-f)分别为不同随机初始值所优化后散斑聚焦图像。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.50]{C2.fig19}
-	\caption{基于散斑方差的非入侵式波前优化方法示意图\cite{boniface_non_invasive_2019}}
+	\caption{基于散斑方差的非入侵式波前优化方法示意图}
 	\label{fig2:19}
 \end{figure}
 
@@ -177,23 +177,23 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 \end{equation}
 由以上分析可知，一旦测得散射介质的光学传输矩阵，就可以采用相位共轭的方法实现聚焦。
 
-2010年，法国卡斯特勒-布罗塞尔实验室（Laboratoire Kastler-Brossel）的Popoff等人\cite{Popoff2010}利用四步相移干涉法测得了ZnO散射介质的光学传输矩阵，图\ref{fig2:7}所示为该实验的测量原理。
+2010年，法国卡斯特勒-布罗塞尔实验室（Laboratoire Kastler-Brossel）的Popoff等人\cite{Popoff2010}利用四步相移干涉法测得了ZnO散射介质的光学传输矩阵，图\ref{fig2:7}所示为该实验的测量原理\cite{Popoff2010}。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.40]{C2.fig7}
-	\caption{四步相移测量传输矩阵的实验原理图\cite{Popoff2010}}
+	\caption{四步相移测量传输矩阵的实验原理图}
 	\label{fig2:7}
 \end{figure}
 
-在测得ZnO介质的传输矩阵后，Popoff等人\cite{Popoff2010}利用Tikhonov正则化图像恢复算法对散斑进行了重建，实验结果如图\ref{fig2:8}所示，图\ref{fig2:8}(a)为聚焦前散斑；图\ref{fig2:8}(b)为单点聚焦结果；图\ref{fig2:8}(c)为多点聚焦结果。在重建图像时，除了相位共轭方法，往往还需要借助Thiknov、Total Variation复原等优化算法来获得更高质量的重建图像，因此研究不同重建算法的优劣具有重要意义\cite{popoff_controlling_2011}。
+在测得ZnO介质的传输矩阵后，Popoff等人\cite{Popoff2010}利用Tikhonov正则化图像恢复算法对散斑进行了重建，实验结果如图\ref{fig2:8}所示\cite{Popoff2010}，图\ref{fig2:8}(a)为聚焦前散斑；图\ref{fig2:8}(b)为单点聚焦结果；图\ref{fig2:8}(c)为多点聚焦结果。在重建图像时，除了相位共轭方法，往往还需要借助Thiknov、Total Variation复原等优化算法来获得更高质量的重建图像，因此研究不同重建算法的优劣具有重要意义\cite{popoff_controlling_2011}。
 
 基于光学传输矩阵的散射成像方法的优点在于只要测量出成像系统的光学传输矩阵，便可以从任意目标所成的散斑中迅速恢复出待测目标。但是，就现阶段的研究来看，该方法所需系统较复杂，对系统稳定性的要求非常高，任何改变都有可能导致无法重建目标，目前的研究水平还无法做到对实际物体成像。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.38]{C2.fig8}
-	\caption{采用相位共轭法得到的聚焦结果\cite{Popoff2010}}
+	\caption{采用相位共轭法得到的聚焦结果}
 	\label{fig2:8}
 \end{figure}
 
@@ -201,12 +201,12 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 
 \subsection{非入侵传输矩阵测量技术}
 
-2020年，法国研究人员Antoine等\cite{boniface_non_invasive_2020}人首次提出了非入侵光学传输矩阵测量技术，实现了完全非入侵条件下实现光学传输矩阵测量并聚焦成像。该工作极大的拓展了光学传输矩阵测量应用场景，利用随机散斑进行着照明，并记录荧光目标所激发的荧光散斑图案，非入侵的方式恢复了照明部分至荧光目标部分输入矩阵，并成功恢复荧光目标至探测器部分输出矩阵，其基本工作原理如图\ref{fig2:23}所示。该工作在一定程度上证明光学传输矩阵方法在实际应用场景中的重要价值。
+2020年，法国研究人员Antoine等\cite{boniface_non_invasive_2020}人首次提出了非入侵光学传输矩阵测量技术，实现了完全非入侵条件下实现光学传输矩阵测量并聚焦成像。该工作极大的拓展了光学传输矩阵测量应用场景，利用随机散斑进行着照明，并记录荧光目标所激发的荧光散斑图案，非入侵的方式恢复了照明部分至荧光目标部分输入矩阵，并成功恢复荧光目标至探测器部分输出矩阵，其基本工作原理如图\ref{fig2:23}所示\cite{boniface_non_invasive_2020}。该工作在一定程度上证明光学传输矩阵方法在实际应用场景中的重要价值。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.38]{C2.fig23}
-	\caption{基于荧光信号的非入侵光学传输矩阵测量原理\cite{boniface_non_invasive_2020}}
+	\caption{基于荧光信号的非入侵光学传输矩阵测量原理}
 	\label{fig2:23}
 \end{figure}
 
@@ -222,7 +222,7 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.45]{C2.fig9}
-	\caption{光学记忆效应实验结果\cite{Freund1988}}
+	\caption{光学记忆效应实验结果}
 	\label{fig2:9}
 \end{figure}
 
@@ -238,7 +238,7 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 
 \subsection{基于散斑相关的散射成像技术}
 
-2012年，Bertolotti等人\cite{bertolotti_non-invasive_2012}在Nature杂志上首次提出了利用散斑相关技术实现非侵入式的透过散射介质成像，实验系统如图\ref{fig2:10}所示。根据散射介质的记忆效应，激光器在空间中以不同角度$\theta$扫描时，相机接收到的散斑$I(\theta)$具有高度相关性，这一成像过程可以描述为
+2012年，Bertolotti等人\cite{bertolotti_non-invasive_2012}在Nature杂志上首次提出了利用散斑相关技术实现非侵入式的透过散射介质成像，实验系统如图\ref{fig2:10}所示\cite{bertolotti_non-invasive_2012}。根据散射介质的记忆效应，激光器在空间中以不同角度$\theta$扫描时，相机接收到的散斑$I(\theta)$具有高度相关性，这一成像过程可以描述为
 
 \begin{equation}
   I(\theta)= \int_{-\infty}^{\infty} O(r)S(r-\theta d) d^2 r = [O*S](\theta)
@@ -255,81 +255,81 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.45]{C2.fig10}
-	\caption{基于光学记忆效应的非侵入式成像方法示意图\cite{bertolotti_non-invasive_2012}}
+	\caption{基于光学记忆效应的非侵入式成像方法示意图}
 	\label{fig2:10}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.40]{C2.fig11}
-	\caption{基于光学记忆效应的散射成像方法的实验结果\cite{bertolotti_non-invasive_2012}}
+	\caption{基于光学记忆效应的散射成像方法的实验结果}
 	\label{fig2:11}
 \end{figure}
 
-依据介观物理理论\cite{akkermans_mesoscopic_2007,goodman_speckle_2007}，当介质的有效厚度远小于Anderson localization长度，并且散射足够充分时，$\langle S\bigstar S \rangle$可以表示为类$\delta$函数\cite{bertolotti_non-invasive_2012}，即目标的自相关信息可近似由散斑自相关得到。由Wiener-Khinchin定理可知，从目标的自相关信息中可以得到目标在频率域的振幅信息，再结合相位恢复算法采用迭代的方法就可以得到目标在频率域的相位信息，从而实现目标的重建，实验结果如图\ref{fig2:11}所示，图\ref{fig2:11}(a)为散斑；图\ref{fig2:11}(b)为散斑自相关结果；图\ref{fig2:11}(c)为原目标；图\ref{fig2:11}(d)为重建目标。该方法避免了波前整形及传输矩阵测量所带来的问题，极大地改善了已有方法的不足，但它仍需要在光学记忆效应范围内扫描，整个成像过程需要耗费几十分钟，依然无法满足实时成像的要求。
+依据介观物理理论\cite{akkermans_mesoscopic_2007,goodman_speckle_2007}，当介质的有效厚度远小于Anderson localization长度，并且散射足够充分时，$\langle S\bigstar S \rangle$可以表示为类$\delta$函数\cite{bertolotti_non-invasive_2012}，即目标的自相关信息可近似由散斑自相关得到。由Wiener-Khinchin定理可知，从目标的自相关信息中可以得到目标在频率域的振幅信息，再结合相位恢复算法采用迭代的方法就可以得到目标在频率域的相位信息，从而实现目标的重建，实验结果如图\ref{fig2:11}所示\cite{bertolotti_non-invasive_2012}，图\ref{fig2:11}(a)为散斑；图\ref{fig2:11}(b)为散斑自相关结果；图\ref{fig2:11}(c)为原目标；图\ref{fig2:11}(d)为重建目标。该方法避免了波前整形及传输矩阵测量所带来的问题，极大地改善了已有方法的不足，但它仍需要在光学记忆效应范围内扫描，整个成像过程需要耗费几十分钟，依然无法满足实时成像的要求。
 
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.50]{C2.fig12}
-	\caption{基于单帧散斑自相关成像的示意图\cite{katz_non-invasive_2014}}
+	\caption{基于单帧散斑自相关成像的示意图}
 	\label{fig2:12}
 \end{figure}
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.35]{C2.fig13}
-	\caption{基于单帧散斑自相关成像的实验结果\cite{katz_non-invasive_2014}}
+	\caption{基于单帧散斑自相关成像的实验结果}
 	\label{fig2:13}
 \end{figure}
-2014年，Katz等\cite{katz_non-invasive_2014}在Bertolotti研究的基础上提出了一种基于单帧散斑自相关的成像方法，成像模型和实验结果分别如图\ref{fig2:12}和图\ref{fig2:13}所示。图\ref{fig2:12}中，图\ref{fig2:12}(a)为成像模型示意图；图\ref{fig2:12}(b)为散斑图案；图\ref{fig2:12}(c)为散斑图案的自相关；图\ref{fig2:12}(c)为目标的重建结果。图\ref{fig2:13}中，图\ref{fig2:13}(a)为成像装置；图\ref{fig2:13}(b)为散斑；图\ref{fig2:13}(c)~(g)第一列为散斑自相关，第二列为重建目标，第三列为原目标。该方法不仅完全避免了原有成像方法需要扫描的缺陷，而且避免了成像系统的像差带来的影响，节省了成像时间，成为散射成像技术的又一次突破。然而，该方法依然受限于光学记忆效应，并且实现非侵入式的条件比较苛刻，距离实际应用依然存在很多障碍。同时，该方法的成像效果会受到相位恢复算法的影响，成像存在不确定性。如：Fienup型相位恢复算法\cite{fienup_phase_1982,fienup_reconstruction_1978}的缺点在于，初始迭代相位的随机性导致最终的重建目标在方向、空间位置上具有随机性，进而导致了重建结果的不确定性。
+2014年，Katz等\cite{katz_non-invasive_2014}在Bertolotti研究的基础上提出了一种基于单帧散斑自相关的成像方法，成像模型和实验结果分别如图\ref{fig2:12}和图\ref{fig2:13}所示\cite{katz_non-invasive_2014}。图\ref{fig2:12}中，图\ref{fig2:12}(a)为成像模型示意图；图\ref{fig2:12}(b)为散斑图案；图\ref{fig2:12}(c)为散斑图案的自相关；图\ref{fig2:12}(c)为目标的重建结果。图\ref{fig2:13}中，图\ref{fig2:13}(a)为成像装置；图\ref{fig2:13}(b)为散斑；图\ref{fig2:13}(c)~(g)第一列为散斑自相关，第二列为重建目标，第三列为原目标。该方法不仅完全避免了原有成像方法需要扫描的缺陷，而且避免了成像系统的像差带来的影响，节省了成像时间，成为散射成像技术的又一次突破。然而，该方法依然受限于光学记忆效应，并且实现非侵入式的条件比较苛刻，距离实际应用依然存在很多障碍。同时，该方法的成像效果会受到相位恢复算法的影响，成像存在不确定性。如：Fienup型相位恢复算法\cite{fienup_phase_1982,fienup_reconstruction_1978}的缺点在于，初始迭代相位的随机性导致最终的重建目标在方向、空间位置上具有随机性，进而导致了重建结果的不确定性。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.45]{C2.fig14}
-	\caption{采用双谱分析得到的重建结果\cite{wu_single-shot_2016}}
+	\caption{采用双谱分析得到的重建结果}
 	\label{fig2:14}
 \end{figure}
 
-针对Fienup型相位恢复算法的缺点，Wu等\cite{wu_single-shot_2016}将天文观测中的三阶相关相位恢复技术（又称双谱技术）引入到散射成像的相位恢复过程中，用以解决由相位恢复算法所导致的重建结果不确定的问题。采用双谱分析得到的重建结果如图\ref{fig2:14}所示，图\ref{fig2:14}(a)为散斑；图\ref{fig2:14}(b)为傅里叶振幅；图\ref{fig2:14}(c)为傅里叶相位；图\ref{fig2:14}(d)为重建目标；图\ref{fig2:14}(e)为原目标。三阶相关相位恢复技术与Fienup型相位恢复算法的散斑相关成像相比具有以下优势：1)能够精确地恢复出目标频率域的相位信息；2)不需要大量的迭代与重复估计；3) 具有更好的抗噪性；4)保留了目标的方向信息。
+针对Fienup型相位恢复算法的缺点，Wu等\cite{wu_single-shot_2016}将天文观测中的三阶相关相位恢复技术（又称双谱技术）引入到散射成像的相位恢复过程中，用以解决由相位恢复算法所导致的重建结果不确定的问题。采用双谱分析得到的重建结果如图\ref{fig2:14}所示\cite{wu_single-shot_2016}，图\ref{fig2:14}(a)为散斑；图\ref{fig2:14}(b)为傅里叶振幅；图\ref{fig2:14}(c)为傅里叶相位；图\ref{fig2:14}(d)为重建目标；图\ref{fig2:14}(e)为原目标。三阶相关相位恢复技术与Fienup型相位恢复算法的散斑相关成像相比具有以下优势：1)能够精确地恢复出目标频率域的相位信息；2)不需要大量的迭代与重复估计；3) 具有更好的抗噪性；4)保留了目标的方向信息。
 
-除了上文所提到的静态散射介质，透过动态散射介质成像是透过散射介质成像领域不可或缺的一部分\cite{edrei_optical_2016,singh_looking_2014}。2016年，美国马里兰大学的Scarcelli课题组\cite{edrei_optical_2016}提出了一种基于浴帘效应的散射成像方法。该方法通过对多帧散斑作逆傅里叶变换并叠加取平均值，近似求得了原目标场的自相关，然后结合相位恢复算法得到了目标的频率域相位，进而恢复出了目标信息，如图\ref{fig2:15}所示。在图\ref{fig2:15}中，图\ref{fig2:15}(a)为原目标；图\ref{fig2:15}(b)为薄散射体远离目标；图\ref{fig2:15}(c)为薄散射体紧贴目标；图\ref{fig2:15}(d)为基于浴帘效应的散射成像系统原理图；图\ref{fig2:15}(e)为目标重建过程。相比前述几种成像方法，基于浴帘效应的成像方法的主要不同之处在于：1）利用了散射介质的近场相关性；2）可适用于透过动态散射介质成像；3）照明光源为相干光。然而，其局限性也很明显，如需要记录多帧散斑，限制了成像速度。
+除了上文所提到的静态散射介质，透过动态散射介质成像是透过散射介质成像领域不可或缺的一部分\cite{edrei_optical_2016,singh_looking_2014}。2016年，美国马里兰大学的Scarcelli课题组\cite{edrei_optical_2016}提出了一种基于浴帘效应的散射成像方法。该方法通过对多帧散斑作逆傅里叶变换并叠加取平均值，近似求得了原目标场的自相关，然后结合相位恢复算法得到了目标的频率域相位，进而恢复出了目标信息，如图\ref{fig2:15}所示\cite{edrei_optical_2016}。在图\ref{fig2:15}中，图\ref{fig2:15}(a)为原目标；图\ref{fig2:15}(b)为薄散射体远离目标；图\ref{fig2:15}(c)为薄散射体紧贴目标；图\ref{fig2:15}(d)为基于浴帘效应的散射成像系统原理图；图\ref{fig2:15}(e)为目标重建过程。相比前述几种成像方法，基于浴帘效应的成像方法的主要不同之处在于：1）利用了散射介质的近场相关性；2）可适用于透过动态散射介质成像；3）照明光源为相干光。然而，其局限性也很明显，如需要记录多帧散斑，限制了成像速度。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.35]{C2.fig15}
-	\caption{基于浴帘效应的散射成像结果\cite{edrei_optical_2016}}
+	\caption{基于浴帘效应的散射成像结果}
 	\label{fig2:15}
 \end{figure}
 
 基于散斑相关的散射成像方法具有系统简单且能够实现非侵入式成像的特点，但其缺点也很明显，如：成像的视场受记忆效应范围的限制，与平均传输自由程成反比。鉴于此，许多扩展光学记忆效应的方法和技术应运而生，如：利用参考目标\cite{yang_imaging_2018}或先验知识\cite{wang_prior-information-free_2019}实现超记忆效应范围成像的技术，通过光场估计\cite{jin_depth_2018}或散斑估计\cite{liao_extending_2019}的方法实现透过散射介质成像的景深扩展。除了以上所描述的基于散斑相关的透过散射介质成像技术外，将散斑相关成像技术与光谱编码技术\cite{sahoo_single-shot_2017}、压缩感知技术\cite{candes_introduction_2008,rudin_nonlinear_1992}、双目视觉技术\cite{brady_compressive_2009,mukherjee_3d_2018}等相结合，也可实现透过散射介质的彩色成像、光谱成像和三维成像等。
 \subsection{利用光学记忆效应点扫描成像技术}
 
-光学记忆效应是无序介质的固有特性，可以用任何入射波前观察到。特别是，当入射波前在透射中形成一个明亮的焦点时，它也可以用来成像。如果介质拥有光学记忆效应，则意味着这个焦点可以被平移。这种点扫描成像方法对于透过散射介质成像特别有趣，因为使用单个焦点和光栅扫描它（基于“倾斜”记忆效应），可以恢复隐藏目标的图像。这种利用光学记忆效应实现点扫描成像首次被Vellekoop等人验证\cite{vellekoop_scattered_2010}，如图\ref{fig2:22}所示。在图\ref{fig2:22}中，图\ref{fig2:22}(a)为平面波透过波散射介质形成散斑示意图；图\ref{fig2:22}(b)为基于波前整形技术聚焦示意图；图\ref{fig2:22}(c)为聚焦点扫描示意图；图\ref{fig2:22}(d)为实验系统；图\ref{fig2:22}(e)为目标图像；图\ref{fig2:22}(f)为扫描成像结果；图\ref{fig2:22}(f)为相机所接收到散斑图案。
+光学记忆效应是无序介质的固有特性，可以用任何入射波前观察到。特别是，当入射波前在透射中形成一个明亮的焦点时，它也可以用来成像。如果介质拥有光学记忆效应，则意味着这个焦点可以被平移。这种点扫描成像方法对于透过散射介质成像特别有趣，因为使用单个焦点和光栅扫描它（基于“倾斜”记忆效应），可以恢复隐藏目标的图像。这种利用光学记忆效应实现点扫描成像首次被Vellekoop等人验证\cite{vellekoop_scattered_2010}，如图\ref{fig2:22}所示\cite{vellekoop_scattered_2010}。在图\ref{fig2:22}中，图\ref{fig2:22}(a)为平面波透过波散射介质形成散斑示意图；图\ref{fig2:22}(b)为基于波前整形技术聚焦示意图；图\ref{fig2:22}(c)为聚焦点扫描示意图；图\ref{fig2:22}(d)为实验系统；图\ref{fig2:22}(e)为目标图像；图\ref{fig2:22}(f)为扫描成像结果；图\ref{fig2:22}(f)为相机所接收到散斑图案。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.45]{C2.fig22}
-	\caption{基于光学记忆效应的点扫描成像结果\cite{vellekoop_scattered_2010}}
+	\caption{基于光学记忆效应的点扫描成像结果}
 	\label{fig2:22}
 \end{figure}
 
 \section{基于点扩展函数工程的透过散射介质成像技术}
 
-根据光学效应范围，透过散射介质成像系统的数学模型如式(\ref{eq:2.4})所示，分析其数学模型不难发现，在传统成像方面已成熟应用的去卷积技术有望实现透过散射介质成像。2016年，Edrei等\cite{edrei_memory-effect_2016}在测量散射系统点扩展函数的基础上，采用Lucy-Richardson去卷积迭代非线性复原方法\cite{richardson_bayesian-based_1972,1974AJ_79_745L}，实现了透过散射介质成像，结果如图\ref{fig2:16}所示。图\ref{fig2:16}中，图\ref{fig2:16}(a)为实验系统示意图；图\ref{fig2:16}(b)为原目标；图\ref{fig2:16}(c)为散斑图案；图\ref{fig2:16}(d)为系统点扩展函数；图\ref{fig2:16}(e)为重建结果。Edrei等开创了利用点扩展函数实现透过散射介质成像的新局面，其核心在于系统点扩展函数的获取。点扩展函数工程的成像效果依赖于所获取的系统的点扩展函数的准确性，在成像过程中要保证散射介质的稳定性,基于点扩展函数工程的透过散射介质成像技术仅适用于静态散射介质成像。
+根据光学效应范围，透过散射介质成像系统的数学模型如式(\ref{eq:2.4})所示，分析其数学模型不难发现，在传统成像方面已成熟应用的去卷积技术有望实现透过散射介质成像。2016年，Edrei等\cite{edrei_memory-effect_2016}在测量散射系统点扩展函数的基础上，采用Lucy-Richardson去卷积迭代非线性复原方法\cite{richardson_bayesian-based_1972,1974AJ_79_745L}，实现了透过散射介质成像，结果如图\ref{fig2:16}所示\cite{edrei_memory-effect_2016}。图\ref{fig2:16}中，图\ref{fig2:16}(a)为实验系统示意图；图\ref{fig2:16}(b)为原目标；图\ref{fig2:16}(c)为散斑图案；图\ref{fig2:16}(d)为系统点扩展函数；图\ref{fig2:16}(e)为重建结果。Edrei等开创了利用点扩展函数实现透过散射介质成像的新局面，其核心在于系统点扩展函数的获取。点扩展函数工程的成像效果依赖于所获取的系统的点扩展函数的准确性，在成像过程中要保证散射介质的稳定性,基于点扩展函数工程的透过散射介质成像技术仅适用于静态散射介质成像。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.45]{C2.fig16}
-	\caption{基于去卷积的散射成像结果\cite{edrei_memory-effect_2016}}
+	\caption{基于去卷积的散射成像结果}
 	\label{fig2:16}
 \end{figure}
 
-2017年，西安电子科技大学的邵晓鹏课题组\cite{wu_imaging_2017}借鉴天文成像所应用的相位多样性技术，通过获取多帧散斑，估算得到了散射光学系统的点扩展函数，进而通过去卷积技术实现了透过散射介质成像。基于相位多样性的散斑成像原理、散斑重建及系统点扩展函数估计结果如图\ref{fig2:17}、\ref{fig2:18}所示，通过采集N帧多样性散斑，利用不同像平面位置处系统孔径函数中相位分布之间的关系，结合相位多样性重建方法，对系统的点扩展函数进行联合估计，进而通过去卷积方式实现了目标重构。与其他方法相比，该方法仅需多帧散斑进行联合估计，无须测量系统的点扩展函数便可实现透过散射介质成像。图\ref{fig2:18}中，图\ref{fig2:18}(a)为原目标；图\ref{fig2:18}(b)为多样性散斑；图\ref{fig2:18}(c)第一列为估计的随机相位，第二列为估计的局部点扩展函数，第三列为重建目标。
+2017年，西安电子科技大学的邵晓鹏课题组\cite{wu_imaging_2017}借鉴天文成像所应用的相位多样性技术，通过获取多帧散斑，估算得到了散射光学系统的点扩展函数，进而通过去卷积技术实现了透过散射介质成像。基于相位多样性的散斑成像原理、散斑重建及系统点扩展函数估计结果如图\ref{fig2:17}、\ref{fig2:18}所示\cite{wu_imaging_2017}，通过采集N帧多样性散斑，利用不同像平面位置处系统孔径函数中相位分布之间的关系，结合相位多样性重建方法，对系统的点扩展函数进行联合估计，进而通过去卷积方式实现了目标重构。与其他方法相比，该方法仅需多帧散斑进行联合估计，无须测量系统的点扩展函数便可实现透过散射介质成像。图\ref{fig2:18}中，图\ref{fig2:18}(a)为原目标；图\ref{fig2:18}(b)为多样性散斑；图\ref{fig2:18}(c)第一列为估计的随机相位，第二列为估计的局部点扩展函数，第三列为重建目标。
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.35]{C2.fig17}
-	\caption{基于相位多样性的散斑成像原理示意图\cite{wu_imaging_2017}}
+	\caption{基于相位多样性的散斑成像原理示意图}
 	\label{fig2:17}
 \end{figure}
 
@@ -338,7 +338,7 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.45]{C2.fig18}
-	\caption{基于相位多样性的散射成像实验结果\cite{wu_imaging_2017}}
+	\caption{基于相位多样性的散射成像实验结果}
 	\label{fig2:18}
 \end{figure}
 
