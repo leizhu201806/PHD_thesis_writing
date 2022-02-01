@@ -138,6 +138,48 @@
   optimization}\bibmark{[J]}\@. \bibjournal{Optica}\@, \bibyear{2019}\@,
   \bibvolume{6}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{1381}\@.
 
+\bibitem{Popoff2010}
+\bibauthor{POPOFF S~M\@, LEROSEY G\@, CARMINATI R, et~al}\@.
+  \bibtitle{{Measuring the transmission matrix in optics: An approach to the
+  study and control of light propagation in disordered media}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{2010}\@,
+  \bibvolume{104}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
+
+\bibitem{vellekoop_scattered_2010}
+\bibauthor{VELLEKOOP I~M\@, AEGERTER C~M}\@. \bibtitle{Scattered light
+  fluorescence microscopy: imaging through turbid layers}\bibmark{[J]}\@.
+  \bibjournal{Optics Letters}\@, \bibyear{2010}\@,
+  \bibvolume{35}\bibnumber{(8)}\thinspace{}\textnormal{: }\bibpages{1245}\@.
+
+\bibitem{katz_looking_2012}
+\bibauthor{KATZ O\@, SMALL E\@, SILBERBERG Y}\@. \bibtitle{Looking around
+  corners and through thin turbid layers in real time with scattered incoherent
+  light}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@, \bibyear{2012}\@,
+  \bibvolume{6}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{549\thinspace{}\textnormal{--}\thinspace{}553}\@.
+
+\bibitem{bertolotti_non-invasive_2012}
+\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
+  \bibtitle{Non-invasive imaging through opaque scattering
+  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
+  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
+  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
+
+\bibitem{Freund1988}
+\bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
+  propagation of optical waves through disordered media}}\bibmark{[J]}\@.
+  \bibjournal{Physical Review Letters}\@, \bibyear{1988}\@,
+  \bibvolume{61}\bibnumber{(20)}\thinspace{}\textnormal{:
+  }\bibpages{2328\thinspace{}\textnormal{--}\thinspace{}2331}\@.
+
+\bibitem{katz_non-invasive_2014}
+\bibauthor{KATZ O\@, HEIDMANN P\@, FINK M, et~al}\@. \bibtitle{Non-invasive
+  single-shot imaging through scattering layers and around corners via speckle
+  correlations}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
+  \bibyear{2014}\@, \bibvolume{8}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{784\thinspace{}\textnormal{--}\thinspace{}790}\@.
+
 \bibitem{huang_optical_1991}
 \bibauthor{HUANG D\@, SWANSON E~A\@, LIN C~P, et~al}\@. \bibtitle{Optical
   coherence tomography}\bibmark{[J]}\@. \bibjournal{Science}\@,
@@ -205,21 +247,6 @@
   \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{SPIE}\@,
   \bibyear{2017}\thinspace{}\textnormal{:
   }\bibpages{37\thinspace{}\textnormal{--}\thinspace{}37}\@.
-
-\bibitem{Popoff2010}
-\bibauthor{POPOFF S~M\@, LEROSEY G\@, CARMINATI R, et~al}\@.
-  \bibtitle{{Measuring the transmission matrix in optics: An approach to the
-  study and control of light propagation in disordered media}}\bibmark{[J]}\@.
-  \bibjournal{Physical Review Letters}\@, \bibyear{2010}\@,
-  \bibvolume{104}\bibnumber{(10)}\thinspace{}\textnormal{:
-  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
-
-\bibitem{Freund1988}
-\bibauthor{FREUND I\@, ROSENBLUH M\@, FENG S}\@. \bibtitle{{Memory effects in
-  propagation of optical waves through disordered media}}\bibmark{[J]}\@.
-  \bibjournal{Physical Review Letters}\@, \bibyear{1988}\@,
-  \bibvolume{61}\bibnumber{(20)}\thinspace{}\textnormal{:
-  }\bibpages{2328\thinspace{}\textnormal{--}\thinspace{}2331}\@.
 
 \bibitem{sahoo_single-shot_2017}
 \bibauthor{SAHOO S~K\@, TANG D\@, DANG C}\@. \bibtitle{Single-shot
@@ -301,13 +328,6 @@
   a strongly scattering wall}\bibmark{[J]}\@. \bibjournal{Optics Express}\@,
   \bibyear{2012}\@, \bibvolume{20}\bibnumber{(25)}\thinspace{}\textnormal{:
   }\bibpages{27312\thinspace{}\textnormal{--}\thinspace{}27318}\@.
-
-\bibitem{katz_looking_2012}
-\bibauthor{KATZ O\@, SMALL E\@, SILBERBERG Y}\@. \bibtitle{Looking around
-  corners and through thin turbid layers in real time with scattered incoherent
-  light}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@, \bibyear{2012}\@,
-  \bibvolume{6}\bibnumber{(8)}\thinspace{}\textnormal{:
-  }\bibpages{549\thinspace{}\textnormal{--}\thinspace{}553}\@.
 
 \bibitem{park_perspective_2018}
 \bibauthor{PARK J-H\@, YU Z\@, LEE K, et~al}\@. \bibtitle{Perspective:
@@ -427,13 +447,6 @@
   \bibvolume{11}\bibnumber{(8)}\thinspace{}\textnormal{:
   }\bibpages{684\thinspace{}\textnormal{--}\thinspace{}689}\@.
 
-\bibitem{bertolotti_non-invasive_2012}
-\bibauthor{BERTOLOTTI J\@, VAN~PUTTEN E~G\@, BLUM C, et~al}\@.
-  \bibtitle{Non-invasive imaging through opaque scattering
-  layers}\bibmark{[J]}\@. \bibjournal{Nature}\@, \bibyear{2012}\@,
-  \bibvolume{491}\bibnumber{(7423)}\thinspace{}\textnormal{:
-  }\bibpages{232\thinspace{}\textnormal{--}\thinspace{}234}\@.
-
 \bibitem{akkermans_mesoscopic_2007}
 \bibauthor{AKKERMANS E\@, MONTAMBAUX G}\@. \bibbooktitle{Mesoscopic {Physics}
   of {Electrons} and {Photons}}\bibmark{[M]}\@.
@@ -445,13 +458,6 @@
   {Theory} and {Applications}}\bibmark{[M]}\@.
   \bibaddress{Englewood}\thinspace{}\textnormal{: }\bibpublisher{Roberts and
   Company Publishers}\@, \bibyear{2007}\@.
-
-\bibitem{katz_non-invasive_2014}
-\bibauthor{KATZ O\@, HEIDMANN P\@, FINK M, et~al}\@. \bibtitle{Non-invasive
-  single-shot imaging through scattering layers and around corners via speckle
-  correlations}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
-  \bibyear{2014}\@, \bibvolume{8}\bibnumber{(10)}\thinspace{}\textnormal{:
-  }\bibpages{784\thinspace{}\textnormal{--}\thinspace{}790}\@.
 
 \bibitem{fienup_phase_1982}
 \bibauthor{FIENUP J~R}\@. \bibtitle{Phase retrieval algorithms: a
@@ -538,12 +544,6 @@
   {System}}\bibmark{[J]}\@. \bibjournal{Scientific Reports}\@,
   \bibyear{2018}\@, \bibvolume{8}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{1134}\@.
-
-\bibitem{vellekoop_scattered_2010}
-\bibauthor{VELLEKOOP I~M\@, AEGERTER C~M}\@. \bibtitle{Scattered light
-  fluorescence microscopy: imaging through turbid layers}\bibmark{[J]}\@.
-  \bibjournal{Optics Letters}\@, \bibyear{2010}\@,
-  \bibvolume{35}\bibnumber{(8)}\thinspace{}\textnormal{: }\bibpages{1245}\@.
 
 \bibitem{edrei_memory-effect_2016}
 \bibauthor{EDREI E\@, SCARCELLI G}\@. \bibtitle{Memory-effect based

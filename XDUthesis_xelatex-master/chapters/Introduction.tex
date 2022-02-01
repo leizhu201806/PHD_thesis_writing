@@ -1,5 +1,5 @@
 
-\chapter{超弹道光范围光学成像方法}
+\chapter{超弹道光范围光学成像方法}\label{chap:2}
 生活中，我们观察物体、辨别物体总是遵循“光沿直线传播”、“所见即所得”的传统光学成像规律，常见的视觉成像系统像人眼、照相机以及光学成像工具如放大镜、显微镜和望远镜等都以此为物理基础。传统光学成像主要通过提取弹道光（或抑制散射光）的方式解决透过无散射（或者弱散射）介质的成像问题。当光透过生物组织、烟尘和云雾等强散射介质时，传统光学成像规律失效。其主要原因是光在强散射介质中传播时，介质中大小为波长量级的粒子对入射光波产生的散射作用使原本有序的波前相位产生严重畸变，出射光场变得随机且紊乱，最终在观测面上只能接收到散斑图案，难以实现对目标的观测或成像。因此，散射效应成为制约透过散射介质成像技术发展的瓶颈和关键问题。
 
 近年来，随着计算机技术飞速发展、介观物理研究的深入、计算成像思想的完善和图像处理技术的发展，形成以物理机制为基础的计算光学成像技术。计算光学成像技术作为新型成像手段，不仅推动了传统成像的发展，而且在解决散射成像方面表现出了得天独厚的优势。经过各国科学家们的不懈努力，计算成像理论以及相关实验技术迅速发展，取得了许多突破性研究成果。在弹道光提取方面，如：自适应光学成像技术 (Adaptive optics technique)、门选通技术、光学相干层析(Optical coherence tomography)\cite{huang_optical_1991}、共聚焦显微 (Confocal microscopy)\cite{webb_confocal_1996}、多光子显微 (Multiphoton microscopy)\cite{denk_two_photon_1990,helmchen_deep_2005}、光声显微 (Optoacoustic microscopy)\cite{zhang_functional_2006,wang_multiscale_2009}、复合荧光分子层析 (Hybrid fluorescence molecular tomography)\cite{ale_fmt_xct_2012}、多光谱光声层析 (Multispectral optoacoustic tomography)\cite{razansky_volumetric_2011,ntziachristos_going_2010} 等光学成像技术的发展及应用，解决了天文成像、水下探测和生物成像等领域的关键问题。
@@ -238,7 +238,7 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 
 \subsection{基于散斑相关的散射成像技术}
 
-2012年，Bertolotti等人\cite{bertolotti_non-invasive_2012}在Nature杂志上首次提出了利用散斑相关技术实现非侵入式的透过散射介质成像，实验系统如图\ref{fig2:10}所示\cite{bertolotti_non-invasive_2012}。根据散射介质的记忆效应，激光器在空间中以不同角度$\theta$扫描时，相机接收到的散斑$I(\theta)$具有高度相关性，这一成像过程可以描述为
+2012年，J. Bertolotti等人\cite{bertolotti_non-invasive_2012}在Nature杂志上首次提出了利用散斑相关技术实现非侵入式的透过散射介质成像，实验系统如图\ref{fig2:10}所示\cite{bertolotti_non-invasive_2012}。根据散射介质的记忆效应，激光器在空间中以不同角度$\theta$扫描时，相机接收到的散斑$I(\theta)$具有高度相关性，这一成像过程可以描述为
 
 \begin{equation}
   I(\theta)= \int_{-\infty}^{\infty} O(r)S(r-\theta d) d^2 r = [O*S](\theta)
@@ -281,7 +281,7 @@ $\bullet$ $L \gg l_{s} $：多重散射区域\par
 	\caption{基于单帧散斑自相关成像的实验结果}
 	\label{fig2:13}
 \end{figure}
-2014年，Katz等\cite{katz_non-invasive_2014}在Bertolotti研究的基础上提出了一种基于单帧散斑自相关的成像方法，成像模型和实验结果分别如图\ref{fig2:12}和图\ref{fig2:13}所示\cite{katz_non-invasive_2014}。图\ref{fig2:12}中，图\ref{fig2:12}(a)为成像模型示意图；图\ref{fig2:12}(b)为散斑图案；图\ref{fig2:12}(c)为散斑图案的自相关；图\ref{fig2:12}(c)为目标的重建结果。图\ref{fig2:13}中，图\ref{fig2:13}(a)为成像装置；图\ref{fig2:13}(b)为散斑；图\ref{fig2:13}(c)~(g)第一列为散斑自相关，第二列为重建目标，第三列为原目标。该方法不仅完全避免了原有成像方法需要扫描的缺陷，而且避免了成像系统的像差带来的影响，节省了成像时间，成为散射成像技术的又一次突破。然而，该方法依然受限于光学记忆效应，并且实现非侵入式的条件比较苛刻，距离实际应用依然存在很多障碍。同时，该方法的成像效果会受到相位恢复算法的影响，成像存在不确定性。如：Fienup型相位恢复算法\cite{fienup_phase_1982,fienup_reconstruction_1978}的缺点在于，初始迭代相位的随机性导致最终的重建目标在方向、空间位置上具有随机性，进而导致了重建结果的不确定性。
+2014年，O. Katz等\cite{katz_non-invasive_2014}在Bertolotti研究的基础上提出了一种基于单帧散斑自相关的成像方法，成像模型和实验结果分别如图\ref{fig2:12}和图\ref{fig2:13}所示\cite{katz_non-invasive_2014}。图\ref{fig2:12}中，图\ref{fig2:12}(a)为成像模型示意图；图\ref{fig2:12}(b)为散斑图案；图\ref{fig2:12}(c)为散斑图案的自相关；图\ref{fig2:12}(c)为目标的重建结果。图\ref{fig2:13}中，图\ref{fig2:13}(a)为成像装置；图\ref{fig2:13}(b)为散斑；图\ref{fig2:13}(c)~(g)第一列为散斑自相关，第二列为重建目标，第三列为原目标。该方法不仅完全避免了原有成像方法需要扫描的缺陷，而且避免了成像系统的像差带来的影响，节省了成像时间，成为散射成像技术的又一次突破。然而，该方法依然受限于光学记忆效应，并且实现非侵入式的条件比较苛刻，距离实际应用依然存在很多障碍。同时，该方法的成像效果会受到相位恢复算法的影响，成像存在不确定性。如：Fienup型相位恢复算法\cite{fienup_phase_1982,fienup_reconstruction_1978}的缺点在于，初始迭代相位的随机性导致最终的重建目标在方向、空间位置上具有随机性，进而导致了重建结果的不确定性。
 
 \begin{figure}[htp]
 	\centering
