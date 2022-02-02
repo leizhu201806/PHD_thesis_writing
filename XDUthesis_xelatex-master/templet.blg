@@ -74,6 +74,7 @@ Warning--string name "oct" is undefined
 --line 1263 of file bib/tex.bib
 Warning--string name "aug" is undefined
 --line 2252 of file bib/tex.bib
+Warning--I didn't find a database entry for "Lich传输矩阵an2005"
 Warning--I didn't find a database entry for "remeau_reference_less_2015"
 Warning--Require address: robert_micrographia_2015
 Warning--Require address: blochet_fast_2017
@@ -84,7 +85,7 @@ Warning--Require citedate: jin_depth_2018
 Warning--Require address: lee_algorithms_2001
 You've used 122 entries,
             3054 wiz_defined-function locations,
-            1370 strings with 29099 characters,
+            1372 strings with 29143 characters,
 and the built_in function-call counts, 230013 in all, are:
 = -- 25711
 > -- 428
@@ -123,4 +124,4 @@ warning$ -- 7
 while$ -- 2837
 width$ -- 125
 write$ -- 1812
-(There were 32 warnings)
+(There were 33 warnings)

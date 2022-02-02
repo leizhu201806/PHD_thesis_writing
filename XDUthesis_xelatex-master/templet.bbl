@@ -38,12 +38,6 @@
   \bibvolume{9}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{413\thinspace{}\textnormal{--}\thinspace{}468}\@.
 
-\bibitem{Lichtman2005}
-\bibauthor{LICHTMAN J~W\@, CONCHELLO J~A}\@. \bibtitle{{Fluorescence
-  microscopy}}\bibmark{[J]}\@. \bibjournal{Nature Methods}\@, \bibyear{2005}\@,
-  \bibvolume{2}\bibnumber{(12)}\thinspace{}\textnormal{:
-  }\bibpages{910\thinspace{}\textnormal{--}\thinspace{}919}\@.
-
 \bibitem{Goodman1976}
 \bibauthor{GOODMAN J~W}\@. \bibtitle{{Some fundamental properties of
   speckle}}\bibmark{[J]}\@. \bibjournal{Journal of the Optical Society of
@@ -745,6 +739,12 @@
   through dynamic scattering media with speckle-encoded ultrasound-modulated
   light correlation}}\bibmark{[J]}\@. \bibjournal{Nature Photonics}\@,
   \bibyear{2020}\@.
+
+\bibitem{Lichtman2005}
+\bibauthor{LICHTMAN J~W\@, CONCHELLO J~A}\@. \bibtitle{{Fluorescence
+  microscopy}}\bibmark{[J]}\@. \bibjournal{Nature Methods}\@, \bibyear{2005}\@,
+  \bibvolume{2}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{910\thinspace{}\textnormal{--}\thinspace{}919}\@.
 
 \bibitem{mangeat_super_resolved_2021}
 \bibauthor{MANGEAT T\@, LABOUESSE S\@, ALLAIN M, et~al}\@.

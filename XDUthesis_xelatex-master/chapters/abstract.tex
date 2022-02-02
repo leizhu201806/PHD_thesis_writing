@@ -1,6 +1,8 @@
 
 \begin{abstract}
-透过散射介质成像摘要是学位论文的内容不加注释和评论的简短陈述，简明扼要陈述学位论文的研究目的、内容、方法、成果和结论，重点突出学位论文的创造性成果和观点。摘要包括中文摘要和英文摘要，硕士学位论文中文摘要字数一般为~1000~字左右，博士学位论文中文摘要字数一般为~1500~字左右。英文摘要内容与中文摘要内容保持一致，翻译力求简明精准。摘要的正文下方需注明论文的关键词，关键词一般为~3~～~8~个，关键词和关键词之间用逗号并空一格。\\
+生活中，我们观察物体、辨别物体总是遵循“光沿直线传播”、“所见即所得”的传统光学成像规律，常见的视觉成像系统像人眼、照相机以及光学成像工具如放大镜、显微镜和望远镜等都以此为物理基础。传统光学成像主要通过提取弹道光（或抑制散射光）的方式解决透过无散射（或者弱散射）介质的成像问题。当光透过生物组织、烟尘和云雾等强散射介质时，传统光学成像规律失效。其主要原因是光在强散射介质中传播时，介质中大小为波长量级的粒子对入射光波产生的散射作用使原本有序的波前相位产生严重畸变，出射光场变得随机且紊乱，最终在观测面上只能接收到散斑图案，难以实现对目标的直接观测或成像。因此，散射效应成为制约透过散射介质成像技术发展的瓶颈和关键问题。随着工业水平和光学加工水平的飞速发展，空间光调制器和数字微镜器件的问世，使得对入射光场实现控制变得可能。此类方法，通常被称为波前调制技术，通过控制入射光场，实现透过散射介质聚焦或成像。波前调制技术通常需要比较繁琐的优化过程，而且通常难以通过非入侵的形式实现。由于波前整形技术在实际应用中有着极大限制，常常它成像需求难以匹配实际成像条件，因此在实际应用中受到极大的限制。与此同时，随着计算机技术飞速发展、介观物理研究的深入、计算成像思想的完善和图像处理技术的发展，形成以物理机制为基础的计算光学成像技术。计算光学成像技术作为新型成像手段，不仅推动了传统成像的发展，而且在解决散射成像方面表现出了得天独厚的优势。由于通过计算的方式实现图像重建，无需连续的波前优化等相关复杂过程，通常获得散斑数据后以”离线”的方式在计算机上完成计算重建。利用散斑信号，通过计算的方式实现图像重建，通常依赖于介质的自身属性，如：光学记忆效应；或者通过预标定的方式获取散射介质的物理特性。相较于波前调制方式，散射计算成像更具挑战性，但同时也拥有更广的应用前景。近年来，科研人员利用散射介质的光学记忆效应，实现透过散射非入侵散射成像。
+
+。\\
 中文摘要格式要求为：宋体小四、两端对齐、首行缩进~2~字符，行距为固定值~20~磅，段落间距为段前~0~磅，段后~0~磅。\\
 英文摘要格式要求为：Times New Roman、小四、两端对齐、首行不缩进，行距为固定值~20~磅，段落间距为段前~0~磅，段后~0~磅，段与段之间空一行。\\
 
@@ -23,41 +25,40 @@ The format of the English Abstract is what follows: Times New Roman, Small 4, ju
 
 \begin{symbollist}
 \item [符号] \hspace{12em} {符号名称}
-\item [$\in$]\hspace{12.5em} {属于}
-\item [$\mathbb{R}$]\hspace{12.5em} {实数集}
-\item [$w$] \hspace{12.5em} {权重}
-\item [$x$] \hspace{12.5em} {样本}
-\item [$y$] \hspace{12.5em} {标签}
-\item [$M$] \hspace{12.5em} {特征维数}
-\item [$N$] \hspace{12.5em} {样本数量}
-\item [$\eta$] \hspace{12.5em} {学习率}
-\item [$\mathcal{F}^{-1}$] \hspace{12.5em} {逆傅里叶变换}
-\item [$\gamma$] \hspace{12.5em} {弱分类器更新率}
+\item [$\mu_{a}$]\hspace{12.5em} {吸收系数}
+\item [$\mu_{s}$]\hspace{12.5em} {散射系数}
+\item [$l_{s}$] \hspace{12.5em} {平均自由程}
+\item [$\langle \cdot \rangle$] \hspace{12.5em} {均值}
+\item [$\bigstar$] \hspace{12.5em} {相关}
+\item [$*$] \hspace{12.5em} {卷积}
+\item [$\delta$] \hspace{12.5em} {$\delta$函数}
+\item [$\mathcal{F}$] \hspace{12.5em} {傅里叶变换}
+\item [$\mid \cdot \mid $] \hspace{12.5em} {模值}
+\item [$\lambda$] \hspace{12.5em} {波长}
+\item [$\mu$] \hspace{12.5em} {标准差}
+\item [$(\cdot)^{(3)}$] \hspace{12.5em} {三阶相关}
+\item [$\Arrowvert \cdot \Arrowvert_F^{2}$] \hspace{12.5em} {Frobenius范数}
+\item [$\vert\vert \mathbf{f}\vert\vert_2  $] \hspace{12.5em} {$L_{2}$向量范数}
+\item [$\vert\vert \mathbf{f} \vert\vert_{TV} $] \hspace{12.5em} {TV范数}
 \end{symbollist}
 
 \begin{abbreviationlist}
 \item \makebox[8em][l]{缩略语}  \makebox[16em][l]{英文全称}  \makebox[16em][l]{中文对照}
-\item \makebox[4em][l]{SVM}    \makebox[20em][l]{Support Vector Machine}    \makebox[16em][l]{支持向量机2}
-\item \makebox[4em][l]{EM}    \makebox[20em][l]{expectation–maximization}    \makebox[16em][l]{最大期望}
-\item \makebox[4em][l]{WTS}   \makebox[20em][l]{Weighted Tensor Subspace}    \makebox[16em][l]{加权张量子空间}
-\item \makebox[4em][l]{PCA}    \makebox[20em][l]{Principal Component Analysis}    \makebox[16em][l]{主成分分析}
-\item \makebox[4em][l]{IPCA}    \makebox[20em][l]{Incremental PCA}    \makebox[16em][l]{增量主成分分析}
-\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
-\item \makebox[4em][l]{2D-LDA}    \makebox[20em][l]{2D Fisher Linear Discriminant Analysis}  \makebox[16em][l]{二维Fisher线性判别分析}
-\item \makebox[4em][l]{AVT}    \makebox[20em][l]{Attentional Visual Tracking}    \makebox[16em][l]{注意视觉跟踪}
-\item \makebox[4em][l]{RF}    \makebox[20em][l]{Random Forest}    \makebox[16em][l]{随机森林}
-\item \makebox[4em][l]{FFT}    \makebox[20em][l]{Fast Fourier Transformation}    \makebox[16em][l]{快速傅里叶变换}
-\item \makebox[4em][l]{MOSSE}   \makebox[20em][l]{Minimum Output Sum of Squared Error filter}    \makebox[10em][l]{最小平方误差滤波器}
-\item \makebox[4em][l]{CFT}    \makebox[20em][l]{Correlation Filter Tracker}    \makebox[16em][l]{相关滤波跟踪器}
-\item \makebox[4em][l]{DFT}    \makebox[20em][l]{Discrete Fourier Transform}    \makebox[16em][l]{离散傅里叶变换}
-\item \makebox[4em][l]{KCF}    \makebox[20em][l]{Kernelized Correlation Filter}    \makebox[16em][l]{核相关滤波器}
-\item \makebox[4em][l]{CLE}    \makebox[20em][l]{Center Location Error}    \makebox[16em][l]{中心位置误差}
-\item \makebox[4em][l]{OP}    \makebox[20em][l]{Overlap Precision}    \makebox[16em][l]{重叠精度}
-\item \makebox[4em][l]{DP}    \makebox[20em][l]{Distance Precision}    \makebox[16em][l]{距离精度}
-\item \makebox[4em][l]{ASMM}    \makebox[20em][l]{Atkinson–Shiffrin Memory Model}    \makebox[16em][l]{AtkinsonShiffrin 内存模型}
-\item \makebox[4em][l]{MUSTer}    \makebox[20em][l]{MUlti-Store Tracker}    \makebox[16em][l]{多贮存跟踪器}
-\item \makebox[4em][l]{KNN}    \makebox[20em][l]{K-Nearest Neighbor}    \makebox[16em][l]{K-最近邻}
-\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
-\item \makebox[4em][l]{ALM}    \makebox[20em][l]{Augmented Lagrange Method}    \makebox[16em][l]{增强拉格朗日方法}
-\item \makebox[4em][l]{ADMM}    \makebox[20em][l]{Alternating Direction Method of Multipliers}    \makebox[16em][l]{交替方向乘子算法}
+\item \makebox[4em][l]{OME}    \makebox[20em][l]{Optical Memory Effect}    \makebox[16em][l]{光学记忆效应}
+\item \makebox[4em][l]{SLM}    \makebox[20em][l]{Spatial light modulator}    \makebox[16em][l]{空间光调制器}
+\item \makebox[4em][l]{DMD}    \makebox[20em][l]{Digital micromirror device}  \makebox[16em][l]{数字微镜器件}
+\item \makebox[4em][l]{2D}    \makebox[20em][l]{Two Dimensional}    \makebox[16em][l]{二维}
+\item \makebox[4em][l]{3D}   \makebox[20em][l]{Three Dimensional}    \makebox[16em][l]{三维}
+\item \makebox[4em][l]{MFP}    \makebox[20em][l]{Mean-Free Path}    \makebox[16em][l]{平均自由程}
+\item \makebox[4em][l]{SSTM}    \makebox[20em][l]{Spatial-Spectral Transmission Matri}    \makebox[16em][l]{空间-光谱传输矩阵}
+\item \makebox[4em][l]{HIO}    \makebox[20em][l]{Hybrid Input-Output}    \makebox[16em][l]{混合输入输出}
+\item \makebox[4em][l]{ER}    \makebox[20em][l]{Error reduction}    \makebox[16em][l]{误差减小}
+\item \makebox[4em][l]{TR}    \makebox[20em][l]{Tikhonov regularization}    \makebox[16em][l]{吉洪诺夫正则化算法}
+\item \makebox[4em][l]{CVX}   \makebox[20em][l]{Convex Optimization}    \makebox[10em][l]{凸优化算法}
+\item \makebox[4em][l]{FWHM}    \makebox[20em][l]{Full Width Half Maximum}    \makebox[16em][l]{全宽半高}
+\item \makebox[4em][l]{sPSF}    \makebox[20em][l]{Spectral Point Spread Function}    \makebox[16em][l]{光谱点扩散函数}
+\item \makebox[4em][l]{OTF}    \makebox[20em][l]{Optical Transfer Function}    \makebox[16em][l]{光学传递函数}
+\item \makebox[4em][l]{TV}    \makebox[20em][l]{Total variation}    \makebox[16em][l]{总变差}
+\item \makebox[4em][l]{ALS}    \makebox[20em][l]{Alternating Least Squares}    \makebox[16em][l]{交替最小二乘法}
+\item \makebox[4em][l]{MDS}    \makebox[20em][l]{Multidimensional scaling}    \makebox[16em][l]{多维缩放}
 \end{abbreviationlist}

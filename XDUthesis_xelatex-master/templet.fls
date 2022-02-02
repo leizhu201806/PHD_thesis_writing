@@ -1526,10 +1526,10 @@ INPUT figures\\C3.fig6.simulation_results.pdf
 INPUT .\figures\\C3.fig7.performance_under_fifferent_noise_levels.pdf
 INPUT .\figures\\C3.fig7.performance_under_fifferent_noise_levels.pdf
 INPUT figures\\C3.fig7.performance_under_fifferent_noise_levels.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT .\figures\\C3.fig8.experimental_setup.pdf
 INPUT .\figures\\C3.fig8.experimental_setup.pdf
 INPUT figures\\C3.fig8.experimental_setup.pdf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT .\figures\\C3.fig9.experimental_setup.pdf
 INPUT .\figures\\C3.fig9.experimental_setup.pdf
 INPUT figures\\C3.fig9.experimental_setup.pdf
