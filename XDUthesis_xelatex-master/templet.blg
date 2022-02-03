@@ -17,6 +17,8 @@ Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: chapters/guide.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: chapters/supplementary.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: chapters/perspective.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: chapters/thanks.aux
@@ -85,7 +87,7 @@ Warning--Require citedate: jin_depth_2018
 Warning--Require address: lee_algorithms_2001
 You've used 122 entries,
             3054 wiz_defined-function locations,
-            1372 strings with 29143 characters,
+            1373 strings with 29167 characters,
 and the built_in function-call counts, 230013 in all, are:
 = -- 25711
 > -- 428

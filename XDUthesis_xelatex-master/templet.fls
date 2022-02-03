@@ -1289,6 +1289,9 @@ INPUT chapters\guide.aux
 INPUT .\chapters\supplementary.aux
 INPUT chapters\supplementary.aux
 INPUT chapters\supplementary.aux
+INPUT .\chapters\perspective.aux
+INPUT chapters\perspective.aux
+INPUT chapters\perspective.aux
 INPUT .\chapters\thanks.aux
 INPUT chapters\thanks.aux
 INPUT chapters\thanks.aux
@@ -1675,6 +1678,16 @@ INPUT .\figures\\C6.fig4.pdf
 INPUT figures\\C6.fig4.pdf
 INPUT .\figures\\C6.fig7.pdf
 INPUT figures\\C6.fig7.pdf
+INPUT .\chapters\perspective.tex
+INPUT .\chapters\perspective.tex
+INPUT .\chapters\perspective.tex
+OUTPUT chapters\perspective.aux
+INPUT .\chapters\perspective.tex
+INPUT .\chapters\perspective.tex
+INPUT .\chapters\perspective.tex
+INPUT chapters\perspective.tex
+INPUT .\chapters\perspective.tex
+INPUT chapters\perspective.tex
 INPUT .\templet.bbl
 INPUT templet.bbl
 INPUT .\templet.bbl
@@ -1721,6 +1734,9 @@ INPUT chapters\guide.aux
 INPUT .\chapters\supplementary.aux
 INPUT chapters\supplementary.aux
 INPUT chapters\supplementary.aux
+INPUT .\chapters\perspective.aux
+INPUT chapters\perspective.aux
+INPUT chapters\perspective.aux
 INPUT .\chapters\thanks.aux
 INPUT chapters\thanks.aux
 INPUT chapters\thanks.aux
