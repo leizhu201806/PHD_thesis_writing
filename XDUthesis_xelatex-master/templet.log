@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  3 FEB 2022 15:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  4 FEB 2022 16:55
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1610,6 +1610,16 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 76--77
  []
 
 
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 77--78
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 78--79
+[][] [] [] 
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
 (fancyhdr)                \setlength{\headheight}{24.57175pt}.
@@ -3165,6 +3175,6 @@ Here is how much of TeX's memory you used:
  53001 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,19n,111p,3270b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 104i,19n,111p,3253b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 1988664 bytes).
+Output written on templet.xdv (142 pages, 1987460 bytes).
