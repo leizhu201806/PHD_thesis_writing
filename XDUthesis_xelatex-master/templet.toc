@@ -56,15 +56,15 @@
 \contentsline {subsection}{\numberline {5.1.1}散斑指纹去混叠}{73}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}基于散斑指纹的图像重建}{76}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}实验验证}{78}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}稀疏2D荧光目标重建}{79}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}复杂连续3D目标}{80}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.1}稀疏2D荧光目标重建}{80}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}复杂连续3D目标}{81}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}实验分析与讨论}{82}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}估计系统的秩}{82}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}OME范围}{83}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}FBR}{83}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.2}OME范围}{82}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}FBR}{85}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}去卷积方和互相关方法的对比}{85}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}不同数量散斑对于重建结果的影响}{87}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}利用SLM产生随机照明}{88}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.5}不同数量散斑对于重建结果的影响}{86}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}利用SLM产生随机照明}{86}{subsection.5.3.6}%
 \contentsline {subsection}{\numberline {5.3.7}动态散射介质成像}{88}{subsection.5.3.7}%
 \contentsline {section}{\numberline {5.4}本章小结}{89}{section.5.4}%
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}基于多帧散斑照明的散射介质多OME范围成像}{91}{chapter.6}%
