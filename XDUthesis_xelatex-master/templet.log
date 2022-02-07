@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  7 FEB 2022 17:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  7 FEB 2022 18:01
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -3124,6 +3124,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 \openout2 = `chapters/resume.aux'.
 
  (chapters/resume.tex
+Overfull \hbox (2.35959pt too wide) in paragraph at lines 21--22
+[]\TU/TimesNewRoman(0)/m/n/12.045 Single-shot imaging through scattering medium
+ with a deterministic phase-retrieval
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -3147,9 +3152,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[114
-
-])
+[114])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3170,10 +3173,10 @@ Package rerunfilecheck Info: File `templet.out' has not changed.
 Here is how much of TeX's memory you used:
  33265 strings out of 411295
  698912 string characters out of 2836124
- 1021436 words of memory out of 3000000
+ 1021437 words of memory out of 3000000
  52994 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,3258b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 2009724 bytes).
+Output written on templet.xdv (142 pages, 2023768 bytes).
