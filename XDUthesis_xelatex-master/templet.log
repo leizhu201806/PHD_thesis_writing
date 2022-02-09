@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  8 FEB 2022 18:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  9 FEB 2022 17:06
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1515,11 +1515,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [14
 
 ]
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 57--58
-[][] [] [] 
- []
-
-
 Overfull \hbox (56.79721pt too wide) in paragraph at lines 58--59
 [][] [] [] 
  []
@@ -1550,23 +1545,23 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 63--64
  []
 
 
-Overfull \hbox (59.80846pt too wide) in paragraph at lines 64--65
-[][] [] []\TU/TimesNewRoman(0)/m/n/12.045 . 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 65--66
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 64--65
 [][] [] [] 
  []
 
 
-Overfull \hbox (59.80846pt too wide) in paragraph at lines 66--67
+Overfull \hbox (59.80846pt too wide) in paragraph at lines 65--66
 [][] [] []\TU/TimesNewRoman(0)/m/n/12.045 . 
  []
 
 
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 67--68
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 66--67
 [][] [] [] 
+ []
+
+
+Overfull \hbox (59.80846pt too wide) in paragraph at lines 67--68
+[][] [] []\TU/TimesNewRoman(0)/m/n/12.045 . 
  []
 
 
@@ -1580,7 +1575,7 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 69--70
  []
 
 
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 71--72
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 70--71
 [][] [] [] 
  []
 
@@ -1621,6 +1616,16 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 78--79
 
 
 Overfull \hbox (56.79721pt too wide) in paragraph at lines 79--80
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 80--81
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 81--82
 [][] [] [] 
  []
 
@@ -2762,6 +2767,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 File: figures//C5.fig16.pdf Graphic file (type pdf)
 <use figures//C5.fig16.pdf>
 
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -3185,10 +3193,10 @@ Package rerunfilecheck Info: File `templet.out' has not changed.
 Here is how much of TeX's memory you used:
  33265 strings out of 411295
  698912 string characters out of 2836124
- 1020437 words of memory out of 3000000
+ 1020454 words of memory out of 3000000
  52994 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,3258b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 2026308 bytes).
+Output written on templet.xdv (142 pages, 2027036 bytes).
