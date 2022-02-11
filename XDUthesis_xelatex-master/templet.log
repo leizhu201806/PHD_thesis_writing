@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  9 FEB 2022 17:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  11 FEB 2022 14:48
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -3038,6 +3038,13 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [104]
+Underfull \hbox (badness 10000) in paragraph at lines 266--269
+[]\TU/TimesNewRoman(0)/m/n/10.53937 WIKIPEDIA. Mie scattering[EB/OL]. [2002-04-
+15]. [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] 
+[] [][][] []
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3191,12 +3198,12 @@ Package rerunfilecheck Info: File `templet.out' has not changed.
 (rerunfilecheck)             Checksum: B0E29C2BF311E6E413DA05C9272C481B;12883.
  ) 
 Here is how much of TeX's memory you used:
- 33265 strings out of 411295
- 698912 string characters out of 2836124
- 1020454 words of memory out of 3000000
- 52994 multiletter control sequences out of 15000+600000
+ 33268 strings out of 411295
+ 698987 string characters out of 2836124
+ 1020471 words of memory out of 3000000
+ 52997 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,19n,111p,3258b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 104i,19n,111p,3258b,1074s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 2027036 bytes).
+Output written on templet.xdv (142 pages, 2029228 bytes).

@@ -262,6 +262,11 @@
   \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{John Wiley \&
   Sons}\@, \bibyear{2008}\@.
 
+\bibitem{noauthor_mie_2022}
+\bibauthor{WIKIPEDIA}\@. \bibtitle{Mie scattering}\bibmark{[EB/OL]}\@.
+  \bibcitedate{[2002-04-15]}\@.
+  \url{https://en.wikipedia.org/wiki/Mie_scattering}\@.
+
 \bibitem{fisher_optical_2012}
 \bibauthor{FISHER R~A}\@. \bibbooktitle{Optical {Phase}
   {Conjugation}}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
