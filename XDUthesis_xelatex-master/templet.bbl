@@ -256,6 +256,12 @@
   \bibvolume{5}\bibnumber{(10)}\thinspace{}\textnormal{:
   }\bibpages{1181\thinspace{}\textnormal{--}\thinspace{}1190}\@.
 
+\bibitem{ZhuLei2020}
+\bibauthor{{Zhu Lei}\@, {Shao Xiaopeng}}\@.
+  \bibtitle{散射成像技术的研究进展}\bibmark{[J]}\@. \bibjournal{Acta
+  Optica Sinica}\@, \bibyear{2020}\@,
+  \bibvolume{40}\bibnumber{(1)}\thinspace{}\textnormal{: }\bibpages{0111005}\@.
+
 \bibitem{bohren_absorption_2008}
 \bibauthor{BOHREN C~F\@, HUFFMAN D~R}\@. \bibbooktitle{Absorption and
   {Scattering} of {Light} by {Small} {Particles}}\bibmark{[M]}\@.

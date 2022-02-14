@@ -29,53 +29,53 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: bib/tex.bib
 Warning--string name "nov" is undefined
---line 406 of file bib/tex.bib
+--line 420 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 451 of file bib/tex.bib
+--line 465 of file bib/tex.bib
 Warning--string name "feb" is undefined
---line 483 of file bib/tex.bib
+--line 497 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 501 of file bib/tex.bib
+--line 515 of file bib/tex.bib
 Warning--string name "may" is undefined
---line 519 of file bib/tex.bib
+--line 533 of file bib/tex.bib
 Warning--string name "jul" is undefined
---line 535 of file bib/tex.bib
+--line 549 of file bib/tex.bib
 Warning--string name "apr" is undefined
---line 554 of file bib/tex.bib
+--line 568 of file bib/tex.bib
 Warning--string name "aug" is undefined
---line 572 of file bib/tex.bib
+--line 586 of file bib/tex.bib
 Warning--string name "sep" is undefined
---line 593 of file bib/tex.bib
+--line 607 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 612 of file bib/tex.bib
+--line 626 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 631 of file bib/tex.bib
+--line 645 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 650 of file bib/tex.bib
+--line 664 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 667 of file bib/tex.bib
+--line 681 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 699 of file bib/tex.bib
+--line 713 of file bib/tex.bib
 Warning--string name "jul" is undefined
---line 719 of file bib/tex.bib
+--line 733 of file bib/tex.bib
 Warning--string name "jul" is undefined
---line 739 of file bib/tex.bib
+--line 753 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 757 of file bib/tex.bib
+--line 771 of file bib/tex.bib
 Warning--string name "sep" is undefined
---line 774 of file bib/tex.bib
+--line 788 of file bib/tex.bib
 Warning--string name "feb" is undefined
---line 790 of file bib/tex.bib
+--line 804 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 852 of file bib/tex.bib
+--line 866 of file bib/tex.bib
 Warning--string name "mar" is undefined
---line 868 of file bib/tex.bib
+--line 882 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 1116 of file bib/tex.bib
+--line 1130 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 1263 of file bib/tex.bib
+--line 1277 of file bib/tex.bib
 Warning--string name "aug" is undefined
---line 2252 of file bib/tex.bib
+--line 2266 of file bib/tex.bib
 Warning--I didn't find a database entry for "Lich传输矩阵an2005"
 Warning--I didn't find a database entry for "remeau_reference_less_2015"
 Warning--Require address: robert_micrographia_2015
@@ -85,45 +85,45 @@ Warning--Require address: fisher_optical_2012
 Warning--Require address: akkermans_mesoscopic_2007
 Warning--Require citedate: jin_depth_2018
 Warning--Require address: lee_algorithms_2001
-You've used 123 entries,
+You've used 124 entries,
             3054 wiz_defined-function locations,
-            1378 strings with 29261 characters,
-and the built_in function-call counts, 230445 in all, are:
-= -- 25748
-> -- 430
-< -- 983
-+ -- 20352
-- -- 1459
-* -- 6660
-:= -- 25639
+            1385 strings with 29389 characters,
+and the built_in function-call counts, 231715 in all, are:
+= -- 25884
+> -- 433
+< -- 990
++ -- 20470
+- -- 1467
+* -- 6703
+:= -- 25790
 add.period$ -- 0
-call.type$ -- 123
-change.case$ -- 614
+call.type$ -- 124
+change.case$ -- 618
 chr.to.int$ -- 0
-cite$ -- 130
-duplicate$ -- 32824
-empty$ -- 8470
-format.name$ -- 1228
-if$ -- 61088
+cite$ -- 131
+duplicate$ -- 32984
+empty$ -- 8513
+format.name$ -- 1236
+if$ -- 61427
 int.to.chr$ -- 0
-int.to.str$ -- 123
+int.to.str$ -- 124
 missing$ -- 0
-newline$ -- 396
-num.names$ -- 123
-pop$ -- 3055
+newline$ -- 399
+num.names$ -- 124
+pop$ -- 3066
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1801
+skip$ -- 1817
 stack$ -- 0
-substring$ -- 27807
-swap$ -- 6592
+substring$ -- 27948
+swap$ -- 6637
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 2844
-width$ -- 126
-write$ -- 1822
+while$ -- 2858
+width$ -- 127
+write$ -- 1837
 (There were 33 warnings)
