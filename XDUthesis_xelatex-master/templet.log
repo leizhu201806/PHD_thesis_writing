@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  15 FEB 2022 15:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  17 FEB 2022 16:10
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -3145,15 +3145,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 \openout2 = `chapters/resume.aux'.
 
  (chapters/resume.tex
-Overfull \hbox (20.97505pt too wide) in paragraph at lines 20--21
-\TU/TimesNewRoman(0)/m/n/12.045 with a deterministic phase-retrieval algorithm[
-J]. Optics Communications 506, 127562. 
- []
-
-
-Overfull \hbox (0.4207pt too wide) in paragraph at lines 22--23
-\TU/TimesNewRoman(0)/m/n/12.045 scattering layers exceeding memory effect range
- by exploiting prior information[J].
+Overfull \hbox (1.23593pt too wide) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12.045 medium via speckle correlation[J]. Applied opti
+cs 57 (4), 905-913. (WOS:0004246 
  []
 
 
@@ -3171,6 +3165,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 ]
+Overfull \hbox (0.4207pt too wide) in paragraph at lines 22--23
+\TU/TimesNewRoman(0)/m/n/12.045 scattering layers exceeding memory effect range
+ by exploiting prior information[J].
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -3206,4 +3205,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,3258b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 2030152 bytes).
+Output written on templet.xdv (142 pages, 2031972 bytes).
