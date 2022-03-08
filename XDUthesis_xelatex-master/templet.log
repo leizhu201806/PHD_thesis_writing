@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  2 MAR 2022 18:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  8 MAR 2022 13:06
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2606,8 +2606,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 ]
 第五章
-File: figures//C5.fig1.pdf Graphic file (type pdf)
-<use figures//C5.fig1.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2621,16 +2619,13 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [71]
+File: figures//C5.fig1.pdf Graphic file (type pdf)
+<use figures//C5.fig1.pdf>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12.045> not 
 available
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
 t line 22.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figures//C5.fig4.pdf Graphic file (type pdf)
-<use figures//C5.fig4.pdf>
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2640,6 +2635,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [72]
+File: figures//C5.fig4.pdf Graphic file (type pdf)
+<use figures//C5.fig4.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2679,9 +2677,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [75]
-File: figures//C5.fig8.pdf Graphic file (type pdf)
-<use figures//C5.fig8.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2691,6 +2686,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [76]
+File: figures//C5.fig8.pdf Graphic file (type pdf)
+<use figures//C5.fig8.pdf>
 File: figures//C5.fig9.pdf Graphic file (type pdf)
 <use figures//C5.fig9.pdf>
 
@@ -2766,9 +2763,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [82]
 File: figures//C5.fig16.pdf Graphic file (type pdf)
 <use figures//C5.fig16.pdf>
-
-Underfull \vbox (badness 5756) has occurred while \output is active []
-
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3194,15 +3188,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `templet.out' has not changed.
-(rerunfilecheck)             Checksum: 5A5C145E63382CE1168C590F30BB08AF;12875.
+(rerunfilecheck)             Checksum: C292B63CC7066F71E8BC2463FF52A7FF;12899.
  ) 
 Here is how much of TeX's memory you used:
  33271 strings out of 411295
  699041 string characters out of 2836124
- 1020449 words of memory out of 3000000
+ 1020476 words of memory out of 3000000
  53000 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,3258b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 2031892 bytes).
+Output written on templet.xdv (142 pages, 2037572 bytes).
