@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  9 MAR 2022 16:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  10 MAR 2022 17:09
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1856,7 +1856,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [13]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 53.
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 55.
 
 File: figures//C2.fig25.pdf Graphic file (type pdf)
 <use figures//C2.fig25.pdf>
@@ -1958,7 +1958,7 @@ File: figures//C2.fig8.pdf Graphic file (type pdf)
 
 
 Package natbib Warning: Citation `remeau_reference_less_2015' on page 22 undefi
-ned on input line 200.
+ned on input line 202.
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3199,4 +3199,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,3258b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (142 pages, 2035644 bytes).
+Output written on templet.xdv (142 pages, 2035544 bytes).
