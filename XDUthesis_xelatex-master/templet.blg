@@ -85,45 +85,45 @@ Warning--Require address: fisher_optical_2012
 Warning--Require address: akkermans_mesoscopic_2007
 Warning--Require citedate: jin_depth_2018
 Warning--Require address: lee_algorithms_2001
-You've used 124 entries,
+You've used 123 entries,
             3054 wiz_defined-function locations,
-            1385 strings with 29389 characters,
-and the built_in function-call counts, 231715 in all, are:
-= -- 25884
-> -- 433
-< -- 990
-+ -- 20470
-- -- 1467
-* -- 6703
-:= -- 25790
+            1382 strings with 29319 characters,
+and the built_in function-call counts, 229962 in all, are:
+= -- 25688
+> -- 429
+< -- 981
++ -- 20298
+- -- 1455
+* -- 6647
+:= -- 25573
 add.period$ -- 0
-call.type$ -- 124
-change.case$ -- 618
+call.type$ -- 123
+change.case$ -- 612
 chr.to.int$ -- 0
-cite$ -- 131
-duplicate$ -- 32984
-empty$ -- 8513
-format.name$ -- 1236
-if$ -- 61427
+cite$ -- 130
+duplicate$ -- 32756
+empty$ -- 8463
+format.name$ -- 1224
+if$ -- 60957
 int.to.chr$ -- 0
-int.to.str$ -- 124
+int.to.str$ -- 123
 missing$ -- 0
-newline$ -- 399
-num.names$ -- 124
-pop$ -- 3066
+newline$ -- 396
+num.names$ -- 123
+pop$ -- 3049
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1817
+skip$ -- 1802
 stack$ -- 0
-substring$ -- 27948
-swap$ -- 6637
+substring$ -- 27751
+swap$ -- 6588
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 2858
-width$ -- 127
-write$ -- 1837
+while$ -- 2838
+width$ -- 126
+write$ -- 1822
 (There were 33 warnings)
