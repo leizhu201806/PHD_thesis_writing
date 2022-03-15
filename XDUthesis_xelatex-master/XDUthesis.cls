@@ -324,16 +324,16 @@
 %% ql first
 %\RequirePackage{emptypage}
 \DeclareRobustCommand{\XDU@make@cover}{
-   \setlength{\parindent}{0pt}\thispagestyle{empty}% \thispagestyle:changes the style for the current page only
+   \setlength{\parindent}{10pt}\thispagestyle{empty}% \thispagestyle:changes the style for the current page only
     %\setlength{\topskip}{0pt}\setlength{\parskip}{0pt}\renewcommand{\baselinestretch}{1}\setlength{\baselineskip}{0pt}
     %\rule{\textwidth}{1pt}
-    \vspace*{4.7cm}\\
+    \vspace*{11.7cm}\\
     \begin{minipage}[t][3.2cm]{\textwidth}
         \centering
         \normalfont\XDU@font@st\XDU@font@zihao{2}\setlength{\baselineskip}{30pt}%
         \XDU@bold\XDU@value@thesis@title\\%
     \end{minipage}
-    \vspace*{0.9cm}
+    \vspace*{4.6cm}
     \hspace*{3.5cm}\begin{minipage}[t][3.2cm]{9cm}
         \XDU@font@zihao{4}\setlength{\baselineskip}{30pt}%
         \newlength{\linelength}
@@ -442,7 +442,7 @@ in partial fulfillment of the requirements \\ for the degree of\space\XDU@evalue
             {Title:}\XDU@evalue@schoolAdvisor@title\\%
             {Title:}\XDU@evalue@industrialAdvisor@title\\%
         \end{minipage}
-        \hspace*{6.3cm}
+        \hspace*{0.6cm}
         \XDU@evalue@thesis@submit@date\\%
     \end{minipage}
 
