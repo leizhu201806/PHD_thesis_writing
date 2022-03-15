@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  15 MAR 2022 17:10
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  15 MAR 2022 19:13
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1762,9 +1762,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2994,7 +2991,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [100]
-Underfull \hbox (badness 10000) in paragraph at lines 278--281
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
 []\TU/TimesNewRoman(0)/m/n/10.53937 WIKIPEDIA. Mie scattering[EB/OL]. [2002-04-
 15]. [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] 
 [] [][][] []
@@ -3154,12 +3151,12 @@ Package rerunfilecheck Info: File `templet.out' has not changed.
 (rerunfilecheck)             Checksum: 5586518DE6ED23E8DCC1AA3915352927;12740.
  ) 
 Here is how much of TeX's memory you used:
- 33268 strings out of 411295
- 698987 string characters out of 2836124
- 1021288 words of memory out of 3000000
- 52997 multiletter control sequences out of 15000+600000
+ 33271 strings out of 411295
+ 699131 string characters out of 2836124
+ 1021305 words of memory out of 3000000
+ 53000 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,19n,111p,1611b,1076s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 104i,19n,111p,1611b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1977052 bytes).
+Output written on templet.xdv (136 pages, 1978408 bytes).
