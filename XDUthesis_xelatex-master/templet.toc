@@ -16,10 +16,10 @@
 \contentsline {subsection}{\numberline {2.2.1}光学相位共轭}{13}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}基于反馈优化波前整形的散射介质成像技术}{15}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}光学传输矩阵的散射介质成像技术}{17}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}非入侵传输矩阵测量技术}{20}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}非入侵传输矩阵测量技术}{21}{subsection.2.2.4}%
 \contentsline {section}{\numberline {2.3}基于OME的散射成像技术}{21}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}OME}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}基于散斑相关的散射成像技术}{23}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}基于散斑相关的散射成像技术}{22}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}利用OME点扫描成像技术}{26}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}基于点扩展函数工程的透过散射介质成像技术}{27}{section.2.4}%
 \contentsline {section}{\numberline {2.5}本章小节}{29}{section.2.5}%
