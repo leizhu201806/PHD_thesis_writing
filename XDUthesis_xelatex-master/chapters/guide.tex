@@ -73,7 +73,7 @@ I_{fluo}(r,t) = \sum^{P}_{k=1} w_{k}(r) h_{k}(t),
 \end{aligned}
 \end{equation}
 其中，$\vert\vert M\vert\vert_F = \sqrt{\sum_i\sum_j \vert M_{ij}\vert^2}$为Frobenius矩阵范数。公式(\ref{eq:5.2})最小化问题可以表述为一个低秩分解问题。$I \in \mathbb{R}_{+}^{r \times t} $包含所有的散斑图案$I_{fluo}(r,t)$，$I \in \mathbb{R}_{+}^{r \times t}$ 可以被近似为两个实数矩阵$W \in \mathbb{R}_{+}^{r \times \rho}$ 和$H \in \mathbb{R}_{+}^{\rho \times t}$。
-矩阵$W \in \mathbb{R}_{+}^{r \times \rho}$为指纹矩阵，$H \in \mathbb{R}_{+}^{\rho \times t}$为时间矩阵，其中 $r$ 是像素，$\rho$ 是 $I$矩阵所估计的秩，$t$ 表示散斑帧数。由于收集到的图像和混合指纹都具有非负性，这个问题正好对应于NMF优化问题。
+矩阵$W \in \mathbb{R}_{+}^{r \times \rho}$为指纹矩阵，$H \in \mathbb{R}_{+}^{\rho \times t}$为时间矩阵，其中 $r$ 是像素，$\rho$ 是 $I$矩阵所估计的秩，$t$ 表示散斑帧数。由于混合散斑、散斑指纹和照明强度都具有非负性，这个问题正好对应于NMF优化问题。
 NMF算法常用于去混叠场景，例如结构性成像\cite{boniface_non_invasive_2020}和功能性成像\cite{Moretti2020a,Pegard2016, Pnevmatikakis2016}等，NMF去混叠过程如图\ref{fig:5.2}所示。
 在数据矩阵去混叠之前，我们需要对所获得的相机散斑进行滤波，去除散斑的轮廓噪声，在傅里叶域中移除低频信号，如图\ref{fig:5.3}所示。在NMF算法的运行过程前，我们需要确定$\rho$，该参数可以通过最小化NMF的均方根残差作为秩的函数来从数据中估计。
 
