@@ -51,8 +51,8 @@
 \contentsline {subsection}{\numberline {4.3.1}不同相位恢复算法之间的混合}{63}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}噪声分析}{65}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}本章小结}{66}{section.4.4}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}基于波动随机照明的透过散射介质超OME范围非入侵成像}{69}{chapter.5}%
-\contentsline {section}{\numberline {5.1}基于波动随机照明的透过散射介质超OME范围成像基本原理}{70}{section.5.1}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}基于时变随机照明的透过散射介质超OME范围非入侵成像}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}基于时变随机照明的透过散射介质超OME范围成像基本原理}{70}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}散斑指纹去混叠}{71}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}基于散斑指纹的图像重建}{74}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}实验验证}{76}{section.5.2}%
