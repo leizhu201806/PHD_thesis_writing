@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  17 MAR 2022 18:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  18 MAR 2022 18:24
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -3108,11 +3108,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 \openout2 = `chapters/resume.aux'.
 
  (chapters/resume.tex
-Overfull \hbox (6.41461pt too wide) in paragraph at lines 17--18
-\TU/TimesNewRoman(0)/m/n/12.045 fluctuating random illumination[J]. Nature Comm
-unications. DOI:10.1038/s41467-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -3174,4 +3169,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1980048 bytes).
+Output written on templet.xdv (136 pages, 1978720 bytes).

@@ -270,9 +270,9 @@
   }\bibpages{1181\thinspace{}\textnormal{--}\thinspace{}1190}\@.
 
 \bibitem{ZhuLei2020}
-\bibauthor{{Zhu Lei}\@, {Shao Xiaopeng}}\@.
-  \bibtitle{散射成像技术的研究进展}\bibmark{[J]}\@. \bibjournal{Acta
-  Optica Sinica}\@, \bibyear{2020}\@,
+\bibauthor{{朱磊}\@, {邵晓鹏}}\@.
+  \bibtitle{散射成像技术的研究进展}\bibmark{[J]}\@.
+  \bibjournal{{光子学报}}\@, \bibyear{2020}\@,
   \bibvolume{40}\bibnumber{(1)}\thinspace{}\textnormal{: }\bibpages{0111005}\@.
 
 \bibitem{bohren_absorption_2008}
@@ -364,7 +364,9 @@
 \bibitem{lerosey_focusing_2007}
 \bibauthor{LEROSEY G\@, ROSNY J~D\@, TOURIN A, et~al}\@. \bibtitle{Focusing
   {Beyond} the {Diffraction} {Limit} with {Far}-{Field} {Time}
-  {Reversal}}\bibmark{[J]}\@. \bibjournal{Science}\@, \bibyear{2007}\@.
+  {Reversal}}\bibmark{[J]}\@. \bibjournal{Science}\@, \bibyear{2007}\@,
+  \bibvolume{315}\bibnumber{(5815)}\thinspace{}\textnormal{:
+  }\bibpages{1120\thinspace{}\textnormal{--}\thinspace{}1122}\@.
 
 \bibitem{sheng_introduction_2007}
 \bibauthor{SHENG P\@, van TIGGELEN B}\@. \bibtitle{Introduction to {Wave}
@@ -524,11 +526,10 @@
 
 \bibitem{jin_depth_2018}
 \bibauthor{JIN X\@, WANG Z\@, WANG X, et~al}\@. \bibtitle{Depth of field
-  extended scattering imaging by light field estimation}\bibmark{[J/OL]}\@.
+  extended scattering imaging by light field estimation}\bibmark{[J]}\@.
   \bibjournal{Optics Letters}\@, \bibyear{2018}\@,
   \bibvolume{43}\bibnumber{(20)}\thinspace{}\textnormal{:
   }\bibpages{4871\thinspace{}\textnormal{--}\thinspace{}4874}\@.
-  \url{https://opg.optica.org/ol/abstract.cfm?uri=ol-43-20-4871}\@.
 
 \bibitem{liao_extending_2019}
 \bibauthor{LIAO M\@, LU D\@, PEDRINI G, et~al}\@. \bibtitle{Extending the
