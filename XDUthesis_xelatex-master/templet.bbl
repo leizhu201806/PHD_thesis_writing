@@ -609,6 +609,13 @@
   \bibvolume{123}\bibnumber{(20)}\thinspace{}\textnormal{:
   }\bibpages{203901}\@.
 
+\bibitem{redding_compact_2013}
+\bibauthor{REDDING B\@, LIEW S~F\@, SARMA R, et~al}\@. \bibtitle{Compact
+  spectrometer based on a disordered photonic chip}\bibmark{[J]}\@.
+  \bibjournal{Nature Photonics}\@, \bibyear{2013}\@,
+  \bibvolume{7}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{746\thinspace{}\textnormal{--}\thinspace{}751}\@.
+
 \bibitem{newman_imaging_2016}
 \bibauthor{NEWMAN J~A\@, LUO Q\@, WEBB K~J}\@. \bibtitle{Imaging {Hidden}
   {Objects} with {Spatial} {Speckle} {Intensity} {Correlations} over {Object}

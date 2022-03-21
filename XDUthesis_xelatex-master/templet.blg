@@ -67,15 +67,15 @@ Warning--string name "sep" is undefined
 Warning--string name "feb" is undefined
 --line 825 of file bib/tex.bib
 Warning--string name "nov" is undefined
---line 887 of file bib/tex.bib
+--line 909 of file bib/tex.bib
 Warning--string name "mar" is undefined
---line 903 of file bib/tex.bib
+--line 925 of file bib/tex.bib
 Warning--string name "dec" is undefined
---line 1151 of file bib/tex.bib
+--line 1173 of file bib/tex.bib
 Warning--string name "oct" is undefined
---line 1298 of file bib/tex.bib
+--line 1320 of file bib/tex.bib
 Warning--string name "aug" is undefined
---line 2291 of file bib/tex.bib
+--line 2313 of file bib/tex.bib
 Warning--I didn't find a database entry for "remeau_reference_less_2015"
 Warning--Require address: robert_micrographia_2015
 Warning--Require address: blochet_fast_2017
@@ -83,45 +83,45 @@ Warning--Require address: bohren_absorption_2008
 Warning--Require address: fisher_optical_2012
 Warning--Require address: akkermans_mesoscopic_2007
 Warning--Require address: lee_algorithms_2001
-You've used 124 entries,
+You've used 125 entries,
             3054 wiz_defined-function locations,
-            1386 strings with 29414 characters,
-and the built_in function-call counts, 232683 in all, are:
-= -- 25989
-> -- 433
-< -- 990
-+ -- 20514
-- -- 1473
-* -- 6717
-:= -- 25837
+            1390 strings with 29565 characters,
+and the built_in function-call counts, 235024 in all, are:
+= -- 26256
+> -- 437
+< -- 999
++ -- 20723
+- -- 1488
+* -- 6777
+:= -- 26095
 add.period$ -- 0
-call.type$ -- 124
-change.case$ -- 618
+call.type$ -- 125
+change.case$ -- 624
 chr.to.int$ -- 0
-cite$ -- 130
-duplicate$ -- 33175
-empty$ -- 8589
-format.name$ -- 1236
-if$ -- 61673
+cite$ -- 131
+duplicate$ -- 33518
+empty$ -- 8674
+format.name$ -- 1248
+if$ -- 62295
 int.to.chr$ -- 0
-int.to.str$ -- 124
+int.to.str$ -- 125
 missing$ -- 0
-newline$ -- 399
-num.names$ -- 124
-pop$ -- 3098
+newline$ -- 402
+num.names$ -- 125
+pop$ -- 3132
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1818
+skip$ -- 1833
 stack$ -- 0
-substring$ -- 28098
-swap$ -- 6671
+substring$ -- 28387
+swap$ -- 6731
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 2879
-width$ -- 127
-write$ -- 1840
+while$ -- 2909
+width$ -- 128
+write$ -- 1855
 (There were 31 warnings)
