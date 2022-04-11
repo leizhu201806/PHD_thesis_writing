@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  23 MAR 2022 14:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  11 APR 2022 17:29
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1270,6 +1270,10 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
+Overfull \hbox (38.1425pt too wide) in paragraph at lines 23--24
+[]\TU/SimSun(0)/m/n/12.045 　 []
+ []
+
 (C:\Users\Lei\AppData\Roaming\MiKTeX\tex/generic/stringenc\se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
@@ -1308,35 +1312,19 @@ LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line
 LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 24.
 
-
-Overfull \hbox (42.67911pt too wide) in paragraph at lines 24--24
-[] $[]$ 
- []
-
 [3
 
 ] [4
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+] [5
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-[1
+] [6
 
 
-] [2
+] [7
 
-
-] [3
-
-] [4
+] [8
 
 
 ]
@@ -3166,10 +3154,10 @@ Package rerunfilecheck Info: File `templet.out' has not changed.
 Here is how much of TeX's memory you used:
  33283 strings out of 411295
  699814 string characters out of 2836124
- 1021322 words of memory out of 3000000
+ 1021185 words of memory out of 3000000
  53012 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1978584 bytes).
+Output written on templet.xdv (136 pages, 1974644 bytes).
