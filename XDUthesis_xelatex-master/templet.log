@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  13 APR 2022 19:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  13 APR 2022 19:30
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2199,9 +2199,6 @@ File: figures//C3.fig12.experimental_setup.pdf Graphic file (type pdf)
 File: figures//C3.fig14.spectral_retrieval_model.pdf Graphic file (type pdf)
 <use figures//C3.fig14.spectral_retrieval_model.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2220,9 +2217,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [41]
-Underfull \vbox (badness 2005) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2234,6 +2228,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [42]
 File: figures//C3.fig15.spectral_retrieval_model.pdf Graphic file (type pdf)
 <use figures//C3.fig15.spectral_retrieval_model.pdf>
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2281,9 +2278,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [46]
 File: figures//C3.fig19.spectral_retrieval_model.pdf Graphic file (type pdf)
 <use figures//C3.fig19.spectral_retrieval_model.pdf>
-
-Underfull \vbox (badness 2111) has occurred while \output is active []
-
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3152,4 +3146,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1973908 bytes).
+Output written on templet.xdv (136 pages, 1972976 bytes).
