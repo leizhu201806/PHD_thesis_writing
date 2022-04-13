@@ -12,7 +12,7 @@
 \def\XDU@label@cover@confidential{密\quad{}级\hspace*{0.9em}}
 \def\XDU@label@cover@author{作者姓名：}
 \def\XDU@label@cover@major{一级学科：}
-\def\XDU@label@cover@submajor{二级学科：}
+\def\XDU@label@cover@submajor{二级学科（研究方向）：}
 \def\XDU@label@cover@degree{学位类别：}
 \def\XDU@label@cover@advisor{指导教师姓名、职称：}
 \def\XDU@elabel@cover@advisor{Supervisor:~}

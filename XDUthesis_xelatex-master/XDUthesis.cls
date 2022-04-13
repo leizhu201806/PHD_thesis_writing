@@ -14,7 +14,7 @@
 
 %% print version or electronic version
 \newif\ifXDU@Option@PrintVersion \XDU@Option@PrintVersiontrue
-\DeclareOption{pversion}{\XDU@Option@PrintVersiontrue}
+%\DeclareOption{pversion}{\XDU@Option@PrintVersiontrue}
 \DeclareOption{eversion}{\XDU@Option@PrintVersionfalse}
 
 %% info

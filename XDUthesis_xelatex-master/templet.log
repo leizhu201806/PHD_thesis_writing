@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  11 APR 2022 17:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  13 APR 2022 18:17
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2136,9 +2136,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 File: figures//C3.fig5.phase_retrieval_model.pdf Graphic file (type pdf)
 <use figures//C3.fig5.phase_retrieval_model.pdf>
 
-Underfull \vbox (badness 5217) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2154,16 +2151,12 @@ File: figures//C3.fig7.performance_under_fifferent_noise_levels.pdf Graphic fil
 e (type pdf)
 <use figures//C3.fig7.performance_under_fifferent_noise_levels.pdf>
 LaTeX Font Info:    Trying to load font information for OMS+TimesNewRoman(0) on
- input line 181.
-LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 181.
+ input line 179.
+LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 179.
 
 
 LaTeX Font Warning: Font shape `OMS/TimesNewRoman(0)/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 181.
-
-
-Underfull \vbox (badness 7151) has occurred while \output is active []
-
+(Font)              using `OMS/cmsy/m/n' instead on input line 179.
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2185,6 +2178,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [38]
 File: figures//C3.fig8.experimental_setup.pdf Graphic file (type pdf)
 <use figures//C3.fig8.experimental_setup.pdf>
+File: figures//C3.fig9.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig9.experimental_setup.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2195,10 +2190,17 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [39]
-File: figures//C3.fig9.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig9.experimental_setup.pdf>
 File: figures//C3.fig11.experimental_setup.pdf Graphic file (type pdf)
 <use figures//C3.fig11.experimental_setup.pdf>
+File: figures//C3.fig10.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig10.experimental_setup.pdf>
+File: figures//C3.fig12.experimental_setup.pdf Graphic file (type pdf)
+<use figures//C3.fig12.experimental_setup.pdf>
+File: figures//C3.fig14.spectral_retrieval_model.pdf Graphic file (type pdf)
+<use figures//C3.fig14.spectral_retrieval_model.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2209,13 +2211,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [40]
-File: figures//C3.fig10.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig10.experimental_setup.pdf>
-File: figures//C3.fig12.experimental_setup.pdf Graphic file (type pdf)
-<use figures//C3.fig12.experimental_setup.pdf>
-File: figures//C3.fig14.spectral_retrieval_model.pdf Graphic file (type pdf)
-<use figures//C3.fig14.spectral_retrieval_model.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2225,7 +2220,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [41]
-Underfull \vbox (badness 1867) has occurred while \output is active []
+Underfull \vbox (badness 2005) has occurred while \output is active []
 
 
 
@@ -2287,7 +2282,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 File: figures//C3.fig19.spectral_retrieval_model.pdf Graphic file (type pdf)
 <use figures//C3.fig19.spectral_retrieval_model.pdf>
 
-Underfull \vbox (badness 4726) has occurred while \output is active []
+Underfull \vbox (badness 2111) has occurred while \output is active []
 
 
 
@@ -2299,9 +2294,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [47]
-Underfull \vbox (badness 5504) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2320,6 +2312,9 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [49]
+\openout2 = `chapters/edit.aux'.
+
+ (chapters/edit.tex
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -2328,10 +2323,12 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[50]
-\openout2 = `chapters/edit.aux'.
+[50
 
- (chapters/edit.tex
+
+
+
+]
 第四章
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -2345,12 +2342,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[51
-
-
-
-
-]
+[51]
 File: figures//C4.fig1.pdf Graphic file (type pdf)
 <use figures//C4.fig1.pdf>
 File: figures//C4.fig2.pdf Graphic file (type pdf)
@@ -3152,12 +3144,12 @@ Package rerunfilecheck Info: File `templet.out' has not changed.
 (rerunfilecheck)             Checksum: 2FA3CDAAF1A541861AA9430E827C24C6;12740.
  ) 
 Here is how much of TeX's memory you used:
- 33283 strings out of 411295
- 699814 string characters out of 2836124
- 1021185 words of memory out of 3000000
- 53012 multiletter control sequences out of 15000+600000
+ 33291 strings out of 411295
+ 700420 string characters out of 2836124
+ 1021191 words of memory out of 3000000
+ 53020 multiletter control sequences out of 15000+600000
  414978 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1974644 bytes).
+Output written on templet.xdv (136 pages, 1973904 bytes).
