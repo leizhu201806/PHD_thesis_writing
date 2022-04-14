@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  13 APR 2022 19:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  14 APR 2022 19:40
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2151,12 +2151,12 @@ File: figures//C3.fig7.performance_under_fifferent_noise_levels.pdf Graphic fil
 e (type pdf)
 <use figures//C3.fig7.performance_under_fifferent_noise_levels.pdf>
 LaTeX Font Info:    Trying to load font information for OMS+TimesNewRoman(0) on
- input line 179.
-LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 179.
+ input line 181.
+LaTeX Font Info:    No file OMSTimesNewRoman(0).fd. on input line 181.
 
 
 LaTeX Font Warning: Font shape `OMS/TimesNewRoman(0)/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 179.
+(Font)              using `OMS/cmsy/m/n' instead on input line 181.
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3146,4 +3146,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1972976 bytes).
+Output written on templet.xdv (136 pages, 1975632 bytes).

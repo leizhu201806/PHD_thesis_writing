@@ -34,7 +34,7 @@
 	\label{fig:3.2}
 \end{figure}
 
-对散射介质的光谱指纹进行预标定归一化处理，并将不同的光谱指纹存储在矩阵中，此矩阵称为光谱传输矩阵。如图\ref{fig:3.2}(b)所示，将不同的光谱指纹转换行向量，并按照光谱信息存储在矩阵$\Phi$中。当获取未知光源对应的散斑时，同样将其转换为向量$I$，其输入信号的光谱$S$可以表示为：$I={\Phi}S$，对矩阵进行左乘求逆，并求出最小二乘解：$S={\Phi}^{-1}I$，如图\ref{fig:3.2}(c)所示。值得强调的是，该光谱重建方法不仅局限于对于以标定的单色光谱信号进行重建，同时也可应用于连续光谱信号。上述的光谱重建问题可转化为更普遍的最小化问题：$s_{0}=\arg{\min_s \| I -{\Phi}S \|_2}$，其中$\| \cdot \|_2$表示$L_2$范数，$s_{0}$表示所重建的光谱信号，可以通过采用不同的最小化优化算法解决此问题。
+对散射介质的光谱指纹进行预标定归一化处理，并将不同的光谱指纹存储在矩阵中，此矩阵称为光谱传输矩阵。如图\ref{fig:3.2}(b)所示，将不同的光谱指纹转换行向量，并按照光谱信息存储在矩阵$\Phi$中。当获取未知光源对应的散斑时，同样将其转换为向量$I$，其输入信号的光谱$S$可以表示为：$I={\Phi}S$，对矩阵进行左乘求逆，并求出最小二乘解：$S={\Phi}^{-1}I$，如图\ref{fig:3.2}(c)所示。值得强调的是，该光谱重建方法不仅局限于对于已标定的单色光谱信号进行重建，同时也可应用于连续光谱信号。上述的光谱重建问题可转化为更普遍的最小化问题：$s_{0}=\arg{\min_s \| I -{\Phi}S \|_2}$，其中$\| \cdot \|_2$表示$L_2$范数，$s_{0}$表示所重建的光谱信号，可以通过采用不同的最小化优化算法解决此问题。
 \begin{figure}[htp]
 	\centering
 	\includegraphics[scale=0.5]{C3.fig3.spectral_correlation_speckle.pdf}
@@ -105,7 +105,9 @@
 	\caption{基本相位恢复流程图}
 	\label{fig:3.5}
 \end{figure}
-在实际的应用中，不同相位恢复算法在空间域采用不同的约束条件。例如，混合输入输出（Hybrid Input-Output，HIO）算法的约束条件如公式(\ref{eq:constrain_HIO})所示，误差减小（Error reduction，ER）算法的约束条件如公式如公式(\ref{eq:constrain_ER})所示。
+在实际的应用中，不同相位恢复算法在空间域采用不同的约束条件。例如，混合输入输出（Hybrid Input-Output，HIO）算法的约束条件如公式(\ref{eq:constrain_HIO})所示，误差减小（Error reduction，ER）算法的约束条件如公式(\ref{eq:constrain_ER})所示。
+
+
 \begin{equation}
 \begin{aligned}
  g_{t+1}(x,y) =
@@ -114,9 +116,8 @@
 		    g_{t}(x,y)-\beta g_{t}^{\prime}(x,y) & (x,y)\in\Gamma
 		  \end{cases}
 \end{aligned}
-\label{eq:constrain_ER}
+\label{eq:constrain_HIO}
 \end{equation}
-其中，$\beta$为算法收敛性的参数，$\Gamma$为满足约束条件的集合。
 
 \begin{equation}
 \begin{aligned}
@@ -126,8 +127,9 @@
 		    0  & (x,y)\in\Gamma
 		  \end{cases}
 \end{aligned}
-\label{eq:constrain_HIO}
+\label{eq:constrain_ER}
 \end{equation}
+其中，$\beta$为算法收敛性的参数，$\Gamma$为不满足空间约束条件的集合。
 
 \section{光谱信息恢复及散斑自相关成像方法仿真验证}\label{光谱传输矩阵章节}
 上述部分，我们对光谱信息恢复及散斑相关成像的基本原理继续了介绍，因此在本小节中，我们对上述的原理进行数字仿真验证及实验验证。
