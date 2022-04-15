@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.3}本文结构与创新点}{5}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}论文主要内容和章节安排}{5}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}本文特色与创新点}{8}{subsection.1.3.2}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}超弹道光范围光学成像方法}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}光的散射及散射成像方法}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}光散射的基本概念}{10}{section.2.1}%
 \contentsline {section}{\numberline {2.2}基于波前整形的散射成像技术}{13}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}光学相位共轭}{13}{subsection.2.2.1}%
@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {3.3}光谱信息恢复及散斑自相关成像方法实验验证}{37}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}光谱重建分析}{39}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}散斑相关成像分析}{40}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}光谱传输矩阵方法的扩展}{41}{section.3.4}%
+\contentsline {section}{\numberline {3.4}光谱传输矩阵方法的扩展}{42}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}基本原理}{43}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}SSTM标定原理}{44}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}目标重建算法}{44}{subsection.3.4.3}%
