@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  15 APR 2022 17:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  25 APR 2022 17:22
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -2715,7 +2715,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 File: figures//C5.fig16.pdf Graphic file (type pdf)
 <use figures//C5.fig16.pdf>
 
-Underfull \vbox (badness 5756) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -3140,4 +3140,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (136 pages, 1972736 bytes).
+Output written on templet.xdv (136 pages, 1971620 bytes).
