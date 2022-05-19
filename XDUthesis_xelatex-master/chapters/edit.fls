@@ -1,0 +1,14 @@
+PWD C:\Users\Lei\github\PHD_thesis_writing\XDUthesis_xelatex-master\chapters
+INPUT C:\Users\Lei\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+INPUT edit.tex
+OUTPUT edit.log
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+OUTPUT edit.xdv

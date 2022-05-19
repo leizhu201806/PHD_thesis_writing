@@ -1,0 +1,16 @@
+# Fdb version 3
+["xdvipdfmx"] 1652970136 "edit.xdv" "edit.pdf" "edit" 1652970136
+  "edit.xdv" 1652970133 7284 50612a6f9cc54b75940c9fe84c57f7c3 "xelatex"
+  (generated)
+  "edit.pdf"
+["xelatex"] 1652970133 "edit.tex" "edit.xdv" "edit" 1652970136
+  "C:/Program" 1643143314 89753 0a88c989525655f9e08ff01e7511f280 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/lm/lmsy10.tfm" 1254938640 1308 02cc510f9dd6012e5815d0c0ffbf6869 ""
+  "C:/Program Files/MiKTeX/tex/latex/lm/omslmr.fd" 1256933040 1013 f8133048bddeed1bf1041c9d830a3723 ""
+  "C:/Program Files/MiKTeX/tex/latex/lm/omslmsy.fd" 1256933040 805 af340a8260c447aa315cfc740ff0152f ""
+  "C:/Users/Lei/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1634564434 23122326 9d93fcd8131424d0510db3d957cedf95 ""
+  "edit.aux" 1652962028 10293 7759b4289d4d608b4b5041b9f319fa5d ""
+  "edit.tex" 1652970123 35936 dbbb564cb1bfc423a540d674c95d54bf ""
+  (generated)
+  "edit.log"
+  "edit.xdv"

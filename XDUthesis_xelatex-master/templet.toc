@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.3.2}基于散斑相关的散射成像技术}{22}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}利用OME点扫描成像技术}{26}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}基于点扩展函数工程的透过散射介质成像技术}{27}{section.2.4}%
-\contentsline {section}{\numberline {2.5}本章小节}{29}{section.2.5}%
+\contentsline {section}{\numberline {2.5}本章小结}{29}{section.2.5}%
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}透过散射介质的光谱信恢复和空间信息恢复}{31}{chapter.3}%
 \contentsline {section}{\numberline {3.1}基于光谱传输矩阵和散斑相关成像方法的原理介绍}{32}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}基于光谱传输矩阵的光谱重建模型}{32}{subsection.3.1.1}%
