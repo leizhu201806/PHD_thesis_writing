@@ -85,24 +85,24 @@ Warning--Require address: akkermans_mesoscopic_2007
 Warning--Require address: lee_algorithms_2001
 You've used 125 entries,
             3054 wiz_defined-function locations,
-            1390 strings with 29565 characters,
-and the built_in function-call counts, 235024 in all, are:
-= -- 26256
+            1390 strings with 29564 characters,
+and the built_in function-call counts, 234982 in all, are:
+= -- 26250
 > -- 437
 < -- 999
-+ -- 20723
++ -- 20717
 - -- 1488
 * -- 6777
-:= -- 26095
+:= -- 26089
 add.period$ -- 0
 call.type$ -- 125
 change.case$ -- 624
 chr.to.int$ -- 0
 cite$ -- 131
-duplicate$ -- 33518
+duplicate$ -- 33512
 empty$ -- 8674
 format.name$ -- 1248
-if$ -- 62295
+if$ -- 62283
 int.to.chr$ -- 0
 int.to.str$ -- 125
 missing$ -- 0
@@ -114,7 +114,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 1833
 stack$ -- 0
-substring$ -- 28387
+substring$ -- 28381
 swap$ -- 6731
 text.length$ -- 0
 text.prefix$ -- 0

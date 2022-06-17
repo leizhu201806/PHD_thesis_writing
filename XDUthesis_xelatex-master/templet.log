@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  1 JUN 2022 14:48
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.10.18)  17 JUN 2022 18:26
 entering extended mode
 **./templet.tex
 (templet.tex
@@ -1347,7 +1347,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
@@ -1360,7 +1360,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [2]
-Overfull \hbox (10.56198pt too wide) in paragraph at lines 20--21
+Overfull \hbox (10.56198pt too wide) in paragraph at lines 19--20
 []\TU/TimesNewRoman(0)/m/n/12.045 Non-invasive optical imaging has important ap
 plications in various fields ranging from biotech-
  []
@@ -1381,7 +1381,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 30--33
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
@@ -1490,6 +1490,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [12
 
 ]
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 59--60
+[][] [] [] 
+ []
+
+
 Overfull \hbox (56.79721pt too wide) in paragraph at lines 60--61
 [][] [] [] 
  []
@@ -1520,23 +1525,23 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 65--66
  []
 
 
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 66--67
-[][] [] [] 
- []
-
-
-Overfull \hbox (59.80846pt too wide) in paragraph at lines 67--68
+Overfull \hbox (59.80846pt too wide) in paragraph at lines 66--67
 [][] [] []\TU/TimesNewRoman(0)/m/n/12.045 . 
  []
 
 
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 68--69
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 67--68
 [][] [] [] 
  []
 
 
-Overfull \hbox (59.80846pt too wide) in paragraph at lines 69--70
+Overfull \hbox (59.80846pt too wide) in paragraph at lines 68--69
 [][] [] []\TU/TimesNewRoman(0)/m/n/12.045 . 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 69--70
+[][] [] [] 
  []
 
 
@@ -1550,7 +1555,7 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 71--72
  []
 
 
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 72--73
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 73--74
 [][] [] [] 
  []
 
@@ -1596,11 +1601,6 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 81--82
 
 
 Overfull \hbox (56.79721pt too wide) in paragraph at lines 82--83
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 83--84
 [][] [] [] 
  []
 
@@ -2472,8 +2472,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [62]
 File: figures//C4.fig14.pdf Graphic file (type pdf)
 <use figures//C4.fig14.pdf>
-File: figures//C4.fig15.pdf Graphic file (type pdf)
-<use figures//C4.fig15.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2484,6 +2482,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
 [63]
+File: figures//C4.fig15.pdf Graphic file (type pdf)
+<use figures//C4.fig15.pdf>
 File: figures//C4.fig16.pdf Graphic file (type pdf)
 <use figures//C4.fig16.pdf>
 
@@ -2510,6 +2510,8 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 [65]
 File: figures//C4.fig17.pdf Graphic file (type pdf)
 <use figures//C4.fig17.pdf>
+File: figures//C4.fig18.pdf Graphic file (type pdf)
+<use figures//C4.fig18.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2519,10 +2521,7 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.07175pt}.
 
-[66]
-File: figures//C4.fig18.pdf Graphic file (type pdf)
-<use figures//C4.fig18.pdf>
-)
+[66])
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -3086,6 +3085,11 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 \openout2 = `chapters/resume.aux'.
 
  (chapters/resume.tex
+Overfull \hbox (8.92984pt too wide) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/12.045 with a deterministic phase-retrieval algorithm[
+J]. Optics Communications 506, 2021,
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (10.5pt): 
 (fancyhdr)                Make it at least 24.57175pt, for example:
@@ -3101,12 +3105,6 @@ Package fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 ]
-Overfull \hbox (1.23593pt too wide) in paragraph at lines 22--23
-\TU/TimesNewRoman(0)/m/n/12.045 medium via speckle correlation[J]. Applied opti
-cs 57 (4), 905-913. (WOS:0004246 
- []
-
-
 Overfull \hbox (0.4207pt too wide) in paragraph at lines 23--24
 \TU/TimesNewRoman(0)/m/n/12.045 scattering layers exceeding memory effect range
  by exploiting prior information[J].
@@ -3147,4 +3145,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  104i,19n,111p,1611b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on templet.xdv (138 pages, 1974944 bytes).
+Output written on templet.xdv (138 pages, 1974248 bytes).
